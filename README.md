@@ -16,7 +16,7 @@ B [Reverse String with C or C++] (http://stackoverflow.com/questions/198199/how-
 C [GLib Hash Tables] (https://developer.gnome.org/glib/2.28/glib-Hash-Tables.html).  
 D [C Hash Table Implementation] (http://stackoverflow.com/questions/6844739/c-implement-a-hash-table).  
 E [Quick hashtable implementation in C] (https://gist.github.com/tonious/1377667)
-
+F [C/HashTables] (http://www.cs.yale.edu/homes/aspnes/pinewiki/C(2f)HashTables.html?highlight=(CategoryAlgorithmNotes))
 
 
 Z [Data Structures] (http://judy.sourceforge.net/examples/index.html).  
