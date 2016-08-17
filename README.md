@@ -34,8 +34,8 @@ T
 U  
 V  
 X  
-W   
-Y [Pointers of Pointers in C] (http://stackoverflow.com/questions/897366/how-do-pointer-to-pointers-work-in-c)  
+W [Pointers of Pointers in C - A] (http://c-faq.com/~scs/cclass/int/sx8.html)    
+Y [Pointers of Pointers in C - B] (http://stackoverflow.com/questions/897366/how-do-pointer-to-pointers-work-in-c)    
 Z [Data Structures] (http://judy.sourceforge.net/examples/index.html).  
 
 
