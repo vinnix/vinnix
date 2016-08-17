@@ -22,8 +22,26 @@ H [A simple look at arrays with Perl] (http://blogs.perl.org/users/shawnhcorey/2
 I [More samples with Perl arrays] (http://www.tutorialspoint.com/perl/perl_arrays.htm)
 J [Hashes with Perl] (http://www.tutorialspoint.com/perl/perl_hashes.htm)
 K [Why bother? LL with Perl](http://pt.slideshare.net/lembark/perly-linked-lists)  
-
-
-
-
+L  
+M  
+N  
+O  
+P  
+Q  
+R  
+S  
+T  
+U  
+V  
+X  
+W   
+Y 
 Z [Data Structures] (http://judy.sourceforge.net/examples/index.html).  
+
+
+
+
+
+### ToDo:  
+
+01. [Reverse a LL with Perl] (http://stackoverflow.com/questions/10965712/reverse-a-linked-list-in-perl)  
