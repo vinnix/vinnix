@@ -17,7 +17,7 @@ C [GLib Hash Tables] (https://developer.gnome.org/glib/2.28/glib-Hash-Tables.htm
 D [C Hash Table Implementation] (http://stackoverflow.com/questions/6844739/c-implement-a-hash-table).  
 E [Quick hashtable implementation in C] (https://gist.github.com/tonious/1377667)  
 F [C/HashTables] (http://www.cs.yale.edu/homes/aspnes/pinewiki/C(2f)HashTables.html?highlight=(CategoryAlgorithmNotes))  
-G [Linked lists] (http://www.learn-c.org/en/Linked_lists)
+G [Linked lists] (http://www.learn-c.org/en/Linked_lists)    
 H [A simple look at arrays with Perl] (http://blogs.perl.org/users/shawnhcorey/2012/05/a-look-at-arrays.html)  
 I [More samples with Perl arrays] (http://www.tutorialspoint.com/perl/perl_arrays.htm)   
 J [Hashes with Perl] (http://www.tutorialspoint.com/perl/perl_hashes.htm)    
@@ -33,7 +33,7 @@ S
 T  
 U  
 V  
-X  
+X [ ]()   
 W [Pointers of Pointers in C - A] (http://c-faq.com/~scs/cclass/int/sx8.html)    
 Y [Pointers of Pointers in C - B] (http://stackoverflow.com/questions/897366/how-do-pointer-to-pointers-work-in-c)    
 Z [Data Structures] (http://judy.sourceforge.net/examples/index.html).  
