@@ -1,0 +1,14 @@
+#Section "ServerLayout"
+#    Identifier  "X.org Configured"
+#    Screen  0  "Screen0" 0 0
+#    InputDevice  "Mouse0" "CorePointer"
+#    InputDevice  "Keyboard0" "CoreKeyboard"
+#    InputDevice  "Touchpad0" "CorePointer"
+#    Option  "AutoAddDevices" "false" 
+#EndSection
+
+#Section "ServerLayout"
+    #Identifier  "X.org Configured"
+    #InputDevice  "Touchpad0" "CorePointer"
+    #Option  "AutoAddDevices" "false" 
+#EndSection
