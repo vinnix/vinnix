@@ -860,9 +860,7 @@ python2-2_3                    The "meta-port" for version 2 of the Python inter
 python27-2.7.15                Interpreted object-oriented programming language
 python36-3.6.6_1               Interpreted object-oriented programming language
 qca-qt5-2.1.3_1                Cross-platform crypto API for Qt 5
-qimageblitz-0.0.6_3            Graphical effects and filters library for KDE4
 qjson-qt5-0.9.0_2              Library to manage JSON objects with Qt
-qt4-clucene-4.8.7_2            Qt bindings for the CLucene full-text search library
 qt4-corelib-4.8.7_13           Qt core non-graphical module
 qt4-dbus-4.8.7_1               Qt D-Bus inter-process communication module
 qt4-gui-4.8.7_6                Qt graphical user interface module
@@ -873,7 +871,6 @@ qt4-linguisttools-4.8.7_2      Qt 4 localization tools
 qt4-moc-4.8.7_2                Qt Meta-Object Compiler
 qt4-network-4.8.7_3            Qt network module
 qt4-opengl-4.8.7_3             Qt OpenGL support module
-qt4-qdbusviewer-4.8.7_2        Qt 4 graphical interface to D-Bus
 qt4-script-4.8.7_3             Qt scripting module
 qt4-svg-4.8.7_2                Qt SVG support module
 qt4-testlib-4.8.7_2            Qt unit testing module
@@ -965,7 +962,6 @@ svgalib-1.4.3_7                Low level console graphics library
 t1lib-5.1.2_4,1                Type 1 font rasterization library for Unix/X11
 taglib-1.11.1_1                Library for manipulating ID3 tags and Ogg comments
 talloc-2.1.14                  Hierarchical pool based memory allocator
-tcl86-8.6.8                    Tool Command Language
 tdb-1.3.16,1                   Trivial Database
 teckit-2.5.7                   Toolkit for converting data between 8-bit legacy encodings and Unicode
 tesseract-3.05.02_2            Commercial quality open source OCR engine
