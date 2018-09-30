@@ -1,8 +1,7 @@
 CoinMP-1.8.3_1                 Optimization library with support for COIN-OR CLP, CBC, and CGL
 GentiumBasic-1102              Gentium Basic and Gentium Book Basic TrueType fonts
-ImageMagick-6.9.9.28_1,1       Image processing tools (legacy version)
+ImageMagick-6.9.9.28_2,1       Image processing tools (legacy version)
 ORBit2-2.14.19_2               High-performance CORBA ORB with support for the C language
-OpenEXR-2.2.1_1                High dynamic-range (HDR) image file format
 aalib-1.4.r5_12                ASCII art library
 accountsservice-0.6.40         D-Bus interface for user account query and manipulation
 adobe-cmaps-20051217_3         Adobe CMap collection
@@ -49,7 +48,7 @@ bomber-18.08.1                 Arcade Bombing game
 boost-jam-1.68.0               Build tool from the boost.org
 boost-libs-1.68.0_1            Free portable C++ libraries (without Boost.Python)
 bovo-18.08.1                   Five-in-a-row Board game
-brotli-1.0.5_1,1               Generic-purpose lossless compression algorithm
+brotli-1.0.6,1                 Generic-purpose lossless compression algorithm
 bullet-2.86.1_2                3D collision detection and rigid body dynamics library
 ca_root_nss-3.39               Root certificate bundle from the Mozilla Project
 cagibi-0.2.0_1                 KDE SSDP/uPNP proxy
@@ -63,10 +62,10 @@ check-0.12.0                   Unit test framework for C
 chmlib-0.40_1                  Library for dealing with Microsoft ITSS/CHM format files
 cln-1.3.4                      Class Library for Numbers
 clucene-2.3.3.4_15             CLucene is a C++ port of Lucene
-cmake-3.12.1                   Cross-platform Makefile generator
+cmake-3.12.2                   Cross-platform Makefile generator
 colord-1.2.12                  Manage color profiles to accurately color input/output devices
 consolekit2-1.2.0              Framework for defining and tracking users
-coreutils-8.28                 Free Software Foundation core utilities
+coreutils-8.30                 Free Software Foundation core utilities
 cracklib-2.9.6                 Password-checking library
 crosextrafonts-caladea-20130214_1 Font created by Google for ChromeOS to replace MS Cambria
 crosextrafonts-carlito-20130920_2 Font created by Google for ChromeOS to replace MS Calibri
@@ -112,7 +111,7 @@ ffms2-2.23_7                   FFmpeg-based source library and VapourSynth plugi
 fftw3-3.3.8_1                  Fast C routines to compute the Discrete Fourier Transform
 fftw3-float-3.3.8_1            Fast Discrete Fourier Transform (Single Precision C Routines)
 filelight-18.08.1              Map of concentric segmented-rings representing file system
-firefox-62.0_2,1               Web browser based on the browser portion of Mozilla
+firefox-62.0.2,1               Web browser based on the browser portion of Mozilla
 flac-1.3.2                     Free lossless audio codec
 fluxbox-1.3.7_4                Small and fast window manager based on BlackBox
 font-adobe-100dpi-1.0.3_3      X.Org Adobe 100dpi font
@@ -174,8 +173,8 @@ gettext-0.19.8.1               GNU gettext meta package
 gettext-runtime-0.19.8.1_1     GNU gettext runtime libraries and programs
 gettext-tools-0.19.8.1         GNU gettext development and translation tools
 gflags-2.2.1                   Commandline flags module for C++
-ghostscript9-agpl-base-9.24_2  PostScript and PDF interpreter
-ghostscript9-agpl-x11-9.24     PostScript and PDF interpreter, X11 support
+ghostscript9-agpl-base-9.25_1  PostScript and PDF interpreter
+ghostscript9-agpl-x11-9.25     PostScript and PDF interpreter, X11 support
 giflib-5.1.4                   Tools and library routines for working with GIF images
 git-2.19.0                     Distributed source code management tool
 glew-2.1.0                     OpenGL Extension Wrangler Library
@@ -250,7 +249,7 @@ hyphen-2.8.8                   Library for high quality hyphenation and justific
 i386-wine-devel-3.3,1          32-bit Microsoft Windows compatibility environment for 64-bit FreeBSD
 iceauth-1.0.8_2                ICE authority file utility for X
 icu-62.1_2,1                   International Components for Unicode (from IBM)
-ilmbase-2.2.1                  ILM Base libraries a.k.a. Half, IlmThread, Imath, and Iex
+ilmbase-2.3.0                  ILM Base libraries a.k.a. Half, IlmThread, Imath, and Iex
 incidenceeditor-18.08.1        Incidence editor libriares for KDEPim
 indexinfo-0.3.1                Utility to regenerate the GNU info page index
 intltool-0.51.0_1              Tools to internationalize various kinds of data files
@@ -346,7 +345,7 @@ kf5-khtml-5.50.0               KF5 KTHML rendering engine
 kf5-ki18n-5.50.0               KF5 advanced internationalization framework
 kf5-kiconthemes-5.50.0         KF5 library for handling icons in applications
 kf5-kidletime-5.50.0           KF5 library for monitoring user activity
-kf5-kimageformats-5.50.0       KF5 library providing support for additional image formats
+kf5-kimageformats-5.50.0_1     KF5 library providing support for additional image formats
 kf5-kinit-5.50.0               KF5 process launcher to speed up launching KDE applications
 kf5-kio-5.50.0                 KF5 resource and network access abstraction
 kf5-kirigami2-5.50.0           QtQuick based components set
@@ -527,7 +526,7 @@ libgnome-keyring-3.12.0_2      Program that keeps passwords and other secrets
 libgpg-error-1.32              Common error values for all GnuPG components
 libgphoto2-2.5.16              Universal digital camera control library
 libgravatar-18.08.1            Library for gravatar support
-libgsf-1.14.41                 Extensible I/O abstraction for dealing with structured file formats
+libgsf-1.14.44                 Extensible I/O abstraction for dealing with structured file formats
 libgudev-230_1                 GObject bindings for libudev.
 libical-2.0.0_6                Implementation of the IETF Calendaring and Scheduling protocols
 libiconv-1.14_11               Character set conversion library
@@ -608,7 +607,7 @@ libtool-2.4.6                  Generic shared library support script
 libudev-devd-0.3               libudev-compatible interface for devd
 libunistring-0.9.10            Unicode string library
 libunwind-20170615             Generic stack unwinding library
-libuv-1.23.0                   Multi-platform support library with a focus on asynchronous I/O
+libuv-1.23.1                   Multi-platform support library with a focus on asynchronous I/O
 libv4l-1.6.3_2                 Video4Linux library
 libva-2.2.0_2                  VAAPI wrapper and dummy driver
 libvdpau-1.1.1_2               VDPAU wrapper and tracing library
@@ -701,10 +700,11 @@ open-motif-2.3.8               Motif X11 Toolkit (industry standard GUI (IEEE 12
 openal-soft-1.19.0             Software implementation of the OpenAL specification
 openblas-0.2.20_3,1            Optimized BLAS library based on GotoBLAS2
 opencollada-1.6.63_1           Library for reading and writing COLLADA files
-opencv-3.4.1_4                 Open Source Computer Vision library
-opencv-core-3.4.1_4            Open Source Computer Vision library
+opencv-3.4.1_5                 Open Source Computer Vision library
+opencv-core-3.4.1_5            Open Source Computer Vision library
+openexr-2.3.0                  High dynamic-range (HDR) image file format
 opengl-man-657.2               Section 3 manpages for OpenGL: gl, glx, glu, gle, glut
-openjpeg-2.3.0_1               Open-source JPEG 2000 codec
+openjpeg-2.3.0_2               Open-source JPEG 2000 codec
 openjpeg15-1.5.2_1             Open-source JPEG 2000 codec
 openldap-client-2.4.46         Open source LDAP client implementation
 openslp-2.0.0_1                Open-source implementation of the Service Location Protocol
@@ -732,11 +732,12 @@ p5-XML-Parser-2.44             Perl extension interface to James Clark's XML par
 pam_kde-1.0                    PAM modules for KDE Display Manager
 pango-1.42.0                   Open-source framework for the layout and rendering of i18n text
 parley-18.08.1                 Vocabulary trainer for KDE
-pciids-20180812                Database of all known IDs used in PCI devices
+pciids-20180921                Database of all known IDs used in PCI devices
 pciutils-3.6.2                 PCI configuration utilities
 pcre-8.42                      Perl Compatible Regular Expressions library
 pcre2-10.31                    Perl Compatible Regular Expressions library, version 2
 perl5-5.26.2                   Practical Extraction and Report Language
+pftop-0.7_8                    Utility for real-time display of statistics for pf
 phonon-qt5-4.10.1              KDE multimedia framework
 picmi-18.08.1                  Single player logic-based puzzle game
 pim-data-exporter-18.08.1      Import and export KDE PIM settings
@@ -876,45 +877,45 @@ qt4-svg-4.8.7_2                Qt SVG support module
 qt4-testlib-4.8.7_2            Qt unit testing module
 qt4-xml-4.8.7_2                Qt SAX and DOM implementations
 qt4-xmlpatterns-4.8.7_2        Qt support for XPath, XQuery, XSLT and XML Schema
-qt5-assistant-5.11.1           Qt 5 documentation browser
-qt5-concurrent-5.11.1          Qt multi-threading module
-qt5-core-5.11.1                Qt core non-graphical module
-qt5-dbus-5.11.1                Qt D-Bus inter-process communication module
-qt5-designer-5.11.1            Qt 5 graphical user interface designer
-qt5-graphicaleffects-5.11.1    Qt Quick graphical effects
-qt5-gui-5.11.1                 Qt graphical user interface module
-qt5-help-5.11.1                Qt online help integration module
-qt5-linguisttools-5.11.1       Qt localization tools
-qt5-location-5.11.1            Qt location module
-qt5-multimedia-5.11.1          Qt audio, video, radio and camera support module
-qt5-network-5.11.1             Qt network module
-qt5-opengl-5.11.1              Qt 5-compatible OpenGL support module
-qt5-printsupport-5.11.1        Qt print support module
-qt5-qdbus-5.11.1               Qt command-line interface to D-Bus
-qt5-qml-5.11.1                 Qt QML and JavaScript language module
-qt5-qtpaths-5.11.1             Command line client to QStandardPaths
-qt5-quick-5.11.1               Qt declarative framework for dynamic user interfaces
-qt5-quickcontrols-5.11.1       Set of controls for building complete interfaces in Qt Quick
-qt5-quickcontrols2-5.11.1      Set of controls for building complete interfaces in Qt Quick
-qt5-script-5.11.1              Qt 4-compatible scripting module
-qt5-scripttools-5.11.1         Qt Script additional components
-qt5-sensors-5.11.1             Qt sensors module
-qt5-speech-5.11.1              Accessibilty features for Qt5
-qt5-sql-5.11.1                 Qt SQL database integration module
-qt5-sqldrivers-mysql-5.11.1    Qt MySQL database plugin
-qt5-sqldrivers-sqlite3-5.11.1  Qt SQLite 3 database plugin
-qt5-svg-5.11.1                 Qt SVG support module
-qt5-testlib-5.11.1             Qt unit testing module
-qt5-uiplugin-5.11.1            Custom Qt widget plugin interface for Qt Designer
-qt5-uitools-5.11.1             Qt Designer UI forms support module
-qt5-virtualkeyboard-5.11.1     Qt 5 Virtual Keyboard Module
-qt5-webchannel-5.11.1          Qt 5 library for integration of C++/QML with HTML/js clients
-qt5-webengine-5.9.5_7          Qt 5 library to render web content
-qt5-webkit-5.212.0.a2_11       QtWebKit with a more modern WebKit code base
-qt5-widgets-5.11.1             Qt C++ widgets module
-qt5-x11extras-5.11.1           Qt platform-specific features for X11-based systems
-qt5-xml-5.11.1                 Qt SAX and DOM implementations
-qt5-xmlpatterns-5.11.1         Qt support for XPath, XQuery, XSLT and XML Schema
+qt5-assistant-5.11.2           Qt 5 documentation browser
+qt5-concurrent-5.11.2          Qt multi-threading module
+qt5-core-5.11.2                Qt core non-graphical module
+qt5-dbus-5.11.2                Qt D-Bus inter-process communication module
+qt5-designer-5.11.2            Qt 5 graphical user interface designer
+qt5-graphicaleffects-5.11.2    Qt Quick graphical effects
+qt5-gui-5.11.2                 Qt graphical user interface module
+qt5-help-5.11.2                Qt online help integration module
+qt5-linguisttools-5.11.2       Qt localization tools
+qt5-location-5.11.2            Qt location module
+qt5-multimedia-5.11.2          Qt audio, video, radio and camera support module
+qt5-network-5.11.2             Qt network module
+qt5-opengl-5.11.2              Qt 5-compatible OpenGL support module
+qt5-printsupport-5.11.2        Qt print support module
+qt5-qdbus-5.11.2               Qt command-line interface to D-Bus
+qt5-qml-5.11.2                 Qt QML and JavaScript language module
+qt5-qtpaths-5.11.2             Command line client to QStandardPaths
+qt5-quick-5.11.2               Qt declarative framework for dynamic user interfaces
+qt5-quickcontrols-5.11.2       Set of controls for building complete interfaces in Qt Quick
+qt5-quickcontrols2-5.11.2      Set of controls for building complete interfaces in Qt Quick
+qt5-script-5.11.2              Qt 4-compatible scripting module
+qt5-scripttools-5.11.2         Qt Script additional components
+qt5-sensors-5.11.2             Qt sensors module
+qt5-speech-5.11.2              Accessibilty features for Qt5
+qt5-sql-5.11.2                 Qt SQL database integration module
+qt5-sqldrivers-mysql-5.11.2    Qt MySQL database plugin
+qt5-sqldrivers-sqlite3-5.11.2  Qt SQLite 3 database plugin
+qt5-svg-5.11.2                 Qt SVG support module
+qt5-testlib-5.11.2             Qt unit testing module
+qt5-uiplugin-5.11.2            Custom Qt widget plugin interface for Qt Designer
+qt5-uitools-5.11.2             Qt Designer UI forms support module
+qt5-virtualkeyboard-5.11.2     Qt 5 Virtual Keyboard Module
+qt5-webchannel-5.11.2          Qt 5 library for integration of C++/QML with HTML/js clients
+qt5-webengine-5.9.5_8          Qt 5 library to render web content
+qt5-webkit-5.212.0.a2_12       QtWebKit with a more modern WebKit code base
+qt5-widgets-5.11.2             Qt C++ widgets module
+qt5-x11extras-5.11.2           Qt platform-specific features for X11-based systems
+qt5-xml-5.11.2                 Qt SAX and DOM implementations
+qt5-xmlpatterns-5.11.2         Qt support for XPath, XQuery, XSLT and XML Schema
 qtchooser-39                   Qt tool wrapper
 quazip-qt5-0.7.3_1             Qt/C++ wrapper for ZIP/UNZIP package
 qwt5-5.2.3                     Qt Widgets for Technical Applications
@@ -927,11 +928,12 @@ readline-7.0.3_1               Library for editing command lines as they are typ
 redland-1.0.17_4               High-level interface for RDF
 rhash-1.3.5                    Utility and library for computing and checking of file hashes
 rocs-18.08.1                   KDE Graph theory IDE
-ruby-2.4.4_2,1                 Object-oriented interpreted scripting language
+ruby-2.4.4_4,1                 Object-oriented interpreted scripting language
 samba46-4.6.16                 Free SMB/CIFS and AD/DC server and client for Unix
 sane-backends-1.0.27_3         API for access to scanners, digitals camera, frame grabbers etc
 schroedinger-1.0.11_4          High-speed Dirac codec
 scons-3.0.1                    Build tool alternative to make
+screen-4.6.2                   Multi-screen window manager
 sdl-1.2.15_12,2                Cross-platform multimedia development API
 sdl2-2.0.7                     Cross-platform multimedia development API
 sdl_mixer-1.2.12_12            Sample multi-channel audio mixer library
@@ -953,10 +955,11 @@ speech-dispatcher-0.8.6        Common interface to speech synthesis
 speex-1.2.0,1                  Audio compression format designed for speech
 speexdsp-1.2.r3_1              Audio compression format designed for speech
 spidermonkey52-52.8.0_1        Standalone JavaScript based from Mozilla 52-esr
-sqlite3-3.25.0                 SQL database engine in a C library
+sqlite3-3.25.1                 SQL database engine in a C library
 startup-notification-0.12_4    Library that supports startup notification spec from freedesktop.org
 step-18.08.1                   KDE interactive physics simulator
 subversion-1.10.2_1            Version control system
+sudo-1.8.25p1                  Allow others to run commands as root
 suitesparse-5.2.0_1            SuiteSparse is a set of packages for sparse matrices calculation
 svgalib-1.4.3_7                Low level console graphics library
 t1lib-5.1.2_4,1                Type 1 font rasterization library for Unix/X11
@@ -1083,7 +1086,7 @@ xrefresh-1.0.6                 Refresh all or part of an X screen
 xset-1.2.4_2                   User preference utility for X
 xsetmode-1.0.0                 Set the mode for an X Input Device
 xsetroot-1.1.2                 Root window parameter setting utility for X
-xterm-335                      Terminal emulator for the X Window System
+xterm-337                      Terminal emulator for the X Window System
 xtrans-1.3.5                   Abstract network code for X
 xvid-1.3.5,1                   Opensource MPEG-4 codec, based on OpenDivx
 xvinfo-1.1.3                   Print out X-Video extension adaptor information
