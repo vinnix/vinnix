@@ -16,16 +16,48 @@ function analyze () {
 }
 
 
-echo "-----------------------------------------------------------------------------------------"
-echo "-- Analyzing leafs"
-echo "-----------------------------------------------------------------------------------------"
-leaf_cmd="pkg leaf"
-analyze "${leaf_cmd}"
+run_leaf="0"
+run_autoremove="0"
 
-echo "-----------------------------------------------------------------------------------------"
-echo "-- Analyzing autoremove" 
-echo "-----------------------------------------------------------------------------------------"
-remove_cmd='pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Installed packages|Number of|The ope|^ |^$)"'
-analyze "${remove_cmd}"
+while getopts ":l :a" opt; do
+  case $opt in
+    l)
+      echo "-l for leafs was triggered. remembering it" >&2
+      run_leaf="1"
+      ;;
+    a)
+      echo "-a for autoremove was triggered. remembering it" >&2
+      run_autoremove="1"
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      echo " "
+      echo " Valid options:"
+      echo " "
+      echo "   -l for analyze leaf" >&2
+      echo "   -a for analyze autoremove" >&2
+      echo " "
+      exit
+      ;;
+  esac
+done
 
+
+if [ "$run_leaf" == "1" ];
+then
+    echo "-----------------------------------------------------------------------------------------"
+    echo "-- Analyzing leafs"
+    echo "-----------------------------------------------------------------------------------------"
+    leaf_cmd="pkg leaf"
+    analyze "${leaf_cmd}"
+fi
+
+if [ "$run_autoremove" == "1" ];
+then
+    echo "-----------------------------------------------------------------------------------------"
+    echo "-- Analyzing autoremove" 
+    echo "-----------------------------------------------------------------------------------------"
+    remove_cmd='pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Installed packages|Number of|The ope|^ |^$)"'
+    analyze "${remove_cmd}"
+fi
 
