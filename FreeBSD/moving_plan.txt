@@ -94,6 +94,6 @@ EOF
 # System Initialization parameters
 #####################################################
 echo 'zfs_load="YES"' >> /mnt/migration/boot/loader.conf
-echo 'vfs.root.mountfrom="zfs:vnxssystem"' >> /mnt/migration/boot/loader.conf
+echo 'vfs.root.mountfrom="zfs:vnxsystem/ROOT/default"' >> /mnt/migration/boot/loader.conf
 echo 'zfs_enable="YES"' >> /mnt/migration/etc/rc.conf
 
