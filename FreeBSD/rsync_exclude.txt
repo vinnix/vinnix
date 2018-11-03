@@ -1,0 +1,12 @@
+/dev/*
+/proc/*
+/usr/compat/linux/proc/*
+/sys/*
+/mnt/*
+/media/*
+/usr/home/vinnix/MyRepo/*
+/home
+/zroot
+
+
+
