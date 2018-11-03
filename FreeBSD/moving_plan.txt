@@ -1,0 +1,99 @@
+
+#####################################################
+## Initialize the raw device
+#####################################################
+gpart create -s gpt ada0
+
+#####################################################
+## 
+# gpart add -b 40 -s 472 -t freebsd-boot ada0
+# gpart bootcode -p /boot/gptboot -i 1 ada0
+
+#####################################################
+
+# http://daemon-notes.com/articles/system/install-zfs/gpart
+
+
+#####################################################
+# https://wiki.freebsd.org/RootOnZFS/GPTZFSBoot (GPT; Boot legacy)
+# gpart add -a 4k -s 64k -t freebsd-boot -l boot ada0
+# gpart bootcode -b /boot/pmbr -p /boot/gptzfsboot -i 1 ada0
+#####################################################
+
+#####################################################
+# https://wiki.freebsd.org/RootOnZFS/GPTZFSBoot (GPT; Boot UEFI)
+#####################################################
+
+gpart add -a 4k -s 2G -t efi -l efiboot ada0
+gpart bootcode -p /boot/boot1.efifat -i 1 ada0
+
+
+gpart add -a 4k -s 16G   -t freebsd-swap -l swap0 ada0
+gpart add -a 4k -s 400G -t freebsd-zfs -l system0 ada0
+
+
+
+zpool create -m none -o altroot=/mnt/migration -o cachefile=/var/tmp/zpool.cache vnxsystem /dev/gpt/system0 
+zfs set compress=on vnxsystem
+
+
+zfs create -o mountpoint=none                                  vnxsystem/ROOT
+zfs create -o mountpoint=/ -o canmount=noauto                  vnxsystem/ROOT/default
+
+## zfs set mountpoint=/ vnxsystem
+
+mount -t zfs vnxsystem/ROOT/default /mnt/migration
+
+
+zfs create -o mountpoint=/tmp  -o exec=on      -o setuid=off   vnxsystem/tmp
+
+zfs create -o canmount=off -o mountpoint=/usr                  vnxsystem/usr
+zfs create                                                     vnxsystem/usr/home
+zfs create                     -o exec=off     -o setuid=off   vnxsystem/usr/src
+zfs create                                                     vnxsystem/usr/obj
+
+zfs create -o mountpoint=/usr/ports            -o setuid=off   vnxsystem/usr/ports
+zfs create                     -o exec=off     -o setuid=off   vnxsystem/usr/ports/distfiles
+zfs create                     -o exec=off     -o setuid=off   vnxsystem/usr/ports/packages
+
+zfs create -o canmount=off -o mountpoint=/var                  vnxsystem/var
+zfs create                     -o exec=off     -o setuid=off   vnxsystem/var/audit
+zfs create                     -o exec=off     -o setuid=off   vnxsystem/var/crash
+zfs create                     -o exec=off     -o setuid=off   vnxsystem/var/log
+
+zfs create -o atime=on         -o exec=off     -o setuid=off   vnxsystem/var/mail
+
+zfs create                     -o exec=on      -o setuid=off   vnxsystem/var/tmp
+
+ ln -s /usr/home /mnt/migration/home
+ ln -s /usr/src/sys /mnt/migration/sys
+ chmod 1777 /mnt/var/tmp
+ chmod 1777 /mnt/tmp
+
+zpool set bootfs=vnxsystem/ROOT/default vnxsystem
+
+rsync -aAXv --delete --exclude-from '/root/rsync_exclude.txt' / /mnt/migration/
+
+
+cp /boot/zfs/zpool.cache /mnt/migration/boot/zfs/zpool.cache  # /mnt/migation/var/tmp/zpool.cache
+
+#####################################################
+# fstab review!
+#####################################################
+cat << EOF > /zroot/etc/fstab
+# Device        Mountpoint              FStype          Options Dump    Pass#
+# OldStuff
+# /dev/ada1s4a    /                     ufs             rw      1       1  
+proc            /proc                   procfs          rw      0       0
+fdesc           /dev/fd                 fdescfs         rw      0       0
+linproc         /usr/compat/linux/proc  linprocfs       rw      0       0
+/dev/gpt/swap0  none                    swap            sw      0       0
+EOF
+
+#####################################################
+# System Initialization parameters
+#####################################################
+echo 'zfs_load="YES"' >> /mnt/migration/boot/loader.conf
+echo 'vfs.root.mountfrom="zfs:vnxssystem"' >> /mnt/migration/boot/loader.conf
+echo 'zfs_enable="YES"' >> /mnt/migration/etc/rc.conf
+
