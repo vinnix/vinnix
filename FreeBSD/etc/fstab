@@ -1,0 +1,15 @@
+# Device	Mountpoint		FStype		Options	Dump	Pass#
+
+#/dev/ada1s4a	/			ufs		rw	1	1
+
+proc		/proc			procfs		rw	0	0
+fdesc		/dev/fd			fdescfs         rw      0       0
+linproc		/usr/compat/linux/proc	linprocfs	rw	0	0
+/dev/gpt/swap0  none                    swap            sw      0       0
+
+
+# FUSE
+/dev/ada1s3 	/mnt/win_d 		ntfs mountprog=/usr/local/bin/ntfs-3g,noauto,failok,rw 0 0
+/dev/ada1s2 	/mnt/centos6 		ext4 mountprog=/usr/local/bin/lklfuse,type=ext4,noauto,rw 0 0
+
+
