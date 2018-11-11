@@ -1,7 +1,5 @@
 
-# Some experiments and demonstrations with Algorithms
-
-
+# Some experiments and demonstrations 
 
 ## References / Useful Links:
 
@@ -22,18 +20,14 @@
  * [Reverse a LL with Perl](http://stackoverflow.com/questions/10965712/reverse-a-linked-list-in-perl)
 
 
+## Tricks in Perl:
 
+### My PoC with Catalyst framework
 
+ * [vinnix/CatalystLab repository](https://github.com/vinnix/CatalystLab)
+ * [PerlLab / Exercises that I have used to teach PERL](https://github.com/vinnix/PerlLab)
 
-# ToDo:  
-
-
-
-
-
-# Ticks in Perl:
-
-* Listing installed modules:
+### Listing installed modules:
 
 ```perl
  use ExtUtils::Installed;
@@ -117,4 +111,17 @@ Variable::Magic - 0.59
 namespace::autoclean - 0.28 
 namespace::clean - 0.27 
 ```
+
+## PostgreSQL:elephant:
+
+ * [Check this](https://github.com/vinnix/awesome-pg)
+
+
+### ToDo:  
+
+* [X] Rearrange directories from vinnix/vinnix
+* [ ] Continue to build mePed bot (Machinelearning algo applied to bots)
+* [ ] Sync my "cyber-security" bookmarks into this repository (Algos for security)
+* [ ] Monitoring PostgreSQL project (Improve algo to monitor it)
+
 
