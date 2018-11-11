@@ -12,11 +12,11 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        7 dependencies has 	akonadi-notes-18.08.2                             and        4 that requirest it.
       28 dependencies has 	akonadi-search-18.08.2                            and        8 that requirest it.
       59 dependencies has 	akonadiconsole-18.08.2                            and        1 that requirest it.
-      54 dependencies has 	akregator-18.08.2                                 and        1 that requirest it.
-      12 dependencies has 	analitza-18.08.2                                  and        2 that requirest it.
+      53 dependencies has 	akregator-18.08.2_1                               and        1 that requirest it.
+      11 dependencies has 	analitza-18.08.2_1                                and        2 that requirest it.
        2 dependencies has 	appres-1.0.5                                      and        0 that requirest it.
       36 dependencies has 	ark-18.08.2                                       and        1 that requirest it.
-      31 dependencies has 	artikulate-18.08.2                                and        1 that requirest it.
+      30 dependencies has 	artikulate-18.08.2_1                              and        1 that requirest it.
        2 dependencies has 	attica-0.4.2_2,2                                  and        0 that requirest it.
       40 dependencies has 	audiocd-kio-18.08.2                               and        1 that requirest it.
        4 dependencies has 	autoconf-2.69_1                                   and        1 that requirest it.
@@ -30,9 +30,9 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        1 dependencies has 	blas-3.5.0_4                                      and        2 that requirest it.
       21 dependencies has 	blinken-18.08.2                                   and        1 that requirest it.
        0 dependencies has 	boehm-gc-7.6.8                                    and        1 that requirest it.
-      23 dependencies has 	bomber-18.08.2                                    and        1 that requirest it.
+      22 dependencies has 	bomber-18.08.2_1                                  and        1 that requirest it.
        0 dependencies has 	boost-jam-1.68.0                                  and        0 that requirest it.
-      25 dependencies has 	bovo-18.08.2                                      and        1 that requirest it.
+      24 dependencies has 	bovo-18.08.2_1                                    and        1 that requirest it.
        4 dependencies has 	bullet-2.86.1_2                                   and        0 that requirest it.
        4 dependencies has 	cagibi-0.2.0_1                                    and        0 that requirest it.
       35 dependencies has 	calendarsupport-18.08.2                           and        6 that requirest it.
@@ -49,7 +49,6 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        0 dependencies has 	dotconf-1.3_1                                     and        1 that requirest it.
        5 dependencies has 	doxygen-1.8.14,2                                  and        0 that requirest it.
       31 dependencies has 	dragon-player-18.08.2                             and        1 that requirest it.
-       0 dependencies has 	e2fsprogs-libuuid-1.44.4                          and        0 that requirest it.
        2 dependencies has 	ebook-tools-0.2.2_4                               and        2 that requirest it.
        0 dependencies has 	eigen-3.3.5                                       and        0 that requirest it.
        1 dependencies has 	espeak-1.48.04_5                                  and        1 that requirest it.
@@ -98,7 +97,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        0 dependencies has 	freetype-1.3.1_5                                  and        0 that requirest it.
        1 dependencies has 	frei0r-1.6.1                                      and        0 that requirest it.
        0 dependencies has 	gcc-ecj-4.5                                       and        1 that requirest it.
-       6 dependencies has 	gcc6-6.4.0_8                                      and        0 that requirest it.
+       6 dependencies has 	gcc6-6.5.0                                        and        0 that requirest it.
        2 dependencies has 	gettext-0.19.8.1                                  and        0 that requirest it.
        0 dependencies has 	gflags-2.2.1                                      and        2 that requirest it.
        6 dependencies has 	ghostscript9-agpl-x11-9.25                        and        1 that requirest it.
@@ -106,9 +105,9 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        2 dependencies has 	gmake-4.2.1_2                                     and        0 that requirest it.
        2 dependencies has 	gpac-libgpac-0.5.0_2,1                            and        0 that requirest it.
        8 dependencies has 	gpsd-3.17                                         and        1 that requirest it.
-      30 dependencies has 	granatier-18.08.2                                 and        1 that requirest it.
+      29 dependencies has 	granatier-18.08.2_1                               and        1 that requirest it.
        3 dependencies has 	grantlee-0.5.1_1                                  and        0 that requirest it.
-      50 dependencies has 	grantlee-editor-18.08.2                           and        1 that requirest it.
+      49 dependencies has 	grantlee-editor-18.08.2_1                         and        1 that requirest it.
        3 dependencies has 	grantlee5-5.1.0_4                                 and       13 that requirest it.
       22 dependencies has 	grantleetheme-18.08.2                             and        8 that requirest it.
       23 dependencies has 	graphviz-2.40.1_6                                 and        2 that requirest it.
@@ -116,7 +115,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        1 dependencies has 	gsl-2.5                                           and        1 that requirest it.
        4 dependencies has 	gstreamer-0.10.36_6                               and        1 that requirest it.
        7 dependencies has 	gstreamer-plugins-0.10.36_11,3                    and        0 that requirest it.
-      14 dependencies has 	gstreamer1-qt5-1.2.0_13                           and        1 that requirest it.
+      13 dependencies has 	gstreamer1-qt5-1.2.0_14                           and        1 that requirest it.
        5 dependencies has 	gtk-engines2-2.20.2_3                             and        0 that requirest it.
       50 dependencies has 	gwenview-18.08.2                                  and        1 that requirest it.
        3 dependencies has 	hack-font-3.003                                   and        1 that requirest it.
@@ -134,17 +133,17 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
       45 dependencies has 	kaddressbook-18.08.2                              and        1 that requirest it.
       59 dependencies has 	kalarm-18.08.2                                    and        1 that requirest it.
       41 dependencies has 	kalarmcal-18.08.2                                 and        3 that requirest it.
-      30 dependencies has 	kalgebra-18.08.2                                  and        1 that requirest it.
+      29 dependencies has 	kalgebra-18.08.2_1                                and        1 that requirest it.
       19 dependencies has 	kamera-18.08.2                                    and        1 that requirest it.
-      31 dependencies has 	kanagram-18.08.2                                  and        1 that requirest it.
-      25 dependencies has 	kapman-18.08.2                                    and        1 that requirest it.
+      30 dependencies has 	kanagram-18.08.2_1                                and        1 that requirest it.
+      24 dependencies has 	kapman-18.08.2_1                                  and        1 that requirest it.
       46 dependencies has 	kate-18.08.2                                      and        0 that requirest it.
-      29 dependencies has 	katomic-18.08.2                                   and        1 that requirest it.
-      27 dependencies has 	kblackbox-18.08.2                                 and        1 that requirest it.
-      30 dependencies has 	kblocks-18.08.2                                   and        1 that requirest it.
+      28 dependencies has 	katomic-18.08.2_1                                 and        1 that requirest it.
+      26 dependencies has 	kblackbox-18.08.2_1                               and        1 that requirest it.
+      29 dependencies has 	kblocks-18.08.2_1                                 and        1 that requirest it.
       14 dependencies has 	kblog-18.08.2                                     and        1 that requirest it.
-      32 dependencies has 	kbounce-18.08.2                                   and        1 that requirest it.
-      28 dependencies has 	kbreakout-18.08.2                                 and        1 that requirest it.
+      31 dependencies has 	kbounce-18.08.2_1                                 and        1 that requirest it.
+      27 dependencies has 	kbreakout-18.08.2_1                               and        1 that requirest it.
       17 dependencies has 	kbruch-18.08.2                                    and        1 that requirest it.
       21 dependencies has 	kcalc-18.08.2                                     and        1 that requirest it.
       10 dependencies has 	kcalcore-18.08.2                                  and       20 that requirest it.
@@ -167,91 +166,90 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        3 dependencies has 	kdenetwork-18.08.2                                and        0 that requirest it.
       15 dependencies has 	kdenetwork-filesharing-18.08.2                    and        1 that requirest it.
       51 dependencies has 	kdepim-18.08.2                                    and        0 that requirest it.
-      76 dependencies has 	kdepim-addons-18.08.2                             and        1 that requirest it.
+      75 dependencies has 	kdepim-addons-18.08.2_1                           and        1 that requirest it.
       42 dependencies has 	kdepim-apps-libs-18.08.2                          and       11 that requirest it.
-      74 dependencies has 	kdepim-runtime-18.08.2                            and        5 that requirest it.
+      73 dependencies has 	kdepim-runtime-18.08.2_1                          and        5 that requirest it.
       12 dependencies has 	kdeutils-18.08.2                                  and        0 that requirest it.
       23 dependencies has 	kdf-18.08.2                                       and        1 that requirest it.
        8 dependencies has 	kdiagram-2.6.0                                    and        2 that requirest it.
       36 dependencies has 	kdialog-18.08.2                                   and        0 that requirest it.
-      26 dependencies has 	kdiamond-18.08.2                                  and        1 that requirest it.
-      25 dependencies has 	kf5-baloo-5.51.0                                  and        4 that requirest it.
-       3 dependencies has 	kf5-breeze-icons-5.51.0                           and        2 that requirest it.
+      25 dependencies has 	kdiamond-18.08.2_1                                and        1 that requirest it.
+      24 dependencies has 	kf5-baloo-5.51.0_1                                and        4 that requirest it.
       22 dependencies has 	kf5-frameworkintegration-5.51.0                   and        2 that requirest it.
-      26 dependencies has 	kf5-kactivities-5.51.0                            and       13 that requirest it.
+      25 dependencies has 	kf5-kactivities-5.51.0_1                          and       13 that requirest it.
        8 dependencies has 	kf5-kactivities-stats-5.51.0                      and        2 that requirest it.
-      23 dependencies has 	kf5-kcmutils-5.51.0                               and       33 that requirest it.
+      22 dependencies has 	kf5-kcmutils-5.51.0_1                             and       33 that requirest it.
       15 dependencies has 	kf5-kdesu-5.51.0                                  and        3 that requirest it.
       11 dependencies has 	kf5-kfilemetadata-5.51.0                          and        5 that requirest it.
       10 dependencies has 	kf5-kholidays-5.51.0                              and        6 that requirest it.
       41 dependencies has 	kf5-khtml-5.51.0                                  and        9 that requirest it.
       12 dependencies has 	kf5-kidletime-5.51.0                              and        7 that requirest it.
        8 dependencies has 	kf5-kimageformats-5.51.0_1                        and        1 that requirest it.
-      14 dependencies has 	kf5-kirigami2-5.51.0                              and        4 that requirest it.
+      13 dependencies has 	kf5-kirigami2-5.51.0_1                            and        4 that requirest it.
        4 dependencies has 	kf5-kjs-5.51.0                                    and        9 that requirest it.
       13 dependencies has 	kf5-kjsembed-5.51.0                               and        1 that requirest it.
       15 dependencies has 	kf5-kpeople-5.51.0                                and        1 that requirest it.
       31 dependencies has 	kf5-kross-5.51.0                                  and        4 that requirest it.
-      17 dependencies has 	kf5-krunner-5.51.0                                and        6 that requirest it.
+      16 dependencies has 	kf5-krunner-5.51.0_1                              and        6 that requirest it.
       32 dependencies has 	kf5-ktexteditor-5.51.0                            and       10 that requirest it.
        8 dependencies has 	kf5-kwayland-5.51.0_1                             and       11 that requirest it.
       11 dependencies has 	kf5-kxmlrpcclient-5.51.0                          and        3 that requirest it.
        0 dependencies has 	kf5-oxygen-icons5-5.51.0                          and        1 that requirest it.
-      45 dependencies has 	kf5-plasma-framework-5.51.0                       and       17 that requirest it.
+      44 dependencies has 	kf5-plasma-framework-5.51.0_1                     and       18 that requirest it.
        7 dependencies has 	kf5-prison-5.51.0                                 and        4 that requirest it.
       10 dependencies has 	kf5-syndication-5.51.0,1                          and        3 that requirest it.
        6 dependencies has 	kf5-syntax-highlighting-5.51.0_1                  and        8 that requirest it.
        6 dependencies has 	kf5-threadweaver-5.51.0                           and        3 that requirest it.
       23 dependencies has 	kfloppy-18.08.2                                   and        1 that requirest it.
-      31 dependencies has 	kfourinline-18.08.2                               and        1 that requirest it.
+      30 dependencies has 	kfourinline-18.08.2_1                             and        1 that requirest it.
       20 dependencies has 	kgeography-18.08.2                                and        1 that requirest it.
       38 dependencies has 	kgpg-18.08.2                                      and        1 that requirest it.
-      29 dependencies has 	khangman-18.08.2                                  and        1 that requirest it.
+      28 dependencies has 	khangman-18.08.2_1                                and        1 that requirest it.
       39 dependencies has 	khelpcenter-18.08.2                               and        0 that requirest it.
       26 dependencies has 	kidentitymanagement-18.08.2                       and       20 that requirest it.
       37 dependencies has 	kig-18.08.2                                       and        1 that requirest it.
-      27 dependencies has 	killbots-18.08.2                                  and        1 that requirest it.
+      26 dependencies has 	killbots-18.08.2_1                                and        1 that requirest it.
       13 dependencies has 	kimap-18.08.2                                     and        5 that requirest it.
-      26 dependencies has 	kiriki-18.08.2                                    and        1 that requirest it.
+      25 dependencies has 	kiriki-18.08.2_1                                  and        1 that requirest it.
       11 dependencies has 	kitinerary-18.08.2                                and        2 that requirest it.
-      31 dependencies has 	kjumpingcube-18.08.2                              and        1 that requirest it.
+      30 dependencies has 	kjumpingcube-18.08.2_1                            and        1 that requirest it.
       16 dependencies has 	kldap-18.08.2                                     and        8 that requirest it.
       28 dependencies has 	klettres-18.08.2                                  and        1 that requirest it.
-      31 dependencies has 	klickety-18.08.2                                  and        1 that requirest it.
-      28 dependencies has 	klines-18.08.2                                    and        1 that requirest it.
-      27 dependencies has 	kmahjongg-18.08.2                                 and        1 that requirest it.
-      78 dependencies has 	kmail-18.08.2                                     and        1 that requirest it.
+      30 dependencies has 	klickety-18.08.2_1                                and        1 that requirest it.
+      27 dependencies has 	klines-18.08.2_1                                  and        1 that requirest it.
+      26 dependencies has 	kmahjongg-18.08.2_1                               and        1 that requirest it.
+      77 dependencies has 	kmail-18.08.2_1                                   and        1 that requirest it.
       46 dependencies has 	kmail-account-wizard-18.08.2                      and        2 that requirest it.
       27 dependencies has 	kmailtransport-18.08.2                            and       15 that requirest it.
        5 dependencies has 	kmbox-18.08.2                                     and        4 that requirest it.
       11 dependencies has 	kmime-18.08.2                                     and       33 that requirest it.
-      25 dependencies has 	kmines-18.08.2                                    and        1 that requirest it.
+      24 dependencies has 	kmines-18.08.2_1                                  and        1 that requirest it.
       31 dependencies has 	kmix-18.08.2                                      and        1 that requirest it.
       39 dependencies has 	kmplot-18.08.2                                    and        1 that requirest it.
-      26 dependencies has 	knavalbattle-18.08.2                              and        1 that requirest it.
-      29 dependencies has 	knetwalk-18.08.2                                  and        1 that requirest it.
-      38 dependencies has 	kolf-18.08.2                                      and        1 that requirest it.
-      27 dependencies has 	kollision-18.08.2                                 and        1 that requirest it.
+      25 dependencies has 	knavalbattle-18.08.2_1                            and        1 that requirest it.
+      28 dependencies has 	knetwalk-18.08.2_1                                and        1 that requirest it.
+      37 dependencies has 	kolf-18.08.2_1                                    and        1 that requirest it.
+      26 dependencies has 	kollision-18.08.2_1                               and        1 that requirest it.
       39 dependencies has 	kolourpaint-18.08.2                               and        1 that requirest it.
-      55 dependencies has 	konqueror-18.08.2                                 and        0 that requirest it.
-      38 dependencies has 	kontact-18.08.2                                   and        1 that requirest it.
+      54 dependencies has 	konqueror-18.08.2_1                               and        0 that requirest it.
+      37 dependencies has 	kontact-18.08.2_1                                 and        1 that requirest it.
       30 dependencies has 	kontactinterface-18.08.2                          and        7 that requirest it.
       65 dependencies has 	korganizer-18.08.2                                and        1 that requirest it.
-      36 dependencies has 	kpat-18.08.2                                      and        1 that requirest it.
+      35 dependencies has 	kpat-18.08.2_1                                    and        1 that requirest it.
       31 dependencies has 	kpimtextedit-18.08.2                              and       26 that requirest it.
        7 dependencies has 	kpkpass-18.08.2                                   and        3 that requirest it.
       27 dependencies has 	krdc-18.08.2                                      and        1 that requirest it.
       32 dependencies has 	krfb-18.08.2                                      and        1 that requirest it.
       21 dependencies has 	kruler-18.08.2                                    and        1 that requirest it.
-      28 dependencies has 	kshisen-18.08.2                                   and        1 that requirest it.
-      28 dependencies has 	ksirk-18.08.2                                     and        1 that requirest it.
+      27 dependencies has 	kshisen-18.08.2_1                                 and        1 that requirest it.
+      27 dependencies has 	ksirk-18.08.2_1                                   and        1 that requirest it.
       10 dependencies has 	ksmtp-18.08.2                                     and        2 that requirest it.
-      27 dependencies has 	ksquares-18.08.2                                  and        1 that requirest it.
+      26 dependencies has 	ksquares-18.08.2_1                                and        1 that requirest it.
       28 dependencies has 	ksystemlog-18.08.2                                and        1 that requirest it.
       22 dependencies has 	kteatime-18.08.2                                  and        1 that requirest it.
       24 dependencies has 	ktimer-18.08.2                                    and        1 that requirest it.
       13 dependencies has 	ktnef-18.08.2                                     and        3 that requirest it.
-      47 dependencies has 	ktuberling-18.08.2                                and        1 that requirest it.
+      46 dependencies has 	ktuberling-18.08.2_1                              and        1 that requirest it.
       29 dependencies has 	kturtle-18.08.2                                   and        1 that requirest it.
       34 dependencies has 	kwalletmanager-18.08.2                            and        1 that requirest it.
       44 dependencies has 	kwordquiz-18.08.2                                 and        1 that requirest it.
@@ -264,12 +262,12 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        2 dependencies has 	libdmx-1.1.4_2                                    and        2 that requirest it.
        0 dependencies has 	libdvbpsi-1.3.0                                   and        1 that requirest it.
        0 dependencies has 	libdvdcss-1.4.2                                   and        0 that requirest it.
-       0 dependencies has 	libebml-1.3.6                                     and        1 that requirest it.
-       0 dependencies has 	libepoll-shim-0.0.20161220                        and        2 that requirest it.
+       0 dependencies has 	libebml-1.3.6_1                                   and        1 that requirest it.
+       0 dependencies has 	libepoll-shim-0.0.20161220_1                      and        2 that requirest it.
        1 dependencies has 	libevdev-1.4.4_1                                  and        3 that requirest it.
        0 dependencies has 	libfpx-1.3.1.10                                   and        0 that requirest it.
        0 dependencies has 	libFS-1.0.7_2                                     and        1 that requirest it.
-       2 dependencies has 	libgit2-0.27.5                                    and        2 that requirest it.
+       2 dependencies has 	libgit2-0.27.7                                    and        2 that requirest it.
       20 dependencies has 	libgravatar-18.08.2                               and        4 that requirest it.
        3 dependencies has 	libgudev-230_1                                    and        1 that requirest it.
        4 dependencies has 	libical-3.0.3_1                                   and        5 that requirest it.
@@ -281,20 +279,20 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
       35 dependencies has 	libkdepim-18.08.2                                 and       19 that requirest it.
       11 dependencies has 	libkeduvocdocument-18.08.2                        and        4 that requirest it.
        4 dependencies has 	libkexiv2-18.08.2                                 and        4 that requirest it.
-      47 dependencies has 	libkgapi-18.08.2                                  and        4 that requirest it.
+      46 dependencies has 	libkgapi-18.08.2_1                                and        4 that requirest it.
       18 dependencies has 	libkipi-18.08.2                                   and        2 that requirest it.
       19 dependencies has 	libkleo-18.08.2                                   and       13 that requirest it.
       12 dependencies has 	libkmahjongg-18.08.2                              and        2 that requirest it.
        3 dependencies has 	libkolabxml-1.1.6_8                               and        1 that requirest it.
       13 dependencies has 	libksane-18.08.2                                  and        2 that requirest it.
-      45 dependencies has 	libksieve-18.08.2                                 and        4 that requirest it.
+      44 dependencies has 	libksieve-18.08.2_1                               and        4 that requirest it.
        2 dependencies has 	liblqr-1-0.4.2                                    and        1 that requirest it.
        0 dependencies has 	libmad-0.15.1b_6                                  and        1 that requirest it.
-       1 dependencies has 	libmatroska-1.4.9                                 and        1 that requirest it.
+       1 dependencies has 	libmatroska-1.4.9_1                               and        1 that requirest it.
        2 dependencies has 	libmng-1.0.10_3                                   and        0 that requirest it.
        0 dependencies has 	libmpeg2-0.5.1_6                                  and        1 that requirest it.
        1 dependencies has 	libmtdev-1.1.5_1                                  and        2 that requirest it.
-       1 dependencies has 	libmtp-1.1.15                                     and        0 that requirest it.
+       1 dependencies has 	libmtp-1.1.16                                     and        0 that requirest it.
        2 dependencies has 	libmusicbrainz5-5.1.0_1                           and        1 that requirest it.
        1 dependencies has 	liboldX-1.0.1_3                                   and        1 that requirest it.
        0 dependencies has 	libpotrace-1.12                                   and        1 that requirest it.
@@ -312,7 +310,6 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        2 dependencies has 	libtool-2.4.6                                     and        0 that requirest it.
        1 dependencies has 	libudev-devd-0.3_1                                and        3 that requirest it.
        0 dependencies has 	libuv-1.23.2                                      and        1 that requirest it.
-       2 dependencies has 	libvncserver-0.9.11_2                             and        2 that requirest it.
        3 dependencies has 	libwacom-0.23_1                                   and        1 that requirest it.
        5 dependencies has 	libwmf-0.2.8.4_15                                 and        1 that requirest it.
       13 dependencies has 	libwraster-0.95.8                                 and        0 that requirest it.
@@ -324,7 +321,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        2 dependencies has 	libXxf86dga-1.1.4_5                               and        4 that requirest it.
        2 dependencies has 	libXxf86misc-1.0.4_2                              and        2 that requirest it.
        0 dependencies has 	libzip-1.5.1                                      and        2 that requirest it.
-       0 dependencies has 	liveMedia-2018.02.28,2                            and        1 that requirest it.
+       0 dependencies has 	liveMedia-2018.10.17,2                            and        1 that requirest it.
        0 dependencies has 	lmdb-0.9.22_2,1                                   and        1 that requirest it.
        1 dependencies has 	lua52-5.2.4                                       and        6 that requirest it.
        1 dependencies has 	lua52-bitop-1.0.2_1                               and        0 that requirest it.
@@ -338,18 +335,18 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
       55 dependencies has 	mailcommon-18.08.2                                and        7 that requirest it.
       18 dependencies has 	mailimporter-18.08.2                              and        5 that requirest it.
        0 dependencies has 	makedepend-1.0.5_2,1                              and        0 that requirest it.
-      46 dependencies has 	marble-18.08.2                                    and        1 that requirest it.
+      45 dependencies has 	marble-18.08.2_1                                  and        1 that requirest it.
       37 dependencies has 	mbox-importer-18.08.2                             and        2 that requirest it.
-      66 dependencies has 	messagelib-18.08.2                                and       10 that requirest it.
+      65 dependencies has 	messagelib-18.08.2_1                              and       10 that requirest it.
        0 dependencies has 	metis-5.1.0_5                                     and        1 that requirest it.
        0 dependencies has 	miniupnpc-2.1_1                                   and        0 that requirest it.
-       4 dependencies has 	mysql56-client-5.6.41_1                           and        2 that requirest it.
-       5 dependencies has 	mysql56-server-5.6.41_2                           and        1 that requirest it.
+       4 dependencies has 	mysql56-client-5.6.42                             and        2 that requirest it.
+       5 dependencies has 	mysql56-server-5.6.42                             and        1 that requirest it.
        0 dependencies has 	nasm-2.13.03,1                                    and        0 that requirest it.
        3 dependencies has 	neon-0.30.2_4                                     and        1 that requirest it.
        1 dependencies has 	ninja-1.8.2,2                                     and        0 that requirest it.
        3 dependencies has 	noto-lite-1.0.5_2                                 and        1 that requirest it.
-      60 dependencies has 	okular-18.08.2                                    and        0 that requirest it.
+      59 dependencies has 	okular-18.08.2_1                                  and        0 that requirest it.
       15 dependencies has 	open-motif-2.3.8                                  and        1 that requirest it.
        1 dependencies has 	openblas-0.2.20_3,1                               and        1 that requirest it.
       13 dependencies has 	opencv-3.4.1_8                                    and        1 that requirest it.
@@ -361,51 +358,51 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        1 dependencies has 	p5-Socket-2.027                                   and        0 that requirest it.
        2 dependencies has 	p5-XML-Parser-2.44                                and        1 that requirest it.
        0 dependencies has 	pam_kde-1.0                                       and        0 that requirest it.
-      44 dependencies has 	parley-18.08.2                                    and        1 that requirest it.
-      30 dependencies has 	picmi-18.08.2                                     and        1 that requirest it.
+      43 dependencies has 	parley-18.08.2_1                                  and        1 that requirest it.
+      29 dependencies has 	picmi-18.08.2_1                                   and        1 that requirest it.
       47 dependencies has 	pim-data-exporter-18.08.2                         and        1 that requirest it.
       26 dependencies has 	pim-sieve-editor-18.08.2                          and        1 that requirest it.
       47 dependencies has 	pimcommon-18.08.2                                 and       21 that requirest it.
        0 dependencies has 	pkgconf-1.5.4,1                                   and        1 that requirest it.
-      28 dependencies has 	plasma5-breeze-5.12.5_1                           and        4 that requirest it.
-       5 dependencies has 	plasma5-breeze-gtk-5.12.5                         and        1 that requirest it.
-      42 dependencies has 	plasma5-discover-5.12.5_1                         and        1 that requirest it.
-      24 dependencies has 	plasma5-drkonqi-5.12.5                            and        2 that requirest it.
-      23 dependencies has 	plasma5-kactivitymanagerd-5.12.5_1                and        3 that requirest it.
-      46 dependencies has 	plasma5-kde-cli-tools-5.12.5_1                    and        2 that requirest it.
-      36 dependencies has 	plasma5-kde-gtk-config-5.12.5_1                   and        1 that requirest it.
-       4 dependencies has 	plasma5-kdecoration-5.12.5_1                      and        4 that requirest it.
-      55 dependencies has 	plasma5-kdeplasma-addons-5.12.5_1                 and        1 that requirest it.
-      44 dependencies has 	plasma5-kgamma5-5.12.5                            and        1 that requirest it.
-      45 dependencies has 	plasma5-khotkeys-5.12.5_1                         and        2 that requirest it.
-      51 dependencies has 	plasma5-kinfocenter-5.12.5_1                      and        2 that requirest it.
-      39 dependencies has 	plasma5-kmenuedit-5.12.5_1                        and        2 that requirest it.
-      22 dependencies has 	plasma5-kscreen-5.12.5                            and        1 that requirest it.
-      47 dependencies has 	plasma5-kscreenlocker-5.12.5_1                    and        3 that requirest it.
-      10 dependencies has 	plasma5-ksshaskpass-5.12.5_1                      and        1 that requirest it.
-      34 dependencies has 	plasma5-ksysguard-5.12.5_1                        and        2 that requirest it.
-       4 dependencies has 	plasma5-kwallet-pam-5.12.5_1                      and        1 that requirest it.
-       9 dependencies has 	plasma5-kwayland-integration-5.12.5_2             and        1 that requirest it.
-      73 dependencies has 	plasma5-kwin-5.12.5_2                             and        2 that requirest it.
-      11 dependencies has 	plasma5-kwrited-5.12.5_1                          and        1 that requirest it.
-      10 dependencies has 	plasma5-libkscreen-5.12.5_1                       and        4 that requirest it.
-      23 dependencies has 	plasma5-libksysguard-5.12.5_1                     and        3 that requirest it.
-      19 dependencies has 	plasma5-milou-5.12.5_1                            and        2 that requirest it.
-      27 dependencies has 	plasma5-oxygen-5.12.5_1                           and        1 that requirest it.
-      34 dependencies has 	plasma5-plasma-5.12.5                             and        0 that requirest it.
-      91 dependencies has 	plasma5-plasma-desktop-5.12.5_3                   and        1 that requirest it.
-      37 dependencies has 	plasma5-plasma-integration-5.12.5_1               and        2 that requirest it.
-      40 dependencies has 	plasma5-plasma-sdk-5.12.5_1                       and        1 that requirest it.
-     111 dependencies has 	plasma5-plasma-workspace-5.12.5_4                 and        5 that requirest it.
-       1 dependencies has 	plasma5-plasma-workspace-wallpapers-5.12.5        and        1 that requirest it.
-      16 dependencies has 	plasma5-polkit-kde-agent-1-5.12.5_1               and        2 that requirest it.
-      48 dependencies has 	plasma5-powerdevil-5.12.5_2                       and        1 that requirest it.
-      40 dependencies has 	plasma5-systemsettings-5.12.5_1                   and        2 that requirest it.
-      41 dependencies has 	plasma5-user-manager-5.12.5_2                     and        1 that requirest it.
+      27 dependencies has 	plasma5-breeze-5.12.7_1                           and        4 that requirest it.
+       5 dependencies has 	plasma5-breeze-gtk-5.12.7                         and        1 that requirest it.
+      41 dependencies has 	plasma5-discover-5.12.7_1                         and        1 that requirest it.
+      24 dependencies has 	plasma5-drkonqi-5.12.7                            and        2 that requirest it.
+      23 dependencies has 	plasma5-kactivitymanagerd-5.12.7                  and        3 that requirest it.
+      47 dependencies has 	plasma5-kde-cli-tools-5.12.7                      and        2 that requirest it.
+      36 dependencies has 	plasma5-kde-gtk-config-5.12.7                     and        1 that requirest it.
+       5 dependencies has 	plasma5-kdecoration-5.12.7                        and        4 that requirest it.
+      54 dependencies has 	plasma5-kdeplasma-addons-5.12.7_1                 and        1 that requirest it.
+      44 dependencies has 	plasma5-kgamma5-5.12.7                            and        1 that requirest it.
+      45 dependencies has 	plasma5-khotkeys-5.12.7                           and        2 that requirest it.
+      51 dependencies has 	plasma5-kinfocenter-5.12.7                        and        2 that requirest it.
+      39 dependencies has 	plasma5-kmenuedit-5.12.7                          and        2 that requirest it.
+      23 dependencies has 	plasma5-kscreen-5.12.7_1                          and        1 that requirest it.
+      46 dependencies has 	plasma5-kscreenlocker-5.12.7_1                    and        3 that requirest it.
+      10 dependencies has 	plasma5-ksshaskpass-5.12.7                        and        1 that requirest it.
+      34 dependencies has 	plasma5-ksysguard-5.12.7                          and        2 that requirest it.
+       4 dependencies has 	plasma5-kwallet-pam-5.12.7                        and        1 that requirest it.
+       9 dependencies has 	plasma5-kwayland-integration-5.12.7               and        1 that requirest it.
+      72 dependencies has 	plasma5-kwin-5.12.7_1                             and        2 that requirest it.
+      11 dependencies has 	plasma5-kwrited-5.12.7                            and        1 that requirest it.
+      10 dependencies has 	plasma5-libkscreen-5.12.7                         and        4 that requirest it.
+      23 dependencies has 	plasma5-libksysguard-5.12.7                       and        3 that requirest it.
+      18 dependencies has 	plasma5-milou-5.12.7_1                            and        2 that requirest it.
+      26 dependencies has 	plasma5-oxygen-5.12.7_1                           and        1 that requirest it.
+      34 dependencies has 	plasma5-plasma-5.12.7                             and        0 that requirest it.
+      91 dependencies has 	plasma5-plasma-desktop-5.12.7_1                   and        1 that requirest it.
+      36 dependencies has 	plasma5-plasma-integration-5.12.7_1               and        2 that requirest it.
+      39 dependencies has 	plasma5-plasma-sdk-5.12.7_1                       and        1 that requirest it.
+     109 dependencies has 	plasma5-plasma-workspace-5.12.7_1                 and        7 that requirest it.
+       1 dependencies has 	plasma5-plasma-workspace-wallpapers-5.12.7        and        1 that requirest it.
+      16 dependencies has 	plasma5-polkit-kde-agent-1-5.12.7                 and        2 that requirest it.
+      48 dependencies has 	plasma5-powerdevil-5.12.7                         and        1 that requirest it.
+      40 dependencies has 	plasma5-systemsettings-5.12.7_2                   and        2 that requirest it.
+      41 dependencies has 	plasma5-user-manager-5.12.7                       and        1 that requirest it.
       14 dependencies has 	poppler-glib-0.57.0_1                             and        0 that requirest it.
       15 dependencies has 	poppler-qt5-0.57.0_1                              and        2 that requirest it.
        0 dependencies has 	portaudio-19.6.0,1                                and        1 that requirest it.
-      29 dependencies has 	print-manager-18.08.2                             and        1 that requirest it.
+      28 dependencies has 	print-manager-18.08.2_1                           and        1 that requirest it.
        0 dependencies has 	pth-2.0.7_1                                       and        0 that requirest it.
        2 dependencies has 	py27-alabaster-0.7.6                              and        1 that requirest it.
        2 dependencies has 	py27-asn1crypto-0.22.0                            and        1 that requirest it.
@@ -435,10 +432,10 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        4 dependencies has 	py27-openssl-18.0.0                               and        1 that requirest it.
        2 dependencies has 	py27-pycparser-2.18                               and        1 that requirest it.
        2 dependencies has 	py27-pygments-2.2.0                               and        1 that requirest it.
-       2 dependencies has 	py27-pyparsing-2.2.2                              and        1 that requirest it.
+       2 dependencies has 	py27-pyparsing-2.3.0                              and        1 that requirest it.
        2 dependencies has 	py27-pysocks-1.6.8                                and        1 that requirest it.
        2 dependencies has 	py27-pystemmer-1.3.0_2                            and        1 that requirest it.
-       2 dependencies has 	py27-pytz-2018.5,1                                and        1 that requirest it.
+       2 dependencies has 	py27-pytz-2018.7,1                                and        1 that requirest it.
        3 dependencies has 	py27-qt4-dbussupport-4.12.1                       and        0 that requirest it.
        6 dependencies has 	py27-rdflib-4.2.2                                 and        0 that requirest it.
        6 dependencies has 	py27-requests-2.18.4_1                            and        1 that requirest it.
@@ -468,21 +465,21 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        2 dependencies has 	qt4-script-4.8.7_3                                and        1 that requirest it.
        3 dependencies has 	qt4-svg-4.8.7_2                                   and        2 that requirest it.
        3 dependencies has 	qt4-xmlpatterns-4.8.7_2                           and        0 that requirest it.
-       5 dependencies has 	qt5-graphicaleffects-5.11.2                       and        2 that requirest it.
-      18 dependencies has 	qt5-multimedia-5.11.2_1                           and        4 that requirest it.
+       4 dependencies has 	qt5-graphicaleffects-5.11.2_1                     and        2 that requirest it.
+      17 dependencies has 	qt5-multimedia-5.11.2_2                           and        4 that requirest it.
        4 dependencies has 	qt5-qdbus-5.11.2                                  and        1 that requirest it.
        2 dependencies has 	qt5-qtpaths-5.11.2                                and        1 that requirest it.
-       6 dependencies has 	qt5-quickcontrols-5.11.2                          and        2 that requirest it.
-       6 dependencies has 	qt5-quickcontrols2-5.11.2                         and        3 that requirest it.
+       5 dependencies has 	qt5-quickcontrols-5.11.2_1                        and        2 that requirest it.
+       5 dependencies has 	qt5-quickcontrols2-5.11.2_1                       and        3 that requirest it.
        4 dependencies has 	qt5-speech-5.11.2                                 and        5 that requirest it.
        4 dependencies has 	qt5-sqldrivers-mysql-5.11.2                       and        1 that requirest it.
-       9 dependencies has 	qt5-virtualkeyboard-5.11.2                        and        1 that requirest it.
-      43 dependencies has 	qt5-webengine-5.9.5_8                             and       14 that requirest it.
+       8 dependencies has 	qt5-virtualkeyboard-5.11.2_1                      and        1 that requirest it.
+      42 dependencies has 	qt5-webengine-5.9.5_9                             and       14 that requirest it.
        1 dependencies has 	quazip-qt5-0.7.3_1                                and        1 that requirest it.
        2 dependencies has 	qwt5-5.2.3                                        and        0 that requirest it.
        0 dependencies has 	re2-20180901                                      and        1 that requirest it.
        0 dependencies has 	rhash-1.3.5                                       and        1 that requirest it.
-      39 dependencies has 	rocs-18.08.2                                      and        1 that requirest it.
+      38 dependencies has 	rocs-18.08.2_1                                    and        1 that requirest it.
        4 dependencies has 	sane-backends-1.0.27_4                            and        1 that requirest it.
        1 dependencies has 	schroedinger-1.0.11_4                             and        0 that requirest it.
        3 dependencies has 	scons-3.0.1                                       and        0 that requirest it.
@@ -495,11 +492,11 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        0 dependencies has 	snappy-1.1.6                                      and        1 that requirest it.
        7 dependencies has 	soprano-2.9.4_2                                   and        0 that requirest it.
        0 dependencies has 	soundtouch-1.9.2_5                                and        0 that requirest it.
-      42 dependencies has 	spectacle-18.08.2                                 and        1 that requirest it.
+      41 dependencies has 	spectacle-18.08.2_1                               and        1 that requirest it.
        7 dependencies has 	speech-dispatcher-0.8.6                           and        1 that requirest it.
        2 dependencies has 	speex-1.2.0,1                                     and        1 that requirest it.
        0 dependencies has 	speexdsp-1.2.r3_1                                 and        1 that requirest it.
-      50 dependencies has 	step-18.08.2                                      and        1 that requirest it.
+      49 dependencies has 	step-18.08.2_1                                    and        1 that requirest it.
        4 dependencies has 	suitesparse-5.2.0_1                               and        1 that requirest it.
        0 dependencies has 	svgalib-1.4.3_7                                   and        0 that requirest it.
        1 dependencies has 	t1lib-5.1.2_4,1                                   and        1 that requirest it.
@@ -541,7 +538,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        0 dependencies has 	wmicons-1.0_2                                     and        0 that requirest it.
        5 dependencies has 	x11perf-1.6.0                                     and        0 that requirest it.
        4 dependencies has 	x264-0.155.2917_3                                 and        0 that requirest it.
-       0 dependencies has 	xapian-core-1.4.7_1,1                             and        3 that requirest it.
+       0 dependencies has 	xapian-core-1.4.9,1                               and        3 that requirest it.
        4 dependencies has 	xauth-1.0.10                                      and        0 that requirest it.
        5 dependencies has 	xbacklight-1.2.2                                  and        0 that requirest it.
        0 dependencies has 	xbitmaps-1.1.2                                    and        4 that requirest it.
@@ -554,7 +551,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        0 dependencies has 	xcursor-themes-1.0.5_2                            and        0 that requirest it.
        3 dependencies has 	xcursorgen-1.0.6_3                                and        0 that requirest it.
       11 dependencies has 	xdpyinfo-1.3.2_2                                  and        0 that requirest it.
-       0 dependencies has 	xerces-c3-3.2.0_2                                 and        2 that requirest it.
+       0 dependencies has 	xerces-c3-3.2.2                                   and        2 that requirest it.
        2 dependencies has 	xev-1.2.2                                         and        0 that requirest it.
        5 dependencies has 	xf86-input-evdev-2.10.6_3                         and        1 that requirest it.
        3 dependencies has 	xf86-input-libinput-0.25.0_2                      and        1 that requirest it.
@@ -583,7 +580,6 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        0 dependencies has 	xorg-macros-1.19.2                                and        0 that requirest it.
        2 dependencies has 	xpdfopen-0.86                                     and        1 that requirest it.
        2 dependencies has 	xpr-1.0.5                                         and        0 that requirest it.
-       3 dependencies has 	xrandr-1.5.0                                      and        0 that requirest it.
        2 dependencies has 	xrdb-1.1.1                                        and        0 that requirest it.
        1 dependencies has 	xrefresh-1.0.6                                    and        0 that requirest it.
        2 dependencies has 	xsetmode-1.0.0                                    and        0 that requirest it.
