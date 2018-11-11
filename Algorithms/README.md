@@ -1,56 +1,39 @@
 
-
-Some experiments and demonstrations 
-===================================
-
-* (PalSamples) Palindromes Workout
-* (HashSamples) HashTable Workout
+# Some experiments and demonstrations with Algorithms
 
 
 
+## References / Useful Links:
 
-### References:
-
-A [Palindrome from Wikipedia] (https://en.wikipedia.org/wiki/Palindrome).  
-B [Reverse String with C or C++] (http://stackoverflow.com/questions/198199/how-do-you-reverse-a-string-in-place-in-c-or-c).  
-C [GLib Hash Tables] (https://developer.gnome.org/glib/2.28/glib-Hash-Tables.html).  
-D [C Hash Table Implementation] (http://stackoverflow.com/questions/6844739/c-implement-a-hash-table).  
-E [Quick hashtable implementation in C] (https://gist.github.com/tonious/1377667)  
-F [C/HashTables] (http://www.cs.yale.edu/homes/aspnes/pinewiki/C(2f)HashTables.html?highlight=(CategoryAlgorithmNotes))  
-G [Linked lists] (http://www.learn-c.org/en/Linked_lists)    
-H [A simple look at arrays with Perl] (http://blogs.perl.org/users/shawnhcorey/2012/05/a-look-at-arrays.html)  
-I [More samples with Perl arrays] (http://www.tutorialspoint.com/perl/perl_arrays.htm)   
-J [Hashes with Perl] (http://www.tutorialspoint.com/perl/perl_hashes.htm)    
-K [Why bother? LL with Perl](http://pt.slideshare.net/lembark/perly-linked-lists)    
-L  
-M  
-N  
-O  
-P  
-Q  
-R  
-S  
-T  
-U  
-V  
-X [ ]()   
-W [Pointers of Pointers in C - A] (http://c-faq.com/~scs/cclass/int/sx8.html)    
-Y [Pointers of Pointers in C - B] (http://stackoverflow.com/questions/897366/how-do-pointer-to-pointers-work-in-c)    
-Z [Data Structures] (http://judy.sourceforge.net/examples/index.html).  
+ * [Palindrome from Wikipedia](https://en.wikipedia.org/wiki/Palindrome)
+ * [Reverse String with C or C++](http://stackoverflow.com/questions/198199/how-do-you-reverse-a-string-in-place-in-c-or-c)
+ * [GLib Hash Tables](https://developer.gnome.org/glib/2.28/glib-Hash-Tables.html)
+ * [C Hash Table Implementation](http://stackoverflow.com/questions/6844739/c-implement-a-hash-table)
+ * [Quick hashtable implementation in C](https://gist.github.com/tonious/1377667)
+ * [C/HashTables](http://www.cs.yale.edu/homes/aspnes/pinewiki/C(2f)HashTables.html?highlight=(CategoryAlgorithmNotes))
+ * [Linked lists](http://www.learn-c.org/en/Linked_lists)    
+ * [A simple look at arrays with Perl](http://blogs.perl.org/users/shawnhcorey/2012/05/a-look-at-arrays.html)
+ * [More samples with Perl arrays](http://www.tutorialspoint.com/perl/perl_arrays.htm)
+ * [Hashes with Perl](http://www.tutorialspoint.com/perl/perl_hashes.htm)
+ * [Why bother? LL with Perl](http://pt.slideshare.net/lembark/perly-linked-lists)
+ * [Pointers of Pointers in C - A](http://c-faq.com/~scs/cclass/int/sx8.html)
+ * [Pointers of Pointers in C - B](http://stackoverflow.com/questions/897366/how-do-pointer-to-pointers-work-in-c)
+ * [Data Structures](http://judy.sourceforge.net/examples/index.html)
+ * [Reverse a LL with Perl](http://stackoverflow.com/questions/10965712/reverse-a-linked-list-in-perl)
 
 
 
 
 
-### ToDo:  
-
-01. [Reverse a LL with Perl] (http://stackoverflow.com/questions/10965712/reverse-a-linked-list-in-perl)  
+# ToDo:  
 
 
 
 
-### Ticks:
 
+# Ticks in Perl:
+
+* Listing installed modules:
 
 ```perl
  use ExtUtils::Installed;
@@ -62,9 +45,8 @@ Z [Data Structures] (http://judy.sourceforge.net/examples/index.html).
  }
 ```
 
-
-* Will result:  
-
+Results:
+```
 App::cpanminus - 1.7042 
 B::Hooks::EndOfScope - 0.21 
 B::Keywords - 1.15 
@@ -134,7 +116,5 @@ Try::Tiny - 0.24
 Variable::Magic - 0.59 
 namespace::autoclean - 0.28 
 namespace::clean - 0.27 
-
-
-
+```
 
