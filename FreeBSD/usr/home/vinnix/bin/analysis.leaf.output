@@ -27,6 +27,7 @@ pkg leaf
        2 dependencies has eclipse-cdt-9.0.1                                  and        0 that requirest it.
        2 dependencies has efivar-0.15_5                                      and        0 that requirest it.
        0 dependencies has eigen-3.3.5                                        and        0 that requirest it.
+       3 dependencies has elasticsearch6-6.4.2_1                             and        0 that requirest it.
        3 dependencies has emojione-color-font-ttf-1.4_1                      and        0 that requirest it.
        1 dependencies has exempi-2.2.2_1                                     and        0 that requirest it.
        0 dependencies has fftw3-float-3.3.8_2                                and        0 that requirest it.
@@ -70,6 +71,7 @@ pkg leaf
       36 dependencies has kdialog-18.08.3                                    and        0 that requirest it.
       25 dependencies has keepassx2-2.0.3_2,2                                and        0 that requirest it.
       39 dependencies has khelpcenter-18.08.3                                and        0 that requirest it.
+       1 dependencies has kibana6-6.4.2                                      and        0 that requirest it.
       29 dependencies has kigo-18.08.3_1                                     and        0 that requirest it.
       54 dependencies has konqueror-18.08.3_1                                and        0 that requirest it.
       44 dependencies has konsole-18.08.3                                    and        0 that requirest it.

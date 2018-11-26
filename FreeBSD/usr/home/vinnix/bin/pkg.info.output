@@ -55,6 +55,7 @@ bovo-18.08.3_1                 Five-in-a-row Board game
 brotli-1.0.7,1                 Generic-purpose lossless compression algorithm
 bsdadminscripts-6.1.1_8        Collection of administration scripts
 bullet-2.86.1_2                3D collision detection and rigid body dynamics library
+c-ares-1.14.0_1                Asynchronous DNS resolver library
 ca_root_nss-3.40               Root certificate bundle from the Mozilla Project
 cagibi-0.2.0_1                 KDE SSDP/uPNP proxy
 cairo-1.15.12,2                Vector graphics library with cross-device output support
@@ -107,6 +108,7 @@ eclipse-4.6_2                  Eclipse Neon
 eclipse-cdt-9.0.1              C/C++ plugin for Eclipse IDE
 efivar-0.15_5                  Tools and library to manipulate EFI variables
 eigen-3.3.5                    Lightweight library for vector and matrix math
+elasticsearch6-6.4.2_1         Full-text search engine for Java
 emojione-color-font-ttf-1.4_1  Color emoji font using EmojiOne Unicode 9.0
 enchant-1.6.0_8                Dictionary/spellchecking framework
 enchant2-2.2.3_1               Dictionary/spellchecking framework
@@ -292,6 +294,7 @@ java-zoneinfo-2018.g           Updated Java timezone definitions
 javavmwrapper-2.6              Wrapper script for various Java Virtual Machines
 jbig2dec-0.15                  Decoder implementation of the JBIG2 image compression format
 jbigkit-2.1_1                  Lossless compression for bi-level images such as scanned pages, faxes
+jna-4.5.1                      Java access to native shared libraries
 jpeg-turbo-2.0.0               SIMD-accelerated JPEG codec which replaces libjpeg
 json-glib-1.4.2                JSON (RFC 4627) interface for Glib
 jsoncpp-1.8.1_4                JSON reader and writer library for C++
@@ -419,6 +422,7 @@ kgeography-18.08.3             KDE geography trainer
 kgpg-18.08.3                   Encryption tool for KDE
 khangman-18.08.3_1             Hangman game for KDE 4
 khelpcenter-18.08.3            Plasma5 application to show KDE application documentation
+kibana6-6.4.2                  Browser based analytics and search interface to ElasticSearch
 kidentitymanagement-18.08.3    KDE pim identities
 kig-18.08.3                    KDE interactive geometry application
 kigo-18.08.3_1                 Go Board game
@@ -734,6 +738,7 @@ neon-0.30.2_4                  HTTP and WebDAV client library for Unix systems
 netpbm-10.84.02                Toolkit for conversion of images between different formats
 nettle-3.4_1                   Low-level cryptographic library
 ninja-1.8.2,2                  Ninja is a small build system closest in spirit to Make
+node8-8.13.0                   V8 JavaScript for client and server (8.x LTS)
 noto-lite-1.0.5_2              Google font family - lite version
 npth-1.6                       New GNU Portable Threads
 nspluginwrapper-1.4.4_7        Compatibility plugin for Mozilla NPAPI plugins

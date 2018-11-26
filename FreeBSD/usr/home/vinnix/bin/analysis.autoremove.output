@@ -308,7 +308,6 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        0 dependencies has 	libstreams-0.7.8_2                                and        1 that requirest it.
        2 dependencies has 	libtool-2.4.6_1                                   and        0 that requirest it.
        1 dependencies has 	libudev-devd-0.3_1                                and        3 that requirest it.
-       0 dependencies has 	libuv-1.24.0                                      and        1 that requirest it.
        3 dependencies has 	libwacom-0.23_1                                   and        1 that requirest it.
        5 dependencies has 	libwmf-0.2.8.4_15                                 and        1 that requirest it.
       13 dependencies has 	libwraster-0.95.8_1                               and        0 that requirest it.
