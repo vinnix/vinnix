@@ -51,6 +51,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
       31 dependencies has 	dragon-player-18.08.3                             and        1 that requirest it.
        2 dependencies has 	ebook-tools-0.2.2_4                               and        2 that requirest it.
        0 dependencies has 	eigen-3.3.5                                       and        0 that requirest it.
+       3 dependencies has 	emojione-color-font-ttf-1.4_1                     and        0 that requirest it.
        1 dependencies has 	espeak-1.48.04_5                                  and        1 that requirest it.
       34 dependencies has 	eventviews-18.08.3                                and        4 that requirest it.
        1 dependencies has 	exempi-2.2.2_1                                    and        0 that requirest it.
@@ -123,7 +124,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        5 dependencies has 	hupnp-1.0.0_2                                     and        0 that requirest it.
        1 dependencies has 	i386-wine-devel-3.3,1                             and        0 that requirest it.
        1 dependencies has 	iceauth-1.0.8_2                                   and        1 that requirest it.
-      29 dependencies has 	ImageMagick6-6.9.10.14,1                          and        2 that requirest it.
+      29 dependencies has 	ImageMagick6-6.9.10.14_1,1                        and        2 that requirest it.
       47 dependencies has 	incidenceeditor-18.08.3                           and        3 that requirest it.
        2 dependencies has 	intltool-0.51.0_1                                 and        0 that requirest it.
       28 dependencies has 	ja-kiten-18.08.3                                  and        1 that requirest it.
@@ -307,7 +308,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        0 dependencies has 	libstreams-0.7.8_2                                and        1 that requirest it.
        2 dependencies has 	libtool-2.4.6_1                                   and        0 that requirest it.
        1 dependencies has 	libudev-devd-0.3_1                                and        3 that requirest it.
-       0 dependencies has 	libuv-1.23.2                                      and        1 that requirest it.
+       0 dependencies has 	libuv-1.24.0                                      and        1 that requirest it.
        3 dependencies has 	libwacom-0.23_1                                   and        1 that requirest it.
        5 dependencies has 	libwmf-0.2.8.4_15                                 and        1 that requirest it.
       13 dependencies has 	libwraster-0.95.8_1                               and        0 that requirest it.
@@ -527,7 +528,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        4 dependencies has 	twolame-0.3.13_4                                  and        1 that requirest it.
        6 dependencies has 	unique-1.1.6_7                                    and        0 that requirest it.
        5 dependencies has 	upower-0.99.7                                     and        1 that requirest it.
-       4 dependencies has 	vala-0.40.7,1                                     and        0 that requirest it.
+       4 dependencies has 	vala-0.40.11,1                                    and        0 that requirest it.
       48 dependencies has 	vlc-2.2.8_14,4                                    and        0 that requirest it.
        3 dependencies has 	w3m-0.5.3.20180520_1                              and        1 that requirest it.
        0 dependencies has 	wallpapers-freebsd-kde4-1.0_1                     and        0 that requirest it.
