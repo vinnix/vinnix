@@ -17,6 +17,7 @@ java/intellij-fsnotifier
 java/intellij-pty4j
 devel/jna
 multimedia/libdca
+devel/libftdi
 print/libijs
 x11/libsynaptics
 graphics/libwmf

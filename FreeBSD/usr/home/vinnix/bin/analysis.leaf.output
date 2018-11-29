@@ -5,6 +5,7 @@ pkg leaf
       25 dependencies has R-3.5.1_3                                          and        0 that requirest it.
       23 dependencies has aeskulap-0.2.2.20140119_2                          and        0 that requirest it.
        2 dependencies has appres-1.0.5                                       and        0 that requirest it.
+       8 dependencies has arduino18-1.8.5                                    and        0 that requirest it.
        0 dependencies has arpdig-0.5.6                                       and        0 that requirest it.
        2 dependencies has attica-0.4.2_2,2                                   and        0 that requirest it.
        3 dependencies has automake-1.16.1_1                                  and        0 that requirest it.
@@ -32,6 +33,7 @@ pkg leaf
        1 dependencies has exempi-2.2.2_1                                     and        0 that requirest it.
        0 dependencies has fftw3-float-3.3.8_2                                and        0 that requirest it.
       41 dependencies has firefox-63.0.3_3,1                                 and        0 that requirest it.
+       9 dependencies has fltk-1.3.4                                         and        0 that requirest it.
       11 dependencies has fluxbox-1.3.7_4                                    and        0 that requirest it.
        1 dependencies has fpc-opengl-3.0.4                                   and        0 that requirest it.
       11 dependencies has fpc-x11-3.0.4_2                                    and        0 that requirest it.
@@ -40,7 +42,7 @@ pkg leaf
        2 dependencies has fusefs-lkl-4.16.g20180628_1                        and        0 that requirest it.
        3 dependencies has fusefs-ntfs-2017.3.23                              and        0 that requirest it.
        1 dependencies has gcc-7_2                                            and        0 that requirest it.
-       6 dependencies has gcc6-6.5.0_1                                       and        0 that requirest it.
+       6 dependencies has gcc6-6.5.0_2                                       and        0 that requirest it.
        2 dependencies has gdisk-1.0.4_2                                      and        0 that requirest it.
        2 dependencies has gettext-0.19.8.1                                   and        0 that requirest it.
       11 dependencies has git-2.19.2                                         and        0 that requirest it.
@@ -126,8 +128,9 @@ pkg leaf
        7 dependencies has py27-numpy-1.15.1,1                                and        0 that requirest it.
        3 dependencies has py27-qt4-dbussupport-4.12.1                        and        0 that requirest it.
        6 dependencies has py27-rdflib-4.2.2                                  and        0 that requirest it.
-       1 dependencies has py27-sip-4.19.8,1                                  and        0 that requirest it.
+       1 dependencies has py27-sip-4.19.8_1,1                                and        0 that requirest it.
       15 dependencies has py27-sphinx-1.6.5_1,1                              and        0 that requirest it.
+       2 dependencies has py36-virtualenv-16.0.0                             and        0 that requirest it.
        4 dependencies has pycharm-ce-2018.2.5                                and        0 that requirest it.
        2 dependencies has python-2.7_3,2                                     and        0 that requirest it.
        1 dependencies has qjson-qt5-0.9.0_2                                  and        0 that requirest it.
