@@ -1,2 +1,7 @@
 [system=10]
 add path 'usb/*' mode 0660 group operator
+
+[localrules=10]
+add path 'ugen*' mode 0660 group operator
+add path 'usb/*' mode 0660 group operator
+add path 'usb'   mode 0770 group operator
