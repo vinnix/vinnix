@@ -61,3 +61,9 @@ then
     analyze "${remove_cmd}"
 fi
 
+## #################
+## Below will show
+## #################
+
+## [1] No dependencies with no requirements from "autoremove" output
+## cat analysis.autoremove.output  | grep " 0 that" | grep " 0 dep"
