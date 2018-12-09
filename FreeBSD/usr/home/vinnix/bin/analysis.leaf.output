@@ -74,7 +74,6 @@ pkg leaf
       44 dependencies has konsole-18.08.3                                    and        0 that requirest it.
        1 dependencies has libatomic_ops-7.6.4                                and        0 that requirest it.
        1 dependencies has libchk-1.10.3                                      and        0 that requirest it.
-       0 dependencies has libdvdcss-1.4.2                                    and        0 that requirest it.
        0 dependencies has libfpx-1.3.1.10                                    and        0 that requirest it.
        0 dependencies has libiodbc-3.52.12                                   and        0 that requirest it.
        2 dependencies has libmng-1.0.10_3                                    and        0 that requirest it.
@@ -92,7 +91,6 @@ pkg leaf
        1 dependencies has lua52-luasocket-3.0.r1_3,1                         and        0 that requirest it.
        0 dependencies has luajit-2.0.5_2                                     and        0 that requirest it.
        2 dependencies has luit-1.1.1_1                                       and        0 that requirest it.
-       0 dependencies has makedepend-1.0.5_2,1                               and        0 that requirest it.
        0 dependencies has miniupnpc-2.1_1                                    and        0 that requirest it.
        0 dependencies has mixer-1.0                                          and        0 that requirest it.
       12 dependencies has mutt-1.11.0                                        and        0 that requirest it.

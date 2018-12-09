@@ -256,7 +256,6 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        1 dependencies has 	libdmtx-0.7.4_11                                  and        1 that requirest it.
        2 dependencies has 	libdmx-1.1.4_2                                    and        2 that requirest it.
        0 dependencies has 	libdvbpsi-1.3.0                                   and        1 that requirest it.
-       0 dependencies has 	libdvdcss-1.4.2                                   and        0 that requirest it.
        0 dependencies has 	libebml-1.3.6_1                                   and        1 that requirest it.
        1 dependencies has 	libevdev-1.4.4_1                                  and        3 that requirest it.
        0 dependencies has 	libfpx-1.3.1.10                                   and        0 that requirest it.
@@ -327,7 +326,6 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        1 dependencies has 	m4-1.4.18_1,1                                     and        4 that requirest it.
       55 dependencies has 	mailcommon-18.08.3                                and        7 that requirest it.
       18 dependencies has 	mailimporter-18.08.3                              and        5 that requirest it.
-       0 dependencies has 	makedepend-1.0.5_2,1                              and        0 that requirest it.
       45 dependencies has 	marble-18.08.3_1                                  and        1 that requirest it.
       37 dependencies has 	mbox-importer-18.08.3                             and        2 that requirest it.
       65 dependencies has 	messagelib-18.08.3_2                              and       10 that requirest it.

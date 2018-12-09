@@ -548,7 +548,6 @@ libdmtx-0.7.4_11               Library for reading and writing Data Matrix barco
 libdmx-1.1.4_2                 DMX extension library
 libdrm-2.4.96,1                Userspace interface to kernel Direct Rendering Module services
 libdvbpsi-1.3.0                Library for MPEG TS and DVB PSI tables decoding and generation
-libdvdcss-1.4.2                Portable abstraction library for DVD decryption
 libdvdnav-6.0.0                Videolan version of the libdvdnav project
 libdvdread-6.0.0               Videolan version of the libdvdread project
 libe-book-0.1.3_7              Library for import of reflowable e-book formats
@@ -730,7 +729,6 @@ lzo2-2.10_1                    Portable speedy, lossless data compression librar
 m4-1.4.18_1,1                  GNU M4
 mailcommon-18.08.3             Common libriares for KDEPim
 mailimporter-18.08.3           Import mbox files to KMail
-makedepend-1.0.5_2,1           Dependency generator for makefiles
 marble-18.08.3_1               Virtual globe and world atlas for KDE
 mbox-importer-18.08.3          Import mbox files to KMail
 mesa-dri-18.1.9_2              OpenGL hardware acceleration drivers for DRI2+
