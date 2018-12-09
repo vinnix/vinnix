@@ -12,7 +12,6 @@ sysutils/fusefs-libs
 devel/gamin
 sysutils/grub2
 comms/hcidump
-net/hupnp
 java/intellij-fsnotifier
 java/intellij-pty4j
 devel/jna
@@ -22,11 +21,9 @@ print/libijs
 x11/libsynaptics
 graphics/libwmf
 math/metis
-graphics/opencollada
 graphics/opencv
 graphics/opencv-core
 graphics/opengl-man
-x11-toolkits/qwt5
 graphics/sane-backends
 multimedia/schroedinger
 audio/timidity

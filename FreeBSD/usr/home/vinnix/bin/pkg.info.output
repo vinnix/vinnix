@@ -38,12 +38,10 @@ at-spi2-atk-2.26.2             Assisted Technology Provider module for GTK+
 at-spi2-core-2.28.0            Assistive Technology Service Provider Interface
 atk-2.28.1                     GNOME accessibility toolkit (ATK)
 atkmm-2.24.2_2                 C++ wrapper for ATK API library
-attica-0.4.2_2,2               Open Collaboration Services API library
 audiocd-kio-18.08.3            KDE IOSlave for accessing audio CDs
 autoconf-2.69_2                Automatically configure source code on many Un*x platforms
 autoconf-wrapper-20131203      Wrapper script for GNU autoconf
 automake-1.16.1_1              GNU Standards-compliant Makefile generator
-automoc4-0.9.88_5              Automatic moc for Qt 4 packages
 avahi-app-0.7_2                Service discovery on a local network
 avahi-libdns-0.7               mDNSResponder compatibility from Avahi
 avr-binutils-2.30_6,1          GNU binutils for AVR cross-development
@@ -53,7 +51,7 @@ baloo-widgets-18.08.3          BalooWidgets library
 bash-4.4.23_1                  GNU Project's Bourne Again SHell
 bdftopcf-1.1_2                 Convert X font from BDF to PCF
 binutils-2.30_6,1              GNU binary tools
-bison-3.1_1,1                  Parser generator from FSF, (mostly) compatible with Yacc
+bison-3.2.2,1                  Parser generator from FSF, (mostly) compatible with Yacc
 bitmap-1.0.8_2                 Bitmap editor and converter utilities for X
 blas-3.5.0_4                   Basic Linear Algebra Subroutines
 blinken-18.08.3                Memory enhancement game for KDE
@@ -67,8 +65,7 @@ brotli-1.0.7,1                 Generic-purpose lossless compression algorithm
 bsdadminscripts-6.1.1_8        Collection of administration scripts
 bullet-2.86.1_2                3D collision detection and rigid body dynamics library
 c-ares-1.14.0_1                Asynchronous DNS resolver library
-ca_root_nss-3.40               Root certificate bundle from the Mozilla Project
-cagibi-0.2.0_1                 KDE SSDP/uPNP proxy
+ca_root_nss-3.40.1             Root certificate bundle from the Mozilla Project
 cairo-1.15.12,2                Vector graphics library with cross-device output support
 cairomm-1.12.2_2               C++ interface to cairo
 calendarsupport-18.08.3        Calendar support libriares for KDEPim
@@ -80,7 +77,7 @@ check-0.12.0_1                 Unit test framework for C
 chmlib-0.40_1                  Library for dealing with Microsoft ITSS/CHM format files
 cln-1.3.4_1                    Class Library for Numbers
 clucene-2.3.3.4_15             CLucene is a C++ port of Lucene
-cmake-3.12.4_1                 Cross-platform Makefile generator
+cmake-3.13.1                   Cross-platform Makefile generator
 cmocka-1.1.1_1                 Unit testing framework for C with support for mock objects
 colord-1.3.5                   Manage color profiles to accurately color input/output devices
 consolekit2-1.2.1              Framework for defining and tracking users
@@ -135,7 +132,7 @@ ffms2-2.23_8                   FFmpeg-based source library and VapourSynth plugi
 fftw3-3.3.8_2                  Fast C routines to compute the Discrete Fourier Transform
 fftw3-float-3.3.8_2            Fast Discrete Fourier Transform (Single Precision C Routines)
 filelight-18.08.3              Map of concentric segmented-rings representing file system
-firefox-63.0.3_3,1             Web browser based on the browser portion of Mozilla
+firefox-64.0,1                 Web browser based on the browser portion of Mozilla
 flac-1.3.2                     Free lossless audio codec
 fltk-1.3.4                     Cross-platform C++ graphical user interface toolkit
 fluxbox-1.3.7_4                Small and fast window manager based on BlackBox
@@ -236,7 +233,6 @@ gpgme-qt5-1.12.0               Gpgme Qt5 bindings
 gpsd-3.17                      Daemon that monitors one or more GPSes attached to a host computer
 gpu-firmware-kmod-g20181104    Firmware modules for the linuxkpi-based KMS components
 granatier-18.08.3_1            Bomberman clone
-grantlee-0.5.1_1               String template engine for Qt 4
 grantlee-editor-18.08.3_1      Editor for Grantlee themes
 grantlee5-5.1.0_4              String template engine for Qt 5
 grantleetheme-18.08.3          KDE PIM grantleetheme
@@ -268,7 +264,7 @@ gstreamer1-plugins-resindvd-1.14.4 GStreamer resindvd DVD playback plugin
 gstreamer1-plugins-theora-1.14.4 GStreamer theora plugin
 gstreamer1-plugins-ugly-1.14.4 GStreamer-plugins set of good-quality plug-ins that might have distribution problems
 gstreamer1-plugins-vorbis-1.14.4 GStreamer vorbis encoder/decoder plugin
-gstreamer1-qt5-1.2.0_14        Qt 5 bindings for GStreamer 1.x multimedia library
+gstreamer1-qt5-1.2.0_15        Qt 5 bindings for GStreamer 1.x multimedia library
 gtk-engines2-2.20.2_3          Theme engine for the GTK+-2.0 toolkit
 gtk-update-icon-cache-2.24.32  Gtk-update-icon-cache utility from the Gtk+ toolkit
 gtk2-2.24.32                   Gimp Toolkit for X11 GUI (previous stable version)
@@ -278,14 +274,13 @@ gvfs-1.30.4                    GNOME virtual file system
 gwenview-18.08.3               Image viewer and browser for KDE
 hack-font-3.003                Typeface designed for source code
 hal-0.5.14_34                  Hardware Abstraction Layer for simplifying device access
-harfbuzz-2.1.3                 OpenType text shaping engine
-harfbuzz-icu-2.1.3             Harfbuzz ICU support
+harfbuzz-2.2.0                 OpenType text shaping engine
+harfbuzz-icu-2.2.0             Harfbuzz ICU support
 hcidump-1.5.1                  Bluetooth traffic dumper, similar to tcpdump
 hdf-szip-2.1_2                 Lossless compression library for scientific data
 hdf5-1.10.2                    Hierarchical Data Format library (from NCSA)
 hicolor-icon-theme-0.15        High-color icon theme shell from the FreeDesktop project
 hunspell-1.6.2_1               Improved spell-checker for Hungarian and other languages
-hupnp-1.0.0_2                  Library for building UPnP devices and control points
 hyphen-2.8.8                   Library for high quality hyphenation and justification
 i386-wine-devel-3.3,1          32-bit Microsoft Windows compatibility environment for 64-bit FreeBSD
 iceauth-1.0.8_2                ICE authority file utility for X
@@ -302,7 +297,7 @@ iso-codes-3.76                 Lists of the country, language, and currency iso 
 iso8879-1986_3                 Character entity sets from ISO 8879:1986 (SGML)
 ja-kiten-18.08.3               Japanese reference/study tool for KDE
 ja-tex-ptex-3.6_1              ASCII Japanese pTeX
-jansson-2.11                   C library for encoding, decoding, and manipulating JSON data
+jansson-2.12                   C library for encoding, decoding, and manipulating JSON data
 jasper-1.900.1_17              Implementation of the codec specified in the JPEG-2000 standard
 java-simple-serial-connector-2.8.0 Library for working with serial ports from Java
 java-zoneinfo-2018.g           Updated Java timezone definitions
@@ -310,7 +305,7 @@ javavmwrapper-2.6              Wrapper script for various Java Virtual Machines
 jbig2dec-0.15                  Decoder implementation of the JBIG2 image compression format
 jbigkit-2.1_1                  Lossless compression for bi-level images such as scanned pages, faxes
 jna-4.5.1                      Java access to native shared libraries
-jpeg-turbo-2.0.0               SIMD-accelerated JPEG codec which replaces libjpeg
+jpeg-turbo-2.0.1               SIMD-accelerated JPEG codec which replaces libjpeg
 json-glib-1.4.2                JSON (RFC 4627) interface for Glib
 jsoncpp-1.8.1_4                JSON reader and writer library for C++
 kaddressbook-18.08.3           KDE contact manager
@@ -497,7 +492,7 @@ libGLU-9.0.0_3                 OpenGL utility library
 libICE-1.0.9_3,1               Inter Client Exchange library for X11
 libIDL-0.8.14_4                Library for creating trees of CORBA IDL files
 libSM-1.2.3,1                  Session Management library for X11
-libX11-1.6.6_1,1               X11 library
+libX11-1.6.7,1                 X11 library
 libXScrnSaver-1.2.3_2          The XScrnSaver library
 libXTrap-1.0.1_5               The XTrap library
 libXau-1.0.8_5                 Authentication Protocol library for X11
@@ -547,11 +542,11 @@ libcmis-0.5.1_9                Client library for the CMIS interface
 libconfuse-3.2.1_1             Configuration file parsing library
 libcroco-0.6.12                CSS2 parsing library
 libdaemon-0.14_1               Lightweight C library that eases the writing of UNIX daemons
-libdbusmenu-qt5-0.9.3.160420160218_5 Qt4 implementation of the DBusMenu protocol
+libdbusmenu-qt5-0.9.3.160420160218_6 Qt4 implementation of the DBusMenu protocol
 libdca-0.0.6_1                 Free DTS Coherent Acoustics decoder
 libdmtx-0.7.4_11               Library for reading and writing Data Matrix barcodes
 libdmx-1.1.4_2                 DMX extension library
-libdrm-2.4.93,1                Userspace interface to kernel Direct Rendering Module services
+libdrm-2.4.96,1                Userspace interface to kernel Direct Rendering Module services
 libdvbpsi-1.3.0                Library for MPEG TS and DVB PSI tables decoding and generation
 libdvdcss-1.4.2                Portable abstraction library for DVD decryption
 libdvdnav-6.0.0                Videolan version of the libdvdnav project
@@ -627,7 +622,7 @@ libmtdev-1.1.5_1               Multitouch Protocol Translation Library
 libmtp-1.1.16                  Media Transfer Protocol (MTP) library
 libmusicbrainz5-5.1.0_1        MusicBrainz client library for audio metadata lookup
 libmwaw03-0.3.14_2             Import library for some old mac text documents
-libnghttp2-1.34.0              HTTP/2.0 C Library
+libnghttp2-1.35.0              HTTP/2.0 C Library
 libnotify-0.7.7_1              Library for desktop notifications
 liboauth-1.0.3_4               C library implementing the OAuth Core standard
 libodfgen01-0.1.7_1            Library for generating documents in Open Document Format (ODF)
@@ -740,7 +735,7 @@ marble-18.08.3_1               Virtual globe and world atlas for KDE
 mbox-importer-18.08.3          Import mbox files to KMail
 mesa-dri-18.1.9_2              OpenGL hardware acceleration drivers for DRI2+
 mesa-libs-18.1.9_4             OpenGL libraries that support GLX and EGL clients
-messagelib-18.08.3_1           Library for handling messages
+messagelib-18.08.3_2           Library for handling messages
 metis-5.1.0_5                  Package for unstructured graph partitioning
 mime-support-3.61              MIME Media Types list
 miniupnpc-2.1_1                UPnP IGD client lightweight library
@@ -750,9 +745,9 @@ mkfontscale-1.1.3_2            Creates an index of scalable font files for X
 mpc-1.1.0_2                    Library of complex numbers with arbitrarily high precision
 mpfr-4.0.1_2                   Library for multiple-precision floating-point computations
 mpg123-1.25.10                 Command-line player for MPEG Layer 1, 2, and 3 audio files
-mutt-1.10.1                    Small but powerful text based program for read/writing e-mail
-mysql56-client-5.6.42          Multithreaded SQL database (client)
-mysql56-server-5.6.42          Multithreaded SQL database (server)
+mutt-1.11.0                    Small but powerful text based program for read/writing e-mail
+mysql56-client-5.6.42_1        Multithreaded SQL database (client)
+mysql56-server-5.6.42_1        Multithreaded SQL database (server)
 mythes-1.2.4_4                 Simple thesaurus library
 nasm-2.13.03,1                 General-purpose multi-platform x86 and amd64 assembler
 neon-0.30.2_4                  HTTP and WebDAV client library for Unix systems
@@ -764,21 +759,21 @@ noto-lite-1.0.5_2              Google font family - lite version
 npth-1.6                       New GNU Portable Threads
 nspluginwrapper-1.4.4_7        Compatibility plugin for Mozilla NPAPI plugins
 nspr-4.20                      Platform-neutral API for system level and libc like functions
-nss-3.40                       Libraries to support development of security-enabled applications
+nss-3.40.1                     Libraries to support development of security-enabled applications
 okular-18.08.3_1               KDE universal document viewer
 open-motif-2.3.8               Motif X11 Toolkit (industry standard GUI (IEEE 1295))
 openal-soft-1.19.1             Software implementation of the OpenAL specification
-openblas-0.2.20_4,1            Optimized BLAS library based on GotoBLAS2
-opencollada-1.6.67             Library for reading and writing COLLADA files
-opencv-3.4.1_10                Open Source Computer Vision library
-opencv-core-3.4.1_10           Open Source Computer Vision library
+openblas-0.2.20_6,1            Optimized BLAS library based on GotoBLAS2
+opencollada-1.6.68             Library for reading and writing COLLADA files
+opencv-3.4.1_11                Open Source Computer Vision library
+opencv-core-3.4.1_11           Open Source Computer Vision library
 openexr-2.3.0                  High dynamic-range (HDR) image file format
 opengl-man-657.2               Section 3 manpages for OpenGL: gl, glx, glu, gle, glut
 openjdk8-8.181.13_1            Java Development Kit 8
 openjpeg-2.3.0_2               Open-source JPEG 2000 codec
 openjpeg15-1.5.2_1             Open-source JPEG 2000 codec
 openldap-client-2.4.46         Open source LDAP client implementation
-openmp-6.0.1_1                 Open Multi-Processing runtime for LLVM/Clang
+openmp-7.0.0                   Open Multi-Processing runtime for LLVM/Clang
 openocd-0.10.0_2               Open On-Chip Debugger
 openslp-2.0.0_1                Open-source implementation of the Service Location Protocol
 openssl111-1.1.1a              TLSv1.3 capable SSL and crypto library
@@ -813,14 +808,14 @@ pcre-8.42                      Perl Compatible Regular Expressions library
 pcre2-10.31                    Perl Compatible Regular Expressions library, version 2
 perl5-5.26.2_2                 Practical Extraction and Report Language
 pftop-0.7_8                    Utility for real-time display of statistics for pf
-phonon-qt5-4.10.1              KDE multimedia framework
+phonon-qt5-4.10.1_1            KDE multimedia framework
 picmi-18.08.3_1                Single player logic-based puzzle game
 pim-data-exporter-18.08.3      Import and export KDE PIM settings
 pim-sieve-editor-18.08.3       Mail sieve editor
 pimcommon-18.08.3              Common libriares for KDEPim
 pinentry-1.1.0_2               Collection of simple PIN or passphrase entry dialogs
 pinentry-tty-1.1.0             Console version of the GnuPG password dialog
-pixman-0.34.0                  Low-level pixel manipulation library
+pixman-0.34.0_1                Low-level pixel manipulation library
 pkg-1.10.5_5                   Package manager
 pkgconf-1.5.4,1                Utility to help to configure compiler and linker flags
 plasma5-breeze-5.12.7_1        Plasma5 artwork, styles and assets for the Breeze visual style
@@ -862,7 +857,7 @@ png-1.6.35                     Library for manipulating PNG images
 policykit-0.9_10               Framework for controlling access to system-wide components
 policykit-gnome-0.9.2_8        GNOME frontend to the PolicyKit framework
 polkit-0.114_1                 Framework for controlling access to system-wide components
-polkit-qt5-0.112.0_1           Qt5 wrapper around Polkit libraries
+polkit-qt5-0.112.0_2           Qt5 wrapper around Polkit libraries
 poppler-0.57.0_1               PDF rendering library
 poppler-data-0.4.9             Poppler encoding data
 poppler-glib-0.57.0_1          GLib bindings to poppler
@@ -875,7 +870,7 @@ postgresql11-docs-11.1         The PostgreSQL documentation set
 postgresql11-plpython-11.1     Module for using Python to write SQL functions
 postgresql11-server-11.1       PostgreSQL is the most advanced open-source database available anywhere
 print-manager-18.08.3_1        Printer manager for KDE
-protobuf-3.5.2_1,1             Data interchange format library
+protobuf-3.6.1,1               Data interchange format library
 psutils-1.17_5                 Utilities for manipulating PostScript documents
 pt_BR-libreoffice-6.0.7        pt_BR language pack for libreoffice
 pth-2.0.7_1                    GNU Portable Threads
@@ -886,7 +881,7 @@ py27-alabaster-0.7.6           Modified Kr Sphinx theme
 py27-asn1crypto-0.22.0         ASN.1 library with a focus on performance and a pythonic API
 py27-boost-libs-1.68.0_1       Framework for interfacing Python and C++
 py27-cairo-1.14.1              Python 2 bindings for Cairo
-py27-certifi-2018.4.16         Mozilla SSL certificates
+py27-certifi-2018.11.29        Mozilla SSL certificates
 py27-cffi-1.11.5               Foreign Function Interface for Python calling C code
 py27-chardet-3.0.4             Universal encoding detector for Python 2 and 3
 py27-cryptography-2.3          Cryptographic recipes and primitives for Python developers
@@ -906,15 +901,14 @@ py27-iso8601-0.1.11            Simple module to parse ISO 8601 dates
 py27-isodate-0.6.0             ISO 8601 date/time/duration parser and formater
 py27-libxml2-2.9.7_1           Python interface for XML parser library for GNOME
 py27-nose-1.3.7                Discovery-based unittest extension
-py27-numpy-1.15.1,1            The New Numeric Extension to Python
+py27-numpy-1.15.4,1            The New Numeric Extension to Python
 py27-openssl-18.0.0            Python interface to the OpenSSL library
 py27-pycparser-2.18            C parser in Python
-py27-pygments-2.2.0            Syntax highlighter written in Python
+py27-pygments-2.3.0            Syntax highlighter written in Python
 py27-pyparsing-2.3.0           General parsing module for Python
 py27-pysocks-1.6.8             Python SOCKS module
 py27-pystemmer-1.3.0_2         Snowball Stemming Algorithms for Information Retrieval
 py27-pytz-2018.7,1             World Timezone Definitions for Python
-py27-qt4-dbussupport-4.12.1    Qt event loop support for dbus-python
 py27-rdflib-4.2.2              Python library for RDF manipulation
 py27-requests-2.18.4_1         HTTP library written in Python for human beings
 py27-setuptools-40.6.2         Python packages installer
@@ -934,30 +928,22 @@ py36-random2-1.0.1             Python 3 compatible Python 2 random module
 py36-setuptools-40.6.2         Python packages installer
 py36-six-1.11.0                Python 2 and 3 compatibility utilities
 py36-virtualenv-16.0.0         Tool for creating isolated Python environments
-pycharm-ce-2018.2.5            JetBrains PyCharm Community Edition IDE
+pycharm-ce-2018.3              JetBrains PyCharm Community Edition IDE
 pydbus-common-1.2.8            Common files for the Python bindings for the D-BUS messaging system
 pygobject3-common-3.28.3       Common files for the Python bindings for GObject
 python-2.7_3,2                 "meta-port" for the default version of Python interpreter
 python2-2_3                    The "meta-port" for version 2 of the Python interpreter
 python27-2.7.15                Interpreted object-oriented programming language
 python36-3.6.7                 Interpreted object-oriented programming language
-qca-qt5-2.1.3_2                Cross-platform crypto API for Qt 5
+qca-qt5-2.1.3_3                Cross-platform crypto API for Qt 5
 qjson-qt5-0.9.0_2              Library to manage JSON objects with Qt
 qt4-corelib-4.8.7_14           Qt core non-graphical module
-qt4-dbus-4.8.7_1               Qt D-Bus inter-process communication module
 qt4-gui-4.8.7_6                Qt graphical user interface module
-qt4-iconengines-4.8.7_2        Qt SVG icon engine
-qt4-inputmethods-4.8.7_2       Qt input methods
 qt4-libQtAssistantClient-4.6.3_2 Qt documentation browser integration module
 qt4-linguisttools-4.8.7_2      Qt 4 localization tools
-qt4-moc-4.8.7_2                Qt Meta-Object Compiler
 qt4-network-4.8.7_5            Qt network module
-qt4-opengl-4.8.7_3             Qt OpenGL support module
-qt4-script-4.8.7_3             Qt scripting module
-qt4-svg-4.8.7_2                Qt SVG support module
 qt4-testlib-4.8.7_2            Qt unit testing module
 qt4-xml-4.8.7_2                Qt SAX and DOM implementations
-qt4-xmlpatterns-4.8.7_2        Qt support for XPath, XQuery, XSLT and XML Schema
 qt5-assistant-5.11.2           Qt 5 documentation browser
 qt5-concurrent-5.11.2          Qt multi-threading module
 qt5-core-5.11.2_1              Qt core non-graphical module
@@ -970,7 +956,7 @@ qt5-help-5.11.2                Qt online help integration module
 qt5-linguisttools-5.11.2       Qt localization tools
 qt5-location-5.11.2_1          Qt location module
 qt5-multimedia-5.11.2_2        Qt audio, video, radio and camera support module
-qt5-network-5.11.2             Qt network module
+qt5-network-5.11.2_1           Qt network module
 qt5-opengl-5.11.2              Qt 5-compatible OpenGL support module
 qt5-printsupport-5.11.2        Qt print support module
 qt5-qdbus-5.11.2               Qt command-line interface to D-Bus
@@ -998,14 +984,13 @@ qt5-x11extras-5.11.2           Qt platform-specific features for X11-based syste
 qt5-xml-5.11.2                 Qt SAX and DOM implementations
 qt5-xmlpatterns-5.11.2         Qt support for XPath, XQuery, XSLT and XML Schema
 qtchooser-66                   Qt tool wrapper
-quazip-qt5-0.7.3_1             Qt/C++ wrapper for ZIP/UNZIP package
-qwt5-5.2.3                     Qt Widgets for Technical Applications
+quazip-qt5-0.7.3_2             Qt/C++ wrapper for ZIP/UNZIP package
 radeontool-1.5                 ATI Radeon video card controlling tool useful for laptops
 raptor2-2.0.15_10              RDF Parser Toolkit for Redland
 rarian-0.8.1_4                 OMF help system based on the Freedesktop specification
 rasqal-0.9.33_1                High-level interface for RDF
 re2-20180901                   Fast C++ regex library
-readline-7.0.3_2               Library for editing command lines as they are typed
+readline-7.0.5                 Library for editing command lines as they are typed
 redland-1.0.17_4               High-level interface for RDF
 rest-0.7.93                    Easy access to RESTful web services
 rhash-1.3.5                    Utility and library for computing and checking of file hashes
@@ -1013,7 +998,7 @@ rkhunter-1.4.4                 Rootkit detection tool
 rocs-18.08.3_1                 KDE Graph theory IDE
 rsync-3.1.3                    Network file distribution/synchronization utility
 ruby-2.4.5,1                   Object-oriented interpreted scripting language
-samba47-4.7.10_1               Free SMB/CIFS and AD/DC server and client for Unix
+samba47-4.7.12                 Free SMB/CIFS and AD/DC server and client for Unix
 sane-backends-1.0.27_4         API for access to scanners, digitals camera, frame grabbers etc
 schroedinger-1.0.11_4          High-speed Dirac codec
 scons-3.0.1                    Build tool alternative to make
@@ -1033,7 +1018,6 @@ smartmontools-6.6_2            S.M.A.R.T. disk monitoring tools
 smpeg-0.4.4_15                 Free MPEG1 video player library with sound support
 smproxy-1.0.6                  Session Manager Proxy
 snappy-1.1.6                   Fast compressor/decompressor library
-soprano-2.9.4_2                Qt/C++ RDF framework
 soundtouch-1.9.2_5             Open-source audio processing library
 spectacle-18.08.3_1            KDE screen capture program
 speech-dispatcher-0.8.6_1      Common interface to speech synthesis
@@ -1083,7 +1067,7 @@ tk86-8.6.9                     Graphical toolkit for Tcl
 tmake-2.12                     Extremely portable perl-based make utility
 tpm-emulator-0.7.4_2           Trusted Platform Module (TPM) emulator
 trousers-0.3.14_2              Open-source TCG Software Stack
-twemoji-color-font-ttf-1.4     Color emoji font using Twitter Unicode 10
+twemoji-color-font-ttf-11.2.0  Color emoji font using Twitter Unicode 10
 twm-1.0.10                     Tab Window Manager for the X Window System
 twolame-0.3.13_4               MPEG Audio Layer 2 encoder
 unique-1.1.6_7                 Library for single instance applications
@@ -1092,10 +1076,10 @@ urlview-0.9.20131021_1         URL extractor/launcher
 utf8proc-2.1.0                 UTF-8 processing library
 v4l_compat-1.6.3_2             Video4Linux IOCTL header files
 vala-0.40.11,1                 Programming language and compiler that converts Vala code into C code
-vim-8.1.0502                   Improved version of the vi editor
+vim-8.1.0555                   Improved version of the vi editor
 virtual_oss-1.2.0              Virtual OSS multi device mixer application
-virtualbox-ose-5.2.22          General-purpose full virtualizer for x86 hardware
-virtualbox-ose-additions-5.2.22 VirtualBox additions for FreeBSD guests
+virtualbox-ose-5.2.22_1        General-purpose full virtualizer for x86 hardware
+virtualbox-ose-additions-5.2.22_1 VirtualBox additions for FreeBSD guests
 virtualbox-ose-kmod-5.2.22     VirtualBox kernel module for FreeBSD
 vlc-2.2.8_14,4                 Qt based multimedia player and streaming server
 w3m-0.5.3.20180520_1           Pager/text-based WWW browser
@@ -1104,9 +1088,9 @@ wayland-1.16.0                 Wayland composite "server"
 wayland-protocols-1.16         Wayland protocols
 webcamd-4.17.0.3_1             Port of Linux USB webcam and DVB drivers into userspace
 webkit-gtk2-2.4.11_18          Opensource browser engine using the GTK+ 2 toolkit
-webkit2-gtk3-2.22.3_1          Opensource browser engine using the GTK+ 3 toolkit
+webkit2-gtk3-2.22.4            Opensource browser engine using the GTK+ 3 toolkit
 webp-1.0.1                     Google WebP image format conversion tool
-wget-1.19.5_1                  Retrieve files from the Net via HTTP(S) and FTP
+wget-1.20                      Retrieve files from the Net via HTTP(S) and FTP
 wmicons-1.0_2                  Icons mainly for use in Window Maker
 woff2-1.0.2_2                  Library and converter tools for the WOFF 2.0 web font format
 x11perf-1.6.0                  X11 server performance test program
