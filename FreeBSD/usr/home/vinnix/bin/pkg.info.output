@@ -353,7 +353,6 @@ kdiagram-2.6.0                 Library to create business diagrams
 kdialog-18.08.3                Show nice dialog boxes from shell scripts
 kdiamond-18.08.3_1             Three-in-a-row game
 keditbookmarks-18.08.3         Bookmark Organizer and Editor
-keepassx2-2.0.3_2,2            Cross Platform Password Manager
 kf5-attica-5.52.0              Open Collaboration Services API library KDE5 version
 kf5-baloo-5.52.0               KF5 Framework for searching and managing user metadata
 kf5-breeze-icons-5.52.0        Breeze icon theme for KDE
@@ -526,6 +525,7 @@ libXxf86vm-1.1.4_3             X Vidmode Extension
 liba52-0.7.4_3                 Free library for decoding ATSC A/52 streams, aka AC-3
 libabw-0.1.2_4                 Library providing ability to interpret Abiword documents
 libarchive-3.3.3,1             Library to create and read several streaming archive formats
+libargon2-20171227_1           Memory hard password hashing program and library
 libart_lgpl-2.3.21_3,1         Library for high-performance 2D graphics
 libassuan-2.5.1_1              IPC library used by GnuPG and gpgme
 libastylej-arduino-3.0.1       Source code indenter, formatter, and beautifier (JNI library)
@@ -648,6 +648,7 @@ libsecret-0.18.6               Library to access the secret service API
 libserialport-0.1.1            Framework for hardware logic analyzers, serial port support library
 libsigc++-2.10.0_2             Callback Framework for C++
 libsndfile-1.0.28_1            Reading and writing files containing sampled sound (like WAV or AIFF)
+libsodium-1.0.16               Library to build higher-level cryptographic tools
 libsoup-2.62.3                 SOAP (Simple Object Access Protocol) implementation in C
 libsoup-gnome-2.62.3           SOAP (Simple Object Access Protocol) implementation in C
 libsoxr-0.1.2.20160529_8       High quality, one-dimensional sample-rate conversion library
@@ -692,6 +693,7 @@ libxml2-2.9.7                  XML parser library for GNOME
 libxshmfence-1.2_4             Shared memory 'SyncFence' synchronization primitive
 libxslt-1.1.32                 The XSLT C library for GNOME
 libyaml-0.2.1                  YAML 1.1 parser and emitter written in C
+libyubikey-1.13                Library for decrypting and parsing YubiKey One-Time Passwords
 libzip-1.5.1                   C library for reading, creating, and modifying ZIP archives
 libzmf-0.0.2_11                Library that parses the file format of Zoner Callisto/Draw documents
 linux-c6-atk-1.30.0_2          Accessibility Toolkit (Linux CentOS 6.10)
@@ -935,14 +937,8 @@ python27-2.7.15                Interpreted object-oriented programming language
 python36-3.6.7                 Interpreted object-oriented programming language
 qca-qt5-2.1.3_3                Cross-platform crypto API for Qt 5
 qjson-qt5-0.9.0_2              Library to manage JSON objects with Qt
-qt4-corelib-4.8.7_14           Qt core non-graphical module
-qt4-gui-4.8.7_6                Qt graphical user interface module
-qt4-libQtAssistantClient-4.6.3_2 Qt documentation browser integration module
-qt4-linguisttools-4.8.7_2      Qt 4 localization tools
-qt4-network-4.8.7_5            Qt network module
-qt4-testlib-4.8.7_2            Qt unit testing module
-qt4-xml-4.8.7_2                Qt SAX and DOM implementations
 qt5-assistant-5.11.2           Qt 5 documentation browser
+qt5-buildtools-5.11.2          Qt build tools
 qt5-concurrent-5.11.2          Qt multi-threading module
 qt5-core-5.11.2_1              Qt core non-graphical module
 qt5-dbus-5.11.2                Qt D-Bus inter-process communication module

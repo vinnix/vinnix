@@ -445,8 +445,6 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        2 dependencies has 	python-2.7_3,2                                    and        0 that requirest it.
        1 dependencies has 	python2-2_3                                       and        1 that requirest it.
        3 dependencies has 	qca-qt5-2.1.3_3                                   and        2 that requirest it.
-       3 dependencies has 	qt4-libQtAssistantClient-4.6.3_2                  and        0 that requirest it.
-       3 dependencies has 	qt4-network-4.8.7_5                               and        1 that requirest it.
        4 dependencies has 	qt5-graphicaleffects-5.11.2_1                     and        2 that requirest it.
       17 dependencies has 	qt5-multimedia-5.11.2_2                           and        4 that requirest it.
        4 dependencies has 	qt5-qdbus-5.11.2                                  and        1 that requirest it.
