@@ -1,0 +1,5 @@
+[praiskup-autotools-epel-7-x86_64]
+name=Autotools - epel-7-x86_64
+baseurl=https://www.softwarecollections.org/repos/praiskup/autotools/epel-7-x86_64
+enabled=1
+gpgcheck=0

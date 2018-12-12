@@ -1,0 +1,6 @@
+[adobe-linux]
+name=Adobe Systems Incorporated
+baseurl=http://linuxdownload.adobe.com/linux/$basearch/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
