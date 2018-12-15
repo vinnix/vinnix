@@ -176,4 +176,4 @@ Regards,
 
 ```
 
-
+# https://www.freebsd.org/cgi/man.cgi?query=uefi&sektion=&manpath=freebsd-release-ports
