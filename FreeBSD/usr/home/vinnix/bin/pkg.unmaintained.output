@@ -1,9 +1,7 @@
 graphics/aalib
-graphics/aeskulap
 ports-mgmt/bsdadminscripts
 math/cblas
 devel/cvsps
-devel/dcmtk
 graphics/djvulibre
 devel/dotconf
 devel/efivar
