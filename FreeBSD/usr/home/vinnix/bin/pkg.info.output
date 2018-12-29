@@ -870,6 +870,7 @@ postgresql11-plpython-11.1_1   Module for using Python to write SQL functions
 postgresql11-server-11.1       PostgreSQL is the most advanced open-source database available anywhere
 print-manager-18.12.0          Printer manager for KDE
 protobuf-3.6.1_1,1             Data interchange format library
+pstree-2.39                    List processes as a tree
 psutils-1.17_5                 Utilities for manipulating PostScript documents
 pt_BR-libreoffice-6.0.7        pt_BR language pack for libreoffice
 pth-2.0.7_1                    GNU Portable Threads

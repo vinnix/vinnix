@@ -119,6 +119,7 @@ pkg leaf
        3 dependencies has postgresql11-contrib-11.1                          and        0 that requirest it.
        0 dependencies has postgresql11-docs-11.1_2                           and        0 that requirest it.
        2 dependencies has postgresql11-plpython-11.1_1                       and        0 that requirest it.
+       0 dependencies has pstree-2.39                                        and        0 that requirest it.
        1 dependencies has pt_BR-libreoffice-6.0.7                            and        0 that requirest it.
        0 dependencies has pth-2.0.7_1                                        and        0 that requirest it.
        3 dependencies has py27-dateutil-2.7.3                                and        0 that requirest it.
