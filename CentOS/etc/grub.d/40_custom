@@ -10,3 +10,6 @@ menuentry "FreeBSD" {
    #chainloader (hd0,gpt2)+1
    chainloader /efi/boot/BOOTx64.efi
 }
+
+# After add those lines above, you must run the command below (on CentOS):
+# grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
