@@ -107,7 +107,7 @@ docbook-xsl-1.79.1_1,1         XSL DocBook stylesheets
 dotconf-1.3_1                  Simple, powerful configuration-file parser
 doxygen-1.8.14_1,2             Documentation system for C, C++, and other languages
 dragon-player-18.12.0          KDE multimedia player with a focus on simplicity
-drm-next-kmod-4.11.g20181027_1 DRM modules for the linuxkpi-based KMS components
+drm-current-kmod-4.16.g20181210 DRM modules for the linuxkpi-based KMS components (development version)
 e2fsprogs-libuuid-1.44.5       UUID library from e2fsprogs package
 ebook-tools-0.2.2_4            Accesses and converts various ebook file formats
 eclipse-4.6_2                  Eclipse Neon
@@ -1116,6 +1116,7 @@ xf86-input-keyboard-1.9.0_3    X.Org keyboard input driver
 xf86-input-libinput-0.25.0_3   X.Org libinput input driver
 xf86-input-mouse-1.9.3_2       X.Org mouse input driver
 xf86-input-synaptics-1.9.1_4   X.Org synaptics input driver
+xf86-video-amdgpu-18.1.0       X.Org amdgpu display driver
 xf86-video-ati-18.1.0,1        X.Org ati display driver
 xf86dga-1.0.3_1                Test program for the XFree86-DGA extension
 xfsprogs-3.2.4_1               Utilities for managing XFS filesystems

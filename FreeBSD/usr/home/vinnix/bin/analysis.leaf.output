@@ -20,7 +20,7 @@ pkg leaf
        0 dependencies has cuse4bsd-kmod-0.1.36                               and        0 that requirest it.
        0 dependencies has dialog4ports-0.1.6                                 and        0 that requirest it.
        5 dependencies has doxygen-1.8.14_1,2                                 and        0 that requirest it.
-       1 dependencies has drm-next-kmod-4.11.g20181027_1                     and        0 that requirest it.
+       1 dependencies has drm-current-kmod-4.16.g20181210                    and        0 that requirest it.
        2 dependencies has eclipse-cdt-9.0.1                                  and        0 that requirest it.
        2 dependencies has efivar-0.15_6                                      and        0 that requirest it.
        0 dependencies has eigen-3.3.5                                        and        0 that requirest it.
@@ -186,6 +186,7 @@ pkg leaf
        2 dependencies has xev-1.2.2                                          and        0 that requirest it.
        2 dependencies has xf86-input-keyboard-1.9.0_3                        and        0 that requirest it.
        2 dependencies has xf86-input-mouse-1.9.3_2                           and        0 that requirest it.
+       4 dependencies has xf86-video-amdgpu-18.1.0                           and        0 that requirest it.
        5 dependencies has xf86-video-ati-18.1.0,1                            and        0 that requirest it.
        5 dependencies has xf86dga-1.0.3_1                                    and        0 that requirest it.
        2 dependencies has xfsprogs-3.2.4_1                                   and        0 that requirest it.
