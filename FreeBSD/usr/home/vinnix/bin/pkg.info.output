@@ -697,12 +697,16 @@ libzip-1.5.1                   C library for reading, creating, and modifying ZI
 libzmf-0.0.2_13                Library that parses the file format of Zoner Callisto/Draw documents
 linux-c6-atk-1.30.0_2          Accessibility Toolkit (Linux CentOS 6.10)
 linux-c6-cairo-1.8.8_8         Vector graphics library Cairo (Linux CentOS 6.10)
+linux-c6-dri-11.0.7_5          Mesa libGL runtime libraries (Linux CentOS 6.10)
+linux-c6-elfutils-libelf-0.164_2 ELF file handling library (CentOS 6.10)
 linux-c6-expat-2.0.1_5         XML 1.0 parser written in C (Linux CentOS 6.10)
 linux-c6-fontconfig-2.8.0_3    XML-based font configuration API for X Windows (Linux CentOS 6.10)
 linux-c6-gdk-pixbuf2-2.24.1_5  Graphic library for GTK+ (Linux CentOS 6.10)
+linux-c6-glx-utils-11.0.7_3    Mesa GLX utilities (Linux CentOS 6.10)
 linux-c6-gtk2-2.24.23_7        GTK+ library, version 2.X (Linux CentOS 6.10)
 linux-c6-jasper-libs-1.900.1_5 JPEG-2000 reference implementation (Linux CentOS 6.10)
 linux-c6-jpeg-1.2.1_3          SIMD-accelerated JPEG codec (Linux CentOS 6.10)
+linux-c6-libpciaccess-0.13.4_2 Generic PCI access library (CentOS 6.10)
 linux-c6-libpng-1.2.49_5       Library for manipulating PNG images (Linux CentOS 6.10)
 linux-c6-libthai-0.1.12_1      Thai language support library (Linux CentOS 6.10)
 linux-c6-libtiff-3.9.4_5       Tools and library routines for working with TIFF images (Linux CentOS 6.10)
@@ -980,6 +984,7 @@ qt5-xmlpatterns-5.12.0_1       Qt support for XPath, XQuery, XSLT and XML Schema
 qtchooser-66                   Qt tool wrapper
 quazip-qt5-0.7.3_3             Qt/C++ wrapper for ZIP/UNZIP package
 radeontool-1.5                 ATI Radeon video card controlling tool useful for laptops
+radeontop-1.1                  Program that shows AMD Radeon GPU resource utilization
 raptor2-2.0.15_10              RDF Parser Toolkit for Redland
 rarian-0.8.1_4                 OMF help system based on the Freedesktop specification
 rasqal-0.9.33_1                High-level interface for RDF

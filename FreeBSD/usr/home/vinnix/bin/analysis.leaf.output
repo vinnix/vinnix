@@ -89,6 +89,7 @@ pkg leaf
        2 dependencies has libtool-2.4.6_1                                    and        0 that requirest it.
       13 dependencies has libwraster-0.95.8_1                                and        0 that requirest it.
        0 dependencies has libyubikey-1.13                                    and        0 that requirest it.
+       2 dependencies has linux-c6-glx-utils-11.0.7_3                        and        0 that requirest it.
        0 dependencies has linuxfdisk-2.11z                                   and        0 that requirest it.
        1 dependencies has lua52-bitop-1.0.2_1                                and        0 that requirest it.
        2 dependencies has lua52-json-1.3.4                                   and        0 that requirest it.
@@ -137,6 +138,7 @@ pkg leaf
        2 dependencies has qt5-buildtools-5.12.0_1                            and        0 that requirest it.
        1 dependencies has qt5-qmake-5.12.0_1                                 and        0 that requirest it.
        0 dependencies has radeontool-1.5                                     and        0 that requirest it.
+       4 dependencies has radeontop-1.1                                      and        0 that requirest it.
        3 dependencies has rkhunter-1.4.4                                     and        0 that requirest it.
        1 dependencies has rsync-3.1.3                                        and        0 that requirest it.
        1 dependencies has schroedinger-1.0.11_4                              and        0 that requirest it.
