@@ -2,11 +2,9 @@ graphics/aalib
 ports-mgmt/bsdadminscripts
 math/cblas
 devel/cvsps
-graphics/djvulibre
 devel/dotconf
 devel/efivar
 x11-fonts/emojione-color-font-ttf
-sysutils/fusefs-libs
 devel/gamin
 sysutils/grub2
 comms/hcidump
