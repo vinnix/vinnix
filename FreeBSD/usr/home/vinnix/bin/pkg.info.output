@@ -7,6 +7,7 @@ aalib-1.4.r5_13                ASCII art library
 accountsservice-0.6.42         D-Bus interface for user account query and manipulation
 adobe-cmaps-20051217_3         Adobe CMap collection
 adwaita-icon-theme-3.28.0      GNOME Symbolic Icons
+aeskulap-0.2.2.20180219        Medical image viewer
 akonadi-18.12.1_1              Storage server for KDE-Pim
 akonadi-calendar-18.12.1_1     Akonadi Calendar Integration
 akonadi-contacts-18.12.1_1     Libraries and daemons to implement Contact Management in Akonadi
@@ -43,13 +44,13 @@ autoconf-wrapper-20131203      Wrapper script for GNU autoconf
 automake-1.16.1_1              GNU Standards-compliant Makefile generator
 avahi-app-0.7_2                Service discovery on a local network
 avahi-libdns-0.7               mDNSResponder compatibility from Avahi
-avr-binutils-2.30_7,1          GNU binutils for AVR cross-development
+avr-binutils-2.31.1_1,1        GNU binutils for AVR cross-development
 avr-gcc-5.4.0_4                FSF GCC for Atmel AVR 8-bit RISC cross-development
 avr-libc-2.0.0_2,1             C and math library for the Atmel AVR controller family
 baloo-widgets-18.12.1_1        BalooWidgets library
-bash-5.0_2                     GNU Project's Bourne Again SHell
+bash-5.0.2                     GNU Project's Bourne Again SHell
 bdftopcf-1.1_2                 Convert X font from BDF to PCF
-binutils-2.30_7,1              GNU binary tools
+binutils-2.31.1_1,1            GNU binary tools
 bison-3.2.2,1                  Parser generator from FSF, (mostly) compatible with Yacc
 bitmap-1.0.8_2                 Bitmap editor and converter utilities for X
 blas-3.5.0_5                   Basic Linear Algebra Subroutines
@@ -76,7 +77,7 @@ check-0.12.0_1                 Unit test framework for C
 chmlib-0.40_1                  Library for dealing with Microsoft ITSS/CHM format files
 cln-1.3.4_1                    Class Library for Numbers
 clucene-2.3.3.4_16             CLucene is a C++ port of Lucene
-cmake-3.13.2                   Cross-platform Makefile generator
+cmake-3.13.3                   Cross-platform Makefile generator
 cmocka-1.1.1_1                 Unit testing framework for C with support for mock objects
 colord-1.3.5                   Manage color profiles to accurately color input/output devices
 consolekit2-1.2.1              Framework for defining and tracking users
@@ -94,6 +95,7 @@ cyrus-sasl-2.1.27              RFC 2222 SASL (Simple Authentication and Security
 db5-5.3.28_7                   Oracle Berkeley DB, revision 5.3
 dbus-1.10.16_1                 Message bus system for inter-application communication
 dbus-glib-0.108                GLib bindings for the D-BUS messaging system
+dcmtk-3.6.4                    DICOM ToolKit, libraries and applications for DICOM/MEDICOM standard
 dconf-0.28.0                   Configuration database system for GNOME
 dejavu-2.37                    Bitstream Vera Fonts clone with a wider range of characters
 desktop-file-utils-0.23        Couple of command line utilities for working with desktop entries
@@ -117,8 +119,8 @@ efivar-0.15_6                  Tools and library to manipulate EFI variables
 eigen-3.3.7                    Lightweight library for vector and matrix math
 elasticsearch6-6.4.2_1         Full-text search engine for Java
 emojione-color-font-ttf-1.4_1  Color emoji font using EmojiOne Unicode 9.0
-enchant-1.6.0_8                Dictionary/spellchecking framework
-enchant2-2.2.3_2               Dictionary/spellchecking framework
+enchant-1.6.0_9                Dictionary/spellchecking framework
+enchant2-2.2.3_3               Dictionary/spellchecking framework
 encodings-1.0.4_4,1            X.Org Encoding fonts
 espeak-1.48.04_6               Software speech synthesizer
 eventviews-18.12.1_1           Event view libriares for KDEPim
@@ -131,7 +133,7 @@ ffms2-2.23_9                   FFmpeg-based source library and VapourSynth plugi
 fftw3-3.3.8_3                  Fast C routines to compute the Discrete Fourier Transform
 fftw3-float-3.3.8_3            Fast Discrete Fourier Transform (Single Precision C Routines)
 filelight-18.12.1_1            Map of concentric segmented-rings representing file system
-firefox-64.0.2,1               Web browser based on the browser portion of Mozilla
+firefox-65.0,1                 Web browser based on the browser portion of Mozilla
 flac-1.3.2                     Free lossless audio codec
 fltk-1.3.4                     Cross-platform C++ graphical user interface toolkit
 fluxbox-1.3.7_4                Small and fast window manager based on BlackBox
@@ -244,7 +246,7 @@ graphite2-1.3.13               Rendering capabilities for complex non-Roman writ
 graphviz-2.40.1_7              Graph Visualization Software from AT&T and Bell Labs
 groff-1.22.4                   Software typesetting package
 grub2-2.00_14                  Multiboot boot loader
-gsed-4.2.2_2                   The GNU stream editor
+gsed-4.7                       GNU stream editor
 gsettings-desktop-schemas-3.28.1 Collection of globally shared GSetting schemas
 gsfonts-8.11_8                 Standard Fonts for Ghostscript
 gsl-2.5_1                      The GNU Scientific Library - mathematical libs
@@ -285,7 +287,7 @@ hdf-szip-2.1_3                 Lossless compression library for scientific data
 hdf5-1.10.4                    Hierarchical Data Format library (from NCSA)
 help2man-1.47.8_1              Automatically generating simple manual pages from program output
 hicolor-icon-theme-0.15        High-color icon theme shell from the FreeDesktop project
-hunspell-1.6.2_2               Improved spell-checker for Hungarian and other languages
+hunspell-1.7.0                 Improved spell-checker for Hungarian and other languages
 hyphen-2.8.8                   Library for high quality hyphenation and justification
 i386-wine-devel-4.0.r1_1,1     32-bit Microsoft Windows compatibility environment for 64-bit FreeBSD
 iceauth-1.0.8_2                ICE authority file utility for X
@@ -356,7 +358,7 @@ kdepim-apps-libs-18.12.1_1     KDE PIM mail related libraries
 kdepim-runtime-18.12.1_1       KDE PIM tools and services
 kdeutils-18.12.1_1             Collection of utilities for KDE
 kdf-18.12.1_1                  Shows free space of devices for KDE
-kdiagram-2.6.0_2               Library to create business diagrams
+kdiagram-2.6.1                 Library to create business diagrams
 kdialog-18.12.1_1              Show nice dialog boxes from shell scripts
 kdiamond-18.12.1_1             Three-in-a-row game
 keditbookmarks-18.12.1_1       Bookmark Organizer and Editor
@@ -429,7 +431,7 @@ kf5-plasma-framework-5.54.0_1  KF5 plugin based UI runtime used to write user in
 kf5-prison-5.54.0_1            API to produce barcodes
 kf5-purpose-5.54.0_1           Offers available actions for a specific purpose
 kf5-solid-5.54.0_1             KF5 hardware integration and detection
-kf5-sonnet-5.54.0_1            KF5 plugin-based spell checking library
+kf5-sonnet-5.54.0_2            KF5 plugin-based spell checking library
 kf5-syndication-5.54.0_1,1     KDE RSS feed handling library
 kf5-syntax-highlighting-5.54.0_1 KF5 syntax highlighting engine for structured text and code
 kf5-threadweaver-5.54.0_1      KF5 addons to QtDBus
@@ -486,6 +488,7 @@ ksystemlog-18.12.1_1           KDE system log application
 kteatime-18.12.1_1             Handy timer for steeping tea
 ktimer-18.12.1_1               Countdown launcher for KDE
 ktnef-18.12.1_1                KDE API for the handling of TNEF data
+ktorrent-5.1.1_1               BitTorrent client for KDE
 ktuberling-18.12.1_1           Picture game for Children
 kturtle-18.12.1_1              Educational programming environment for KDE
 kwalletmanager-18.12.1_1       Password manager for KDE
@@ -563,7 +566,7 @@ libdvdnav-6.0.0                Videolan version of the libdvdnav project
 libdvdread-6.0.0_1             Videolan version of the libdvdread project
 libe-book-0.1.3_9              Library for import of reflowable e-book formats
 libebml-1.3.6_2                EBML (Extensible Binary Meta Language), sort of binary version of XML
-libedit-3.1.20170329_2,1       Command line editor library
+libedit-3.1.20181209_2,1       Command line editor library
 libepoll-shim-0.0.20181229     epoll shim implemented using kevent
 libepoxy-1.5.2                 Library to handle OpenGL function pointer management
 libepubgen-0.1.0_5             Library for generating documents in ePub format
@@ -590,7 +593,7 @@ libgnome-2.32.1                Libraries for GNOME, a GNU desktop environment
 libgnome-keyring-3.12.0_2      Program that keeps passwords and other secrets
 libgnomecanvas-2.30.3_4        Graphics library for GNOME
 libgnomeui-2.24.5              Libraries for the GNOME GUI, a GNU desktop environment
-libgpg-error-1.33              Common error values for all GnuPG components
+libgpg-error-1.34              Common error values for all GnuPG components
 libgphoto2-2.5.16              Universal digital camera control library
 libgravatar-18.12.1_1          Library for gravatar support
 libgsf-1.14.44                 Extensible I/O abstraction for dealing with structured file formats
@@ -618,6 +621,7 @@ libkolabxml-1.1.6_9            Kolab XML Format Schema Definitions Library
 libksane-18.12.1_1             SANE library interface for KDE
 libksba-1.3.5_1                KSBA is an X.509 Library
 libksieve-18.12.1_1            Sieve libriares for KDEPim
+libktorrent-2.1.0_6            Torrent library from KTorrent project
 liblangtag-0.6.2               Interface library to access tags for identifying languages
 liblqr-1-0.4.2                 Easy to use C/C++ seam carving library
 libltdl-2.4.6                  System independent dlopen wrapper
@@ -632,7 +636,7 @@ libmtdev-1.1.5_2               Multitouch Protocol Translation Library
 libmtp-1.1.16                  Media Transfer Protocol (MTP) library
 libmusicbrainz5-5.1.0_2        MusicBrainz client library for audio metadata lookup
 libmwaw03-0.3.14_3             Import library for some old mac text documents
-libnghttp2-1.35.1              HTTP/2.0 C Library
+libnghttp2-1.36.0              HTTP/2.0 C Library
 libnotify-0.7.7_1              Library for desktop notifications
 liboauth-1.0.3_4               C library implementing the OAuth Core standard
 libodfgen01-0.1.7_2            Library for generating documents in Open Document Format (ODF)
@@ -651,7 +655,7 @@ libqalculate-2.6.1_2           Multi-purpose desktop calculator (backend library
 libqrencode-4.0.0              C library for encoding data in a QR Code symbol
 libqxp-0.0.0_8                 Library for parsing QuarkXPress documents
 libraw-0.18.13_2               Library for manipulating raw images
-libreoffice-6.0.7_4            Full integrated office productivity suite
+libreoffice-6.0.7_5            Full integrated office productivity suite
 librevenge-0.0.4_10            Base library for writing document import filters
 librsvg2-2.40.20               Library for parsing and rendering SVG vector-graphic files
 libsamplerate-0.1.9            Secret Rabbit Code: a Sample Rate Converter for audio
@@ -679,10 +683,12 @@ libublio-20070103_2            User space caching library
 libudev-devd-0.4               libudev-compatible interface for devd
 libunistring-0.9.10_1          Unicode string library
 libunwind-20170615             Generic stack unwinding library
-libuv-1.24.1                   Multi-platform support library with a focus on asynchronous I/O
+libuv-1.25.0                   Multi-platform support library with a focus on asynchronous I/O
 libv4l-1.6.3_4                 Video4Linux library
-libva-2.3.0_3                  VAAPI wrapper and dummy driver
+libva-2.3.0_5                  VAAPI wrapper and dummy driver
+libva-vdpau-driver-0.7.4_9     VDPAU-based backend for VAAPI
 libvdpau-1.1.1_2               VDPAU wrapper and tracing library
+libvdpau-va-gl-0.4.2_3         VDPAU driver with OpenGL/VAAPI backend
 libvisio01-0.1.6_10            Library and tools for parsing the visio file format structure
 libvncserver-0.9.11_2          Provide an easy API to a custom vnc server
 libvolume_id-0.81.1            Library to provide file system type information
@@ -730,7 +736,7 @@ linuxfdisk-2.11z               Fdisk, a partition tables manipulator, from util-
 linuxlibertine-g-20120116_1    Linux Libertine G and Linux Biolinum G fonts
 listserialc-1.1.0              Simple multiplatform program to list serial ports with vid/pid/iserial
 liveMedia-2018.12.14,2         LIVE.COM Streaming Media
-llvm60-6.0.1_5                 LLVM and Clang
+llvm60-6.0.1_6                 LLVM and Clang
 lmdb-0.9.23,1                  OpenLDAP Lightning Memory-Mapped Database
 lp_solve-5.5.2.5               Linear Programming Solver
 lsof-4.92.b_1,8                Lists information about open files (similar to fstat(1))
@@ -748,8 +754,8 @@ mailcommon-18.12.1_1           Common libriares for KDEPim
 mailimporter-18.12.1_1         Import mbox files to KMail
 marble-18.12.1_1               Virtual globe and world atlas for KDE
 mbox-importer-18.12.1_1        Import mbox files to KMail
-mesa-dri-18.1.9_3              OpenGL hardware acceleration drivers for DRI2+
-mesa-libs-18.1.9_4             OpenGL libraries that support GLX and EGL clients
+mesa-dri-18.3.2                OpenGL hardware acceleration drivers for DRI2+
+mesa-libs-18.3.2               OpenGL libraries that support GLX and EGL clients
 messagelib-18.12.1_1           Library for handling messages
 metis-5.1.0_7                  Package for unstructured graph partitioning
 mime-support-3.61              MIME Media Types list
@@ -761,9 +767,9 @@ mpc-1.1.0_2                    Library of complex numbers with arbitrarily high 
 mpfr-4.0.1_2                   Library for multiple-precision floating-point computations
 mpg123-1.25.10                 Command-line player for MPEG Layer 1, 2, and 3 audio files
 mutt-1.11.2                    Small but powerful text based program for read/writing e-mail
-mysql56-client-5.6.42_1        Multithreaded SQL database (client)
-mysql56-server-5.6.42_2        Multithreaded SQL database (server)
-mythes-1.2.4_5                 Simple thesaurus library
+mysql56-client-5.6.43          Multithreaded SQL database (client)
+mysql56-server-5.6.43          Multithreaded SQL database (server)
+mythes-1.2.4_6                 Simple thesaurus library
 nasm-2.14.02,1                 General-purpose multi-platform x86 and amd64 assembler
 neon-0.30.2_4                  HTTP and WebDAV client library for Unix systems
 netpbm-10.85.01                Toolkit for conversion of images between different formats
@@ -775,7 +781,7 @@ npth-1.6                       New GNU Portable Threads
 nspluginwrapper-1.4.4_7        Compatibility plugin for Mozilla NPAPI plugins
 nspr-4.20                      Platform-neutral API for system level and libc like functions
 nss-3.41_1                     Libraries to support development of security-enabled applications
-okular-18.12.1_1               KDE universal document viewer
+okular-18.12.1_2               KDE universal document viewer
 open-motif-2.3.8               Motif X11 Toolkit (industry standard GUI (IEEE 1295))
 openal-soft-1.19.1_1           Software implementation of the OpenAL specification
 openblas-0.2.20_7,1            Optimized BLAS library based on GotoBLAS2
@@ -784,7 +790,7 @@ opencv-3.4.1_13                Open Source Computer Vision library
 opencv-core-3.4.1_13           Open Source Computer Vision library
 openexr-2.3.0_1                High dynamic-range (HDR) image file format
 opengl-man-657.2               Section 3 manpages for OpenGL: gl, glx, glu, gle, glut
-openjdk8-8.192.26_3            Java Development Kit 8
+openjdk8-8.192.26_4            Java Development Kit 8
 openjpeg-2.3.0_3               Open-source JPEG 2000 codec
 openjpeg15-1.5.2_1             Open-source JPEG 2000 codec
 openldap-client-2.4.47         Open source LDAP client implementation
@@ -847,7 +853,7 @@ plasma5-kactivitymanagerd-5.14.5_1 System service to manage user's activities, t
 plasma5-kde-cli-tools-5.14.5_1 Plasma5 non-interactive system tools
 plasma5-kde-gtk-config-5.14.5_1 Plasma5 GTK2 and GTK3 configurator
 plasma5-kdecoration-5.14.5_1   Plasma5 library to create window decorations
-plasma5-kdeplasma-addons-5.14.5_1 Plasma5 addons to improve the Plasma experience
+plasma5-kdeplasma-addons-5.14.5_2 Plasma5 addons to improve the Plasma experience
 plasma5-kgamma5-5.14.5_1       Plasma5 monitor's gamma settings
 plasma5-khotkeys-5.14.5_1      Plasma5 library for hotkeys
 plasma5-kinfocenter-5.14.5_1   Plasma5 utility providing system information
@@ -945,17 +951,35 @@ py27-sphinxcontrib-websupport-1.1.0 Sphinx API for Web Apps
 py27-typing-3.6.4              Type Hints for Python
 py27-urllib3-1.22,1            HTTP library with thread-safe connection pooling, file post, and more
 py27-webencodings-0.5.1        Character encoding aliases for legacy web content
+py36-Babel-2.6.0               Collection of tools for internationalizing Python applications
+py36-Jinja2-2.10               Fast and easy to use stand-alone template engine
+py36-MarkupSafe-1.0            Implements XML/HTML/XHTML Markup safe string for Python
+py36-ansible-2.7.5             Radically simple IT automation
+py36-asn1crypto-0.22.0         ASN.1 library with a focus on performance and a pythonic API
+py36-bcrypt-3.1.5              Modern password hashing for your software and your servers
 py36-cairo-1.14.1              Python 2 bindings for Cairo
+py36-cffi-1.11.5               Foreign Function Interface for Python calling C code
+py36-cryptography-2.3          Cryptographic recipes and primitives for Python developers
 py36-evdev-0.8.1               Bindings to the Linux input handling subsystem
 py36-gobject3-3.28.3           Common files for the Python bindings for GObject
+py36-idna-2.7                  Internationalized Domain Names in Applications (IDNA)
+py36-jmespath-0.9.3            JSON Matching Expressions
+py36-netaddr-0.7.19            Manipulation of IPv4, IPv6, CIDR, EUI and MAC network addresses
 py36-numpy-1.15.4_1,1          The New Numeric Extension to Python
+py36-paramiko-2.4.2            Python SSH2 protocol library
+py36-pyasn1-0.4.5              ASN.1 toolkit for Python
+py36-pycparser-2.18            C parser in Python
+py36-pycrypto-2.6.1_3          Python Cryptography Toolkit
+py36-pynacl-1.3.0              Python binding to the Networking and Cryptography library
 py36-pyqtgraph-0.10.0_1        Scientific graphics and GUI library for Python
 py36-pyqtree-0.24              Pure Python quad tree spatial index for GIS or rendering usage
+py36-pytz-2018.7,1             World Timezone Definitions for Python
 py36-pyudev-0.21.0             Pure Python libudev binding
 py36-random2-1.0.1             Python 3 compatible Python 2 random module
 py36-setuptools-40.6.2         Python packages installer
 py36-six-1.12.0                Python 2 and 3 compatibility utilities
 py36-virtualenv-16.0.0         Tool for creating isolated Python environments
+py36-yaml-3.13                 Python YAML parser
 pycharm-ce-2018.3.3            JetBrains PyCharm Community Edition IDE
 pydbus-common-1.2.8            Common files for the Python bindings for the D-BUS messaging system
 pygobject3-common-3.28.3       Common files for the Python bindings for GObject
@@ -997,7 +1021,7 @@ qt5-svg-5.12.0_2               Qt SVG support module
 qt5-testlib-5.12.0_2           Qt unit testing module
 qt5-uiplugin-5.12.0_1          Custom Qt widget plugin interface for Qt Designer
 qt5-uitools-5.12.0_2           Qt Designer UI forms support module
-qt5-virtualkeyboard-5.12.0_1   Qt 5 Virtual Keyboard Module
+qt5-virtualkeyboard-5.12.0_2   Qt 5 Virtual Keyboard Module
 qt5-webchannel-5.12.0_1        Qt 5 library for integration of C++/QML with HTML/js clients
 qt5-webengine-5.9.5_14         Qt 5 library to render web content
 qt5-webkit-5.212.0.a2_18       QtWebKit with a more modern WebKit code base
@@ -1107,6 +1131,7 @@ urlview-0.9.20131021_1         URL extractor/launcher
 utf8proc-2.1.0                 UTF-8 processing library
 v4l_compat-1.6.3_3             Video4Linux IOCTL header files
 vala-0.40.11,1                 Programming language and compiler that converts Vala code into C code
+vdpauinfo-1.0                  Tool to query VDPAU capabilities
 vim-8.1.0676                   Improved version of the vi editor
 virtual_oss-1.2.0              Virtual OSS multi device mixer application
 virtualbox-ose-5.2.24          General-purpose full virtualizer for x86 hardware
@@ -1120,7 +1145,7 @@ wayland-protocols-1.16         Wayland protocols
 webcamd-4.20.0.1_2             Port of Linux USB webcam and DVB drivers into userspace
 webkit-gtk2-2.4.11_19          Opensource browser engine using the GTK+ 2 toolkit
 webkit2-gtk3-2.22.5            Opensource browser engine using the GTK+ 3 toolkit
-webp-1.0.1_1                   Google WebP image format conversion tool
+webp-1.0.2                     Google WebP image format conversion tool
 wget-1.20_1                    Retrieve files from the Net via HTTP(S) and FTP
 wmicons-1.0_2                  Icons mainly for use in Window Maker
 woff2-1.0.2_3                  Library and converter tools for the WOFF 2.0 web font format
