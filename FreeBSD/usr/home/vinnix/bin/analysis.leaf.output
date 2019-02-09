@@ -17,7 +17,7 @@ pkg leaf
        4 dependencies has bullet-2.86.1_3                                    and        0 that requirest it.
        3 dependencies has cantarell-fonts-0.101                              and        0 that requirest it.
        1 dependencies has check-0.12.0_1                                     and        0 that requirest it.
-       6 dependencies has cmake-3.13.3                                       and        0 that requirest it.
+       6 dependencies has cmake-3.13.4                                       and        0 that requirest it.
        0 dependencies has cuse4bsd-kmod-0.1.36                               and        0 that requirest it.
        0 dependencies has dialog4ports-0.1.6                                 and        0 that requirest it.
        5 dependencies has doxygen-1.8.14_1,2                                 and        0 that requirest it.
@@ -29,7 +29,7 @@ pkg leaf
        3 dependencies has emojione-color-font-ttf-1.4_1                      and        0 that requirest it.
        1 dependencies has exempi-2.2.2_1                                     and        0 that requirest it.
        0 dependencies has fftw3-float-3.3.8_3                                and        0 that requirest it.
-      42 dependencies has firefox-65.0,1                                     and        0 that requirest it.
+      41 dependencies has firefox-65.0_2,1                                   and        0 that requirest it.
        9 dependencies has fltk-1.3.4                                         and        0 that requirest it.
       11 dependencies has fluxbox-1.3.7_4                                    and        0 that requirest it.
        1 dependencies has fpc-opengl-3.0.4                                   and        0 that requirest it.
@@ -44,7 +44,7 @@ pkg leaf
        2 dependencies has gettext-0.19.8.1                                   and        0 that requirest it.
       11 dependencies has git-2.20.1                                         and        0 that requirest it.
        1 dependencies has gnugo-3.8_1                                        and        0 that requirest it.
-       0 dependencies has go-1.11.4,1                                        and        0 that requirest it.
+       0 dependencies has go-1.11.5,1                                        and        0 that requirest it.
        2 dependencies has gpac-libgpac-0.5.0_2,1                             and        0 that requirest it.
        8 dependencies has groff-1.22.4                                       and        0 that requirest it.
        4 dependencies has grub2-2.00_14                                      and        0 that requirest it.
@@ -84,7 +84,7 @@ pkg leaf
        1 dependencies has libmtp-1.1.16                                      and        0 that requirest it.
        0 dependencies has libsoxr-0.1.2.20160529_9                           and        0 that requirest it.
        0 dependencies has libsrtp-1.6.0_2                                    and        0 that requirest it.
-       0 dependencies has libssh-0.8.4                                       and        0 that requirest it.
+       0 dependencies has libssh-0.8.6                                       and        0 that requirest it.
        5 dependencies has libstreamanalyzer-0.7.8_13                         and        0 that requirest it.
        1 dependencies has libsynaptics-0.14.6.c                              and        0 that requirest it.
        2 dependencies has libtool-2.4.6_1                                    and        0 that requirest it.
@@ -136,7 +136,7 @@ pkg leaf
        3 dependencies has py36-pyqtgraph-0.10.0_1                            and        0 that requirest it.
        2 dependencies has py36-pyqtree-0.24                                  and        0 that requirest it.
        2 dependencies has py36-virtualenv-16.0.0                             and        0 that requirest it.
-       4 dependencies has pycharm-ce-2018.3.3                                and        0 that requirest it.
+       4 dependencies has pycharm-ce-2018.3.4_1                              and        0 that requirest it.
        2 dependencies has python-2.7_3,2                                     and        0 that requirest it.
        1 dependencies has qjson-qt5-0.9.0_4                                  and        0 that requirest it.
        2 dependencies has qt5-buildtools-5.12.0_2                            and        0 that requirest it.
@@ -158,7 +158,7 @@ pkg leaf
        0 dependencies has soundtouch-1.9.2_6                                 and        0 that requirest it.
        1 dependencies has ssd_report-smartmontools-0.2                       and        0 that requirest it.
        7 dependencies has subversion-1.11.1_1                                and        0 that requirest it.
-       1 dependencies has sudo-1.8.27                                        and        0 that requirest it.
+       1 dependencies has sudo-1.8.27_1                                      and        0 that requirest it.
        0 dependencies has svgalib-1.4.3_7                                    and        0 that requirest it.
        8 dependencies has tex-aleph-1.15.2.1.r.4_4                           and        0 that requirest it.
        3 dependencies has tex-jadetex-3.13_3                                 and        0 that requirest it.
@@ -173,11 +173,11 @@ pkg leaf
        0 dependencies has v4l_compat-1.6.3_3                                 and        0 that requirest it.
        4 dependencies has vala-0.40.11,1                                     and        0 that requirest it.
        1 dependencies has vdpauinfo-1.0                                      and        0 that requirest it.
-      18 dependencies has vim-8.1.0676                                       and        0 that requirest it.
+      19 dependencies has vim-8.1.0865                                       and        0 that requirest it.
        1 dependencies has virtual_oss-1.2.0                                  and        0 that requirest it.
-      30 dependencies has virtualbox-ose-5.2.24                              and        0 that requirest it.
-       9 dependencies has virtualbox-ose-additions-5.2.24                    and        0 that requirest it.
-      50 dependencies has vlc-3.0.6_1,4                                      and        0 that requirest it.
+      31 dependencies has virtualbox-ose-5.2.26_1                            and        0 that requirest it.
+       9 dependencies has virtualbox-ose-additions-5.2.26                    and        0 that requirest it.
+      50 dependencies has vlc-3.0.6_2,4                                      and        0 that requirest it.
        0 dependencies has wallpapers-freebsd-kde4-1.0_1                      and        0 that requirest it.
        4 dependencies has wget-1.20_1                                        and        0 that requirest it.
        0 dependencies has wmicons-1.0_2                                      and        0 that requirest it.

@@ -37,7 +37,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        0 dependencies has 	cdparanoia-3.9.8_10                               and        1 that requirest it.
        0 dependencies has 	chmlib-0.40_1                                     and        1 that requirest it.
        2 dependencies has 	cln-1.3.4_1                                       and        3 that requirest it.
-       6 dependencies has 	cmake-3.13.3                                      and        0 that requirest it.
+       6 dependencies has 	cmake-3.13.4                                      and        0 that requirest it.
        2 dependencies has 	coreutils-8.30_1                                  and        1 that requirest it.
        1 dependencies has 	cracklib-2.9.6                                    and        1 that requirest it.
        0 dependencies has 	discount-2.2.2                                    and        2 that requirest it.
@@ -233,7 +233,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
       35 dependencies has 	kpat-18.12.1_1                                    and        1 that requirest it.
       31 dependencies has 	kpimtextedit-18.12.1_1                            and       26 that requirest it.
        7 dependencies has 	kpkpass-18.12.1_1                                 and        3 that requirest it.
-      28 dependencies has 	krdc-18.12.1_1                                    and        1 that requirest it.
+      28 dependencies has 	krdc-18.12.1_2                                    and        1 that requirest it.
       32 dependencies has 	krfb-18.12.1_1                                    and        1 that requirest it.
       21 dependencies has 	kruler-18.12.1_1                                  and        1 that requirest it.
       27 dependencies has 	kshisen-18.12.1_1                                 and        1 that requirest it.
@@ -261,12 +261,12 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        1 dependencies has 	libevdev-1.5.9                                    and        2 that requirest it.
        0 dependencies has 	libfpx-1.3.1.10                                   and        0 that requirest it.
        0 dependencies has 	libFS-1.0.7_2                                     and        1 that requirest it.
-       2 dependencies has 	libgit2-0.27.7                                    and        2 that requirest it.
+       2 dependencies has 	libgit2-0.27.8                                    and        2 that requirest it.
       20 dependencies has 	libgravatar-18.12.1_1                             and        4 that requirest it.
        3 dependencies has 	libgudev-230_1                                    and        1 that requirest it.
        4 dependencies has 	libical-3.0.3_2                                   and        5 that requirest it.
        0 dependencies has 	libijs-0.35_5                                     and        0 that requirest it.
-       8 dependencies has 	libinput-1.11.3_1                                 and        3 that requirest it.
+       8 dependencies has 	libinput-1.12.6                                   and        3 that requirest it.
        0 dependencies has 	libiodbc-3.52.12                                  and        0 that requirest it.
       19 dependencies has 	libkcddb-18.12.1_1                                and        1 that requirest it.
       12 dependencies has 	libkcompactdisc-18.12.1_1                         and        1 that requirest it.
@@ -298,8 +298,8 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        0 dependencies has 	libsoxr-0.1.2.20160529_9                          and        0 that requirest it.
        2 dependencies has 	libspectre-0.2.8                                  and        2 that requirest it.
        0 dependencies has 	libsrtp-1.6.0_2                                   and        0 that requirest it.
-       0 dependencies has 	libssh-0.8.4                                      and        0 that requirest it.
-       0 dependencies has 	libssh2-1.8.0,3                                   and        1 that requirest it.
+       0 dependencies has 	libssh-0.8.6                                      and        0 that requirest it.
+       0 dependencies has 	libssh2-1.8.0_1,3                                 and        1 that requirest it.
        5 dependencies has 	libstreamanalyzer-0.7.8_13                        and        0 that requirest it.
        0 dependencies has 	libstreams-0.7.8_2                                and        1 that requirest it.
        2 dependencies has 	libtool-2.4.6_1                                   and        0 that requirest it.
@@ -359,7 +359,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
       47 dependencies has 	pim-data-exporter-18.12.1_1                       and        1 that requirest it.
       26 dependencies has 	pim-sieve-editor-18.12.1_1                        and        1 that requirest it.
       47 dependencies has 	pimcommon-18.12.1_1                               and       21 that requirest it.
-       0 dependencies has 	pkgconf-1.5.4,1                                   and        1 that requirest it.
+       0 dependencies has 	pkgconf-1.6.0,1                                   and        1 that requirest it.
       28 dependencies has 	plasma5-breeze-5.14.5_1                           and        4 that requirest it.
        5 dependencies has 	plasma5-breeze-gtk-5.14.5_1                       and        1 that requirest it.
       41 dependencies has 	plasma5-discover-5.14.5_1                         and        1 that requirest it.
@@ -432,9 +432,9 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        2 dependencies has 	py27-pyparsing-2.3.1                              and        1 that requirest it.
        2 dependencies has 	py27-pysocks-1.6.8                                and        1 that requirest it.
        2 dependencies has 	py27-pystemmer-1.3.0_2                            and        1 that requirest it.
-       2 dependencies has 	py27-pytz-2018.7,1                                and        1 that requirest it.
+       2 dependencies has 	py27-pytz-2018.9,1                                and        1 that requirest it.
        6 dependencies has 	py27-rdflib-4.2.2                                 and        0 that requirest it.
-       6 dependencies has 	py27-requests-2.18.4_1                            and        1 that requirest it.
+       6 dependencies has 	py27-requests-2.21.0                              and        1 that requirest it.
        1 dependencies has 	py27-sip-4.19.13_1,1                              and        0 that requirest it.
        2 dependencies has 	py27-six-1.12.0                                   and        6 that requirest it.
        3 dependencies has 	py27-snowballstemmer-1.2.0_1                      and        1 that requirest it.
@@ -463,10 +463,10 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
       42 dependencies has 	qt5-webengine-5.9.5_14                            and       14 that requirest it.
        1 dependencies has 	quazip-qt5-0.7.6_1                                and        1 that requirest it.
        0 dependencies has 	rar-5.6.1,3                                       and        1 that requirest it.
-       0 dependencies has 	re2-20180901_1                                    and        1 that requirest it.
+       0 dependencies has 	re2-20190101                                      and        1 that requirest it.
        0 dependencies has 	rhash-1.3.5                                       and        1 that requirest it.
       38 dependencies has 	rocs-18.12.1_1                                    and        1 that requirest it.
-       4 dependencies has 	sane-backends-1.0.27_4                            and        1 that requirest it.
+       4 dependencies has 	sane-backends-1.0.27_5                            and        1 that requirest it.
        1 dependencies has 	schroedinger-1.0.11_4                             and        0 that requirest it.
        3 dependencies has 	scons-3.0.1                                       and        0 that requirest it.
        1 dependencies has 	sessreg-1.1.1                                     and        0 that requirest it.
@@ -520,7 +520,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        5 dependencies has 	upower-0.99.7_1                                   and        1 that requirest it.
        0 dependencies has 	v4l_compat-1.6.3_3                                and        0 that requirest it.
        4 dependencies has 	vala-0.40.11,1                                    and        0 that requirest it.
-      50 dependencies has 	vlc-3.0.6_1,4                                     and        0 that requirest it.
+      50 dependencies has 	vlc-3.0.6_2,4                                     and        0 that requirest it.
        3 dependencies has 	w3m-0.5.3.20180520_1                              and        1 that requirest it.
        0 dependencies has 	wallpapers-freebsd-kde4-1.0_1                     and        0 that requirest it.
        3 dependencies has 	webcamd-4.20.0.1_2                                and        1 that requirest it.
