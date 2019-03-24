@@ -5,7 +5,6 @@ math/cblas
 devel/cvsps
 devel/dotconf
 devel/efivar
-x11-fonts/emojione-color-font-ttf
 devel/gamin
 sysutils/grub2
 comms/hcidump
