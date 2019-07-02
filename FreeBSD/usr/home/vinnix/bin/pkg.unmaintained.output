@@ -28,6 +28,7 @@ graphics/opengl-man
 multimedia/recordmydesktop
 graphics/sane-backends
 multimedia/schroedinger
+textproc/source-highlight
 graphics/swfdec
 audio/swhplugins
 audio/timidity
