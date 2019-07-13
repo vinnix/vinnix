@@ -6,6 +6,7 @@ devel/cvsps
 devel/dotconf
 multimedia/dvdauthor
 devel/efivar
+graphics/freeimage
 devel/gamin
 multimedia/gavl
 sysutils/grub2
@@ -33,6 +34,7 @@ graphics/swfdec
 audio/swhplugins
 audio/timidity
 multimedia/vid.stab
+x11-toolkits/wxgtk30
 sysutils/xfsprogs
 multimedia/xine
 devel/zziplib

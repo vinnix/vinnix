@@ -20,6 +20,7 @@ pkg leaf
        1 dependencies has check-0.12.0_1                                     and        0 that requirest it.
        6 dependencies has cmake-3.14.5                                       and        0 that requirest it.
        0 dependencies has cuse4bsd-kmod-0.1.36                               and        0 that requirest it.
+       5 dependencies has devilutionX-0.4.0                                  and        0 that requirest it.
        0 dependencies has dialog4ports-0.1.6                                 and        0 that requirest it.
        5 dependencies has doxygen-1.8.15_1,2                                 and        0 that requirest it.
        1 dependencies has drm-current-kmod-4.16.g20190430                    and        0 that requirest it.
@@ -27,7 +28,7 @@ pkg leaf
        3 dependencies has elasticsearch6-6.5.4                               and        0 that requirest it.
        3 dependencies has enchant-1.6.0_9                                    and        0 that requirest it.
        1 dependencies has exempi-2.2.2_1                                     and        0 that requirest it.
-      43 dependencies has firefox-67.0.4,1                                   and        0 that requirest it.
+      44 dependencies has firefox-68.0_4,1                                   and        0 that requirest it.
       12 dependencies has fltk-1.3.5                                         and        0 that requirest it.
       11 dependencies has fluxbox-1.3.7_4                                    and        0 that requirest it.
        1 dependencies has fpc-opengl-3.0.4                                   and        0 that requirest it.
@@ -36,7 +37,7 @@ pkg leaf
        2 dependencies has fusefs-lkl-4.16.g20180628_2                        and        0 that requirest it.
        3 dependencies has fusefs-ntfs-2017.3.23                              and        0 that requirest it.
        1 dependencies has gcc-8_3                                            and        0 that requirest it.
-       7 dependencies has gdb-8.3_1                                          and        0 that requirest it.
+       7 dependencies has gdb-8.3_2                                          and        0 that requirest it.
        2 dependencies has gdisk-1.0.4_4                                      and        0 that requirest it.
        2 dependencies has gettext-0.20.1                                     and        0 that requirest it.
       11 dependencies has git-2.22.0                                         and        0 that requirest it.
@@ -66,11 +67,15 @@ pkg leaf
       37 dependencies has kdialog-19.04.2_1                                  and        0 that requirest it.
       40 dependencies has khelpcenter-19.04.2_1                              and        0 that requirest it.
        1 dependencies has kibana6-6.5.4_2                                    and        0 that requirest it.
+       1 dependencies has kicad-doc-5.1.2                                    and        0 that requirest it.
+       1 dependencies has kicad-library-footprints-5.1.2                     and        0 that requirest it.
+       1 dependencies has kicad-library-packages3d-5.1.2                     and        0 that requirest it.
+       1 dependencies has kicad-library-tmpl-5.1.2                           and        0 that requirest it.
       31 dependencies has kigo-19.04.2_1                                     and        0 that requirest it.
       56 dependencies has konqueror-19.04.2                                  and        0 that requirest it.
       45 dependencies has konsole-19.04.2_1                                  and        0 that requirest it.
       46 dependencies has ktorrent-5.1.1_3                                   and        0 that requirest it.
-       0 dependencies has libargon2-20171227_1                               and        0 that requirest it.
+       0 dependencies has libargon2-20190702                                 and        0 that requirest it.
        1 dependencies has libatomic_ops-7.6.10                               and        0 that requirest it.
        1 dependencies has libchk-1.10.3                                      and        0 that requirest it.
        0 dependencies has libfpx-1.3.1.10                                    and        0 that requirest it.
@@ -90,7 +95,7 @@ pkg leaf
        0 dependencies has libyubikey-1.13                                    and        0 that requirest it.
        2 dependencies has linux-c6-glx-utils-11.0.7_3                        and        0 that requirest it.
        0 dependencies has linuxfdisk-2.11z                                   and        0 that requirest it.
-       4 dependencies has llvm80-8.0.0_2                                     and        0 that requirest it.
+       4 dependencies has llvm60-6.0.1_6                                     and        0 that requirest it.
        1 dependencies has lua52-bitop-1.0.2_1                                and        0 that requirest it.
        2 dependencies has lua52-json-1.3.4                                   and        0 that requirest it.
        2 dependencies has lua52-luaexpat-1.3.0_4                             and        0 that requirest it.
@@ -99,11 +104,11 @@ pkg leaf
        2 dependencies has luit-1.1.1_1                                       and        0 that requirest it.
        0 dependencies has miniupnpc-2.1_1                                    and        0 that requirest it.
        0 dependencies has mixer-1.0                                          and        0 that requirest it.
-      12 dependencies has mutt-1.12.0                                        and        0 that requirest it.
+      12 dependencies has mutt-1.12.1                                        and        0 that requirest it.
        0 dependencies has nasm-2.14.02,1                                     and        0 that requirest it.
        1 dependencies has ninja-1.9.0,2                                      and        0 that requirest it.
       10 dependencies has nspluginwrapper-1.4.4_7                            and        0 that requirest it.
-      63 dependencies has okular-19.04.2_1                                   and        0 that requirest it.
+      63 dependencies has okular-19.04.2_2                                   and        0 that requirest it.
        0 dependencies has opengl-man-657.2                                   and        0 that requirest it.
        0 dependencies has openmp-8.0.0_1                                     and        0 that requirest it.
        0 dependencies has openslp-2.0.0_1                                    and        0 that requirest it.
@@ -117,25 +122,23 @@ pkg leaf
        0 dependencies has pftop-0.7_8                                        and        0 that requirest it.
        0 dependencies has pkg-1.11.1                                         and        0 that requirest it.
       36 dependencies has plasma5-plasma-5.16.2                              and        0 that requirest it.
-      15 dependencies has poppler-glib-0.77.0                                and        0 that requirest it.
-       3 dependencies has postgresql11-contrib-11.3                          and        0 that requirest it.
-       0 dependencies has postgresql11-docs-11.3_1                           and        0 that requirest it.
-       2 dependencies has postgresql11-plpython-11.3                         and        0 that requirest it.
+      15 dependencies has poppler-glib-0.78.0                                and        0 that requirest it.
+       3 dependencies has postgresql11-contrib-11.4                          and        0 that requirest it.
+       0 dependencies has postgresql11-docs-11.4                             and        0 that requirest it.
+       2 dependencies has postgresql11-plpython-11.4                         and        0 that requirest it.
        0 dependencies has pstree-2.39                                        and        0 that requirest it.
-       1 dependencies has pt_BR-libreoffice-6.2.4                            and        0 that requirest it.
+       1 dependencies has pt_BR-libreoffice-6.2.5                            and        0 that requirest it.
        0 dependencies has pth-2.0.7_1                                        and        0 that requirest it.
-       3 dependencies has py27-dateutil-2.8.0                                and        0 that requirest it.
        4 dependencies has py27-dbus-1.2.8                                    and        0 that requirest it.
-      10 dependencies has py27-gtk2-2.24.0_5                                 and        0 that requirest it.
        2 dependencies has py27-nose-1.3.7_1                                  and        0 that requirest it.
        6 dependencies has py27-rdflib-4.2.2_1                                and        0 that requirest it.
        1 dependencies has py27-sip-4.19.17,1                                 and        0 that requirest it.
       15 dependencies has py27-sphinx-1.6.5_2,1                              and        0 that requirest it.
-       8 dependencies has py36-ansible-2.7.10_1                              and        0 that requirest it.
+       8 dependencies has py36-ansible-2.8.2                                 and        0 that requirest it.
        3 dependencies has py36-pycrypto-2.6.1_3                              and        0 that requirest it.
        3 dependencies has py36-pyqtgraph-0.10.0_1                            and        0 that requirest it.
        2 dependencies has py36-pyqtree-0.24                                  and        0 that requirest it.
-       3 dependencies has py36-sqlite3-3.6.8_7                               and        0 that requirest it.
+       3 dependencies has py36-sqlite3-3.6.9_7                               and        0 that requirest it.
        2 dependencies has py36-virtualenv-16.0.0_1                           and        0 that requirest it.
        4 dependencies has pycharm-ce-2019.1.3                                and        0 that requirest it.
        2 dependencies has python-3.6_3,2                                     and        0 that requirest it.
@@ -176,10 +179,10 @@ pkg leaf
        4 dependencies has vala-0.40.15,1                                     and        0 that requirest it.
        1 dependencies has vdpauinfo-1.0                                      and        0 that requirest it.
       19 dependencies has vim-8.1.1439                                       and        0 that requirest it.
-       2 dependencies has virtual_oss-1.2.2                                  and        0 that requirest it.
+       2 dependencies has virtual_oss-1.2.4                                  and        0 that requirest it.
       31 dependencies has virtualbox-ose-5.2.30                              and        0 that requirest it.
        8 dependencies has virtualbox-ose-additions-5.2.30                    and        0 that requirest it.
-      55 dependencies has vlc-3.0.7.1,4                                      and        0 that requirest it.
+      55 dependencies has vlc-3.0.7.1_1,4                                    and        0 that requirest it.
        0 dependencies has wallpapers-freebsd-kde4-1.0_1                      and        0 that requirest it.
        4 dependencies has wget-1.20.3                                        and        0 that requirest it.
       19 dependencies has wireshark-qt5-2.6.6_2                              and        0 that requirest it.
@@ -223,7 +226,7 @@ pkg leaf
        2 dependencies has xrdb-1.2.0                                         and        0 that requirest it.
        1 dependencies has xrefresh-1.0.6                                     and        0 that requirest it.
        2 dependencies has xsetmode-1.0.0                                     and        0 that requirest it.
-       9 dependencies has xterm-346                                          and        0 that requirest it.
+       9 dependencies has xterm-347                                          and        0 that requirest it.
        2 dependencies has xvinfo-1.1.4                                       and        0 that requirest it.
        2 dependencies has xwd-1.0.7                                          and        0 that requirest it.
        2 dependencies has xwininfo-1.1.4_2                                   and        0 that requirest it.
