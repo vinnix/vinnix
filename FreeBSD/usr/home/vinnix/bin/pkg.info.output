@@ -20,6 +20,8 @@ akregator-19.04.2_1            A Feed Reader by KDE
 alsa-lib-1.1.2_2               ALSA compatibility library
 alsa-plugins-1.1.1_5           ALSA compatibility library plugins
 analitza-19.04.2               Library from KDE Education project
+android-file-transfer-3.9      Android MTP client with minimalistic UI
+android-file-transfer-qt5-3.9  Android MTP client with minimalistic UI
 aom-1.0.0.2036                 AV1 reference encoder/decoder
 appres-1.0.5                   Program to list application's resources
 apr-1.6.5.1.6.1_1              Apache Portability Library
@@ -39,6 +41,7 @@ at-spi2-atk-2.26.2             Assisted Technology Provider module for GTK+
 at-spi2-core-2.28.0            Assistive Technology Service Provider Interface
 atk-2.28.1                     GNOME accessibility toolkit (ATK)
 atkmm-2.24.2_3                 C++ wrapper for ATK API library
+atop-2.0.2.b3_2                ASCII Monitor for system resources and process activity
 audiocd-kio-19.04.2_1          KDE IOSlave for accessing audio CDs
 autoconf-2.69_2                Automatically configure source code on many Un*x platforms
 autoconf-wrapper-20131203      Wrapper script for GNU autoconf
@@ -70,6 +73,7 @@ ca_root_nss-3.45               Root certificate bundle from the Mozilla Project
 cairo-1.16.0,2                 Vector graphics library with cross-device output support
 cairomm-1.12.2_3               C++ interface to cairo
 calendarsupport-19.04.2_1      Calendar support libraries for KDEPim
+camerakit-0.0.1_13             Framework that allows to access digital cameras
 cantarell-fonts-0.101_1        Cantarell, a Humanist sans-serif font family
 cantor-19.04.2_1               Mathematical software frontend by KDE
 cblas-1.0_11                   Reference implementation of the C interface to the legacy Fortran BLAS
@@ -121,6 +125,9 @@ dvdauthor-0.7.2                Makes a DVD file structure from one or more MPEG2
 e2fsprogs-libuuid-1.45.2       UUID library from e2fsprogs package
 easy-rsa-3.0.6                 Small RSA key management package based on openssl
 ebook-tools-0.2.2_5            Accesses and converts various ebook file formats
+eclipse-4.11                   Eclipse IDE 2019-03
+eclipse-EPIC-0.6.35_3          EPIC adds Perl support to the Eclipse IDE Framework
+eclipse-cdt-9.0.1              C/C++ plugin for Eclipse IDE
 efivar-0.15_6                  Tools and library to manipulate EFI variables
 eigen-3.3.7                    Lightweight library for vector and matrix math
 elasticsearch6-6.5.4           Full-text search engine for Java
@@ -141,6 +148,7 @@ fftw3-float-3.3.8_3            Fast Discrete Fourier Transform (Single Precision
 filelight-19.04.2_1            Map of concentric segmented-rings representing file system
 firefox-68.0_4,1               Web browser based on the browser portion of Mozilla
 flac-1.3.2                     Free lossless audio codec
+flite-2.1                      Small run-time speech synthesis engine
 fltk-1.3.5                     Cross-platform C++ graphical user interface toolkit
 fluidsynth-2.0.5               Real-time software synthesizer based on the SoundFont 2 specifications
 fluxbox-1.3.7_4                Small and fast window manager based on BlackBox
@@ -203,7 +211,6 @@ gavl-1.4.0_4                   Library for handling uncompressed video and audio
 gcc-8_3                        Meta-port for the default version of the GNU Compiler Collection
 gcc-arm-embedded-8.2.20181220  Complete gcc-based toolcahin for embedded ARM development
 gcc-ecj-4.5                    Eclipse Java Compiler used to build GCC Java
-gcc6-6.5.0_3                   GNU Compiler Collection 6
 gcc7-7.4.0_1                   GNU Compiler Collection 7
 gcc8-8.3.0_2                   GNU Compiler Collection 8
 gconf2-3.2.6_5                 Configuration database system for GNOME
@@ -237,11 +244,15 @@ gnome-icon-theme-symbolic-3.12.0 GNOME Symbolic Icons
 gnome-mime-data-2.18.0_5       MIME and Application database for GNOME
 gnome-mount-0.8_13             Front-end to mount, umount, and eject using HAL
 gnome-online-accounts-3.28.0_1 Interface provider to access the user's online accounts
-gnome-vfs-2.24.4_10            GNOME Virtual File System
+gnome-vfs-2.24.4_11            GNOME Virtual File System
 gnome_subr-1.0                 Common startup and shutdown subroutines used by GNOME scripts
 gnuchess-6.2.5_1               "Classic" Gnu Chess
 gnugo-3.8_1                    The game of Go
 gnupg-2.2.16                   Complete and free PGP implementation
+gnustep-back-0.27.0            GNUstep GUI backend
+gnustep-base-1.26.0_2          GNUstep Foundation library
+gnustep-gui-0.27.0_1           GNUstep GUI library
+gnustep-make-2.7.0_3           GNUstep makefile package
 gnutls-3.6.8                   GNU Transport Layer Security library
 go-1.12.6,1                    Go programming language
 gobject-introspection-1.56.1,1 Generate interface introspection data for GObject libraries
@@ -259,7 +270,6 @@ graphene-1.8.2_1               Optimizations for speeding up vector operations
 graphite2-1.3.13               Rendering capabilities for complex non-Roman writing systems
 graphviz-2.40.1_11             Graph Visualization Software from AT&T and Bell Labs
 groff-1.22.4_2                 Software typesetting package
-grub2-2.00_14                  Multiboot boot loader
 gsed-4.7                       GNU stream editor
 gsettings-desktop-schemas-3.28.1 Collection of globally shared GSetting schemas
 gsfonts-8.11_8                 Standard Fonts for Ghostscript
@@ -307,7 +317,7 @@ gtk-update-icon-cache-2.24.32  Gtk-update-icon-cache utility from the Gtk+ toolk
 gtk2-2.24.32                   Gimp Toolkit for X11 GUI (previous stable version)
 gtk3-3.24.9                    Gimp Toolkit for X11 GUI (current stable version)
 gtkmm24-2.24.5_1               C++ wrapper for Gtk+
-gvfs-1.30.4                    GNOME virtual file system
+gvfs-1.30.4_2                  GNOME virtual file system
 gwenview-19.04.2_1             Image viewer and browser for KDE
 hack-font-3.003_1              Typeface designed for source code
 hal-0.5.14_34                  Hardware Abstraction Layer for simplifying device access
@@ -318,6 +328,7 @@ hdf-szip-2.1.1                 Lossless compression library for scientific data
 hdf5-1.10.5_1                  Hierarchical Data Format library (from NCSA)
 help2man-1.47.10               Automatically generating simple manual pages from program output
 hicolor-icon-theme-0.17        High-color icon theme shell from the FreeDesktop project
+htop-2.2.0_1                   Better top(1) - interactive process viewer
 hunspell-1.7.0_1               Improved spell-checker for Hungarian and other languages
 hyphen-2.8.8                   Library for high quality hyphenation and justification
 i386-wine-devel-4.0.r1_1,1     32-bit Microsoft Windows compatibility environment for 64-bit FreeBSD
@@ -347,7 +358,6 @@ jna-4.5.1                      Java access to native shared libraries
 jpeg-turbo-2.0.2               SIMD-accelerated JPEG codec which replaces libjpeg
 json-glib-1.4.2                JSON (RFC 4627) interface for Glib
 jsoncpp-1.8.1_6                JSON reader and writer library for C++
-kBuild-0.1.9998_12             Makefile framework
 kaccounts-integration-19.04.2  System to administer web accounts for the KDE desktop
 kaddressbook-19.04.2_1         KDE contact manager
 kalarm-19.04.2_2               Personal alarm scheduler
@@ -685,6 +695,7 @@ libnghttp2-1.39.1              HTTP/2.0 C Library
 libnotify-0.7.7_1              Library for desktop notifications
 libnumbertext-1.0.5            Number to number name and money text conversion libraries
 liboauth-1.0.3_4               C library implementing the OAuth Core standard
+libobjc2-2.0_1                 Replacement Objective-C runtime supporting modern Objective-C features
 libodfgen01-0.1.7_2            Library for generating documents in Open Document Format (ODF)
 libogg-1.3.3,4                 Ogg bitstream library
 liboil-0.3.17_3                Library of optimized inner loops
@@ -717,7 +728,7 @@ libsoup-2.62.3                 SOAP (Simple Object Access Protocol) implementati
 libsoup-gnome-2.62.3           SOAP (Simple Object Access Protocol) implementation in C
 libsoxr-0.1.3                  High quality, one-dimensional sample-rate conversion library
 libspectre-0.2.8               Small library for rendering Postscript documents
-libsrtp-1.6.0_2                Secure RTP (SRTP) Reference Implementation
+libsrtp2-2.2.0                 Secure RTP (SRTP) Reference Implementation
 libssh-0.8.6                   Library implementing the SSH2 protocol
 libssh2-1.8.2,3                Library implementing the SSH2 protocol
 libstaroffice-0.0.6_5          Library to build a filter for old StarOffice's documents
@@ -1121,7 +1132,7 @@ rkhunter-1.4.4                 Rootkit detection tool
 rocs-19.04.2_1                 KDE Graph theory IDE
 rsync-3.1.3                    Network file distribution/synchronization utility
 ruby-2.5.5_2,1                 Object-oriented interpreted scripting language
-samba47-4.7.12_2               Free SMB/CIFS and AD/DC server and client for Unix
+samba48-4.8.12_3               Free SMB/CIFS and AD/DC server and client for Unix
 sane-backends-1.0.27_5         API for access to scanners, digitals camera, frame grabbers etc
 schroedinger-1.0.11_4          High-speed Dirac codec
 scons-3.0.1                    Build tool alternative to make
@@ -1168,14 +1179,11 @@ swfdec-0.8.4_6                 Flash Rendering Library
 swhplugins-0.4.15_6            Steve Harris' huge Collection of LADSPA Plugins
 t1lib-5.1.2_5,1                Type 1 font rasterization library for Unix/X11
 taglib-1.11.1_2                Library for manipulating ID3 tags and Ogg comments
-talloc1-2.1.14                 Hierarchical pool based memory allocator
 tbb-2019.5                     Library that provides thread building blocks
 tcl86-8.6.9_1                  Tool Command Language
-tdb1-1.3.16,1                  Trivial Database
 teckit-2.5.7                   Toolkit for converting data between 8-bit legacy encodings and Unicode
 tesseract-4.0.0_3              Commercial quality open source OCR engine
 tesseract-data-4.0.0           Trained language data for the Tesseract OCR engine
-tevent1-0.9.37                 Talloc based event loop library
 tex-aleph-1.15.2.1.r.4_4       TeX Engine including Omega and e-TeX features
 tex-basic-engines-20150521     Basic TeX Engines
 tex-dvipdfmx-20150315_1        DVI Previewer(kpathsearch) for X
@@ -1208,6 +1216,7 @@ trousers-0.3.14_2              Open-source TCG Software Stack
 twemoji-color-font-ttf-12.0.1  Color emoji font using Twitter Unicode 10
 twm-1.0.10                     Tab Window Manager for the X Window System
 twolame-0.3.13_4               MPEG Audio Layer 2 encoder
+uk-postcodes-2.2               United Kingdom post codes
 unique-1.1.6_7                 Library for single instance applications
 unrar-5.71,6                   Extract, view & test RAR archives
 upower-0.99.7_1                D-Bus daemon for simplifying power management tasks

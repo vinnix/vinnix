@@ -1,15 +1,16 @@
 graphics/aalib
 graphics/aeskulap
 ports-mgmt/bsdadminscripts
+graphics/camerakit
 math/cblas
 devel/cvsps
 devel/dotconf
 multimedia/dvdauthor
+java/eclipse-EPIC
 devel/efivar
 graphics/freeimage
 devel/gamin
 multimedia/gavl
-sysutils/grub2
 comms/hcidump
 java/intellij-fsnotifier
 java/intellij-pty4j
@@ -33,6 +34,7 @@ textproc/source-highlight
 graphics/swfdec
 audio/swhplugins
 audio/timidity
+misc/uk-postcodes
 multimedia/vid.stab
 x11-toolkits/wxgtk30
 sysutils/xfsprogs

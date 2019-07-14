@@ -4,9 +4,12 @@
 pkg leaf
       24 dependencies has R-3.6.0_1                                          and        0 that requirest it.
       29 dependencies has aeskulap-0.2.2.20181229                            and        0 that requirest it.
+       2 dependencies has android-file-transfer-3.9                          and        0 that requirest it.
+       3 dependencies has android-file-transfer-qt5-3.9                      and        0 that requirest it.
        2 dependencies has appres-1.0.5                                       and        0 that requirest it.
        8 dependencies has arduino18-1.8.5_1                                  and        0 that requirest it.
        0 dependencies has arpdig-0.5.6                                       and        0 that requirest it.
+       0 dependencies has atop-2.0.2.b3_2                                    and        0 that requirest it.
        3 dependencies has automake-1.16.1_1                                  and        0 that requirest it.
       24 dependencies has baloo-widgets-19.04.2_1                            and        0 that requirest it.
        0 dependencies has bdftopcf-1.1_2                                     and        0 that requirest it.
@@ -15,6 +18,7 @@ pkg leaf
        0 dependencies has boost-jam-1.70.0                                   and        0 that requirest it.
        0 dependencies has bsdadminscripts-6.1.1_8                            and        0 that requirest it.
        4 dependencies has bullet-2.86.1_3                                    and        0 that requirest it.
+       3 dependencies has camerakit-0.0.1_13                                 and        0 that requirest it.
        2 dependencies has cantarell-fonts-0.101_1                            and        0 that requirest it.
        0 dependencies has ccache-3.7.1                                       and        0 that requirest it.
        1 dependencies has check-0.12.0_1                                     and        0 that requirest it.
@@ -24,6 +28,8 @@ pkg leaf
        0 dependencies has dialog4ports-0.1.6                                 and        0 that requirest it.
        5 dependencies has doxygen-1.8.15_1,2                                 and        0 that requirest it.
        1 dependencies has drm-current-kmod-4.16.g20190430                    and        0 that requirest it.
+       1 dependencies has eclipse-EPIC-0.6.35_3                              and        0 that requirest it.
+       2 dependencies has eclipse-cdt-9.0.1                                  and        0 that requirest it.
        2 dependencies has efivar-0.15_6                                      and        0 that requirest it.
        3 dependencies has elasticsearch6-6.5.4                               and        0 that requirest it.
        3 dependencies has enchant-1.6.0_9                                    and        0 that requirest it.
@@ -37,6 +43,8 @@ pkg leaf
        2 dependencies has fusefs-lkl-4.16.g20180628_2                        and        0 that requirest it.
        3 dependencies has fusefs-ntfs-2017.3.23                              and        0 that requirest it.
        1 dependencies has gcc-8_3                                            and        0 that requirest it.
+       0 dependencies has gcc-ecj-4.5                                        and        0 that requirest it.
+       5 dependencies has gcc7-7.4.0_1                                       and        0 that requirest it.
        7 dependencies has gdb-8.3_2                                          and        0 that requirest it.
        2 dependencies has gdisk-1.0.4_4                                      and        0 that requirest it.
        2 dependencies has gettext-0.20.1                                     and        0 that requirest it.
@@ -45,16 +53,16 @@ pkg leaf
        0 dependencies has go-1.12.6,1                                        and        0 that requirest it.
        2 dependencies has gpac-libgpac-0.5.0_2,1                             and        0 that requirest it.
        7 dependencies has groff-1.22.4_2                                     and        0 that requirest it.
-       4 dependencies has grub2-2.00_14                                      and        0 that requirest it.
+       2 dependencies has gsed-4.7                                           and        0 that requirest it.
       13 dependencies has gstreamer1-qt5-1.2.0_20                            and        0 that requirest it.
        5 dependencies has gtk-engines2-2.20.2_3                              and        0 that requirest it.
        0 dependencies has hcidump-1.5.1                                      and        0 that requirest it.
        4 dependencies has help2man-1.47.10                                   and        0 that requirest it.
+       1 dependencies has htop-2.2.0_1                                       and        0 that requirest it.
        1 dependencies has i386-wine-devel-4.0.r1_1,1                         and        0 that requirest it.
        2 dependencies has intltool-0.51.0_1                                  and        0 that requirest it.
        1 dependencies has ipmitool-1.8.18_2                                  and        0 that requirest it.
        5 dependencies has ja-tex-ptex-3.6_1                                  and        0 that requirest it.
-       1 dependencies has kBuild-0.1.9998_12                                 and        0 that requirest it.
       47 dependencies has kate-19.04.2_1                                     and        0 that requirest it.
        2 dependencies has kdeadmin-19.04.2                                   and        0 that requirest it.
       18 dependencies has kdeedu-19.04.2                                     and        0 that requirest it.
@@ -84,7 +92,7 @@ pkg leaf
        0 dependencies has libiodbc-3.52.12                                   and        0 that requirest it.
        1 dependencies has libmtp-1.1.16                                      and        0 that requirest it.
        0 dependencies has libsoxr-0.1.3                                      and        0 that requirest it.
-       0 dependencies has libsrtp-1.6.0_2                                    and        0 that requirest it.
+       0 dependencies has libsrtp2-2.2.0                                     and        0 that requirest it.
        0 dependencies has libssh-0.8.6                                       and        0 that requirest it.
        0 dependencies has libstreams-0.7.8_2                                 and        0 that requirest it.
        1 dependencies has libsynaptics-0.14.6.c                              and        0 that requirest it.
@@ -174,6 +182,7 @@ pkg leaf
        1 dependencies has tmake-2.12                                         and        0 that requirest it.
        2 dependencies has tmux-2.9a                                          and        0 that requirest it.
        6 dependencies has twm-1.0.10                                         and        0 that requirest it.
+       0 dependencies has uk-postcodes-2.2                                   and        0 that requirest it.
        6 dependencies has unique-1.1.6_7                                     and        0 that requirest it.
        0 dependencies has v4l_compat-1.6.3_3                                 and        0 that requirest it.
        4 dependencies has vala-0.40.15,1                                     and        0 that requirest it.

@@ -97,6 +97,8 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        2 dependencies has 	frei0r-plugins-opencv-1.6.1_1                     and        1 that requirest it.
        2 dependencies has 	gamin-0.1.10_10                                   and        2 that requirest it.
        1 dependencies has 	gavl-1.4.0_4                                      and        1 that requirest it.
+       0 dependencies has 	gcc-ecj-4.5                                       and        0 that requirest it.
+       5 dependencies has 	gcc7-7.4.0_1                                      and        0 that requirest it.
       14 dependencies has 	gcr-3.28.0                                        and        3 that requirest it.
        1 dependencies has 	getopt-1.1.6                                      and        2 that requirest it.
        2 dependencies has 	gettext-0.20.1                                    and        0 that requirest it.
@@ -108,7 +110,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        1 dependencies has 	gnome-mime-data-2.18.0_5                          and        4 that requirest it.
       13 dependencies has 	gnome-mount-0.8_13                                and        1 that requirest it.
       16 dependencies has 	gnome-online-accounts-3.28.0_1                    and        2 that requirest it.
-      17 dependencies has 	gnome-vfs-2.24.4_10                               and        3 that requirest it.
+      17 dependencies has 	gnome-vfs-2.24.4_11                               and        3 that requirest it.
        2 dependencies has 	gnuchess-6.2.5_1                                  and        1 that requirest it.
        2 dependencies has 	gpac-libgpac-0.5.0_2,1                            and        0 that requirest it.
        8 dependencies has 	gpsd-3.17_1                                       and        1 that requirest it.
@@ -117,6 +119,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        3 dependencies has 	grantlee5-5.1.0_6                                 and       13 that requirest it.
       22 dependencies has 	grantleetheme-19.04.2                             and        8 that requirest it.
       23 dependencies has 	graphviz-2.40.1_11                                and        2 that requirest it.
+       2 dependencies has 	gsed-4.7                                          and        0 that requirest it.
        1 dependencies has 	gsl-2.5_1                                         and        1 that requirest it.
        0 dependencies has 	gsm-1.0.13_2                                      and        1 that requirest it.
        4 dependencies has 	gstreamer-0.10.36_6                               and       18 that requirest it.
@@ -139,7 +142,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        7 dependencies has 	gstreamer-plugins-xvid-0.10.23_2,3                and        1 that requirest it.
       13 dependencies has 	gstreamer1-qt5-1.2.0_20                           and        0 that requirest it.
        5 dependencies has 	gtk-engines2-2.20.2_3                             and        0 that requirest it.
-      23 dependencies has 	gvfs-1.30.4                                       and        1 that requirest it.
+      23 dependencies has 	gvfs-1.30.4_2                                     and        1 that requirest it.
       51 dependencies has 	gwenview-19.04.2_1                                and        1 that requirest it.
        8 dependencies has 	hal-0.5.14_34                                     and        4 that requirest it.
        0 dependencies has 	hdf-szip-2.1.1                                    and        1 that requirest it.
@@ -262,7 +265,6 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        5 dependencies has 	leptonica-1.76.0_1                                and        1 that requirest it.
        8 dependencies has 	libaccounts-glib-1.21_3                           and        2 that requirest it.
        5 dependencies has 	libaccounts-qt5-1.13_9                            and        3 that requirest it.
-       0 dependencies has 	libao-1.2.0_4                                     and        1 that requirest it.
        3 dependencies has 	libarchive-3.3.3,1                                and        4 that requirest it.
        0 dependencies has 	libart_lgpl-2.3.21_3,1                            and        3 that requirest it.
        1 dependencies has 	libatomic_ops-7.6.10                              and        0 that requirest it.
@@ -274,17 +276,14 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        2 dependencies has 	libdmx-1.1.4_2                                    and        2 that requirest it.
        0 dependencies has 	libdvbpsi-1.3.2                                   and        1 that requirest it.
        0 dependencies has 	libebml-1.3.9                                     and        1 that requirest it.
-       1 dependencies has 	libexif-0.6.21_4                                  and        3 that requirest it.
        0 dependencies has 	libfame-0.9.1_6                                   and        1 that requirest it.
        0 dependencies has 	libfpx-1.3.1.10                                   and        0 that requirest it.
        0 dependencies has 	libFS-1.0.8                                       and        1 that requirest it.
-       6 dependencies has 	libgd-2.2.5_1,1                                   and        3 that requirest it.
        9 dependencies has 	libgdata-0.17.9                                   and        1 that requirest it.
       16 dependencies has 	libgnome-2.32.1                                   and        2 that requirest it.
        4 dependencies has 	libgnome-keyring-3.12.0_2                         and        2 that requirest it.
        8 dependencies has 	libgnomecanvas-2.30.3_4                           and        2 that requirest it.
       22 dependencies has 	libgnomeui-2.24.5                                 and        0 that requirest it.
-       6 dependencies has 	libgphoto2-2.5.22                                 and        2 that requirest it.
       22 dependencies has 	libgravatar-19.04.2_1                             and        4 that requirest it.
        4 dependencies has 	libical-3.0.4_1                                   and        5 that requirest it.
        0 dependencies has 	libid3tag-0.15.1b_1                               and        2 that requirest it.
@@ -317,7 +316,6 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        7 dependencies has 	libsoup-gnome-2.62.3                              and        2 that requirest it.
        0 dependencies has 	libsoxr-0.1.3                                     and        0 that requirest it.
        2 dependencies has 	libspectre-0.2.8                                  and        2 that requirest it.
-       0 dependencies has 	libsrtp-1.6.0_2                                   and        0 that requirest it.
        0 dependencies has 	libssh-0.8.6                                      and        0 that requirest it.
        0 dependencies has 	libstreams-0.7.8_2                                and        0 that requirest it.
        0 dependencies has 	libsunacl-1.0.1                                   and        1 that requirest it.
@@ -466,7 +464,7 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        5 dependencies has 	rest-0.7.93                                       and        1 that requirest it.
        0 dependencies has 	rhash-1.3.5                                       and        1 that requirest it.
       40 dependencies has 	rocs-19.04.2_1                                    and        1 that requirest it.
-      16 dependencies has 	samba47-4.7.12_2                                  and        2 that requirest it.
+      14 dependencies has 	samba48-4.8.12_3                                  and        2 that requirest it.
        4 dependencies has 	sane-backends-1.0.27_5                            and        1 that requirest it.
        1 dependencies has 	schroedinger-1.0.11_4                             and        0 that requirest it.
        3 dependencies has 	scons-3.0.1                                       and        0 that requirest it.
@@ -491,12 +489,9 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
       13 dependencies has 	swfdec-0.8.4_6                                    and        1 that requirest it.
        2 dependencies has 	swhplugins-0.4.15_6                               and        1 that requirest it.
        8 dependencies has 	t1lib-5.1.2_5,1                                   and        1 that requirest it.
-       1 dependencies has 	talloc1-2.1.14                                    and        2 that requirest it.
-       1 dependencies has 	tdb1-1.3.16,1                                     and        1 that requirest it.
        1 dependencies has 	teckit-2.5.7                                      and        2 that requirest it.
        8 dependencies has 	tesseract-4.0.0_3                                 and        1 that requirest it.
        0 dependencies has 	tesseract-data-4.0.0                              and        1 that requirest it.
-       2 dependencies has 	tevent1-0.9.37                                    and        1 that requirest it.
        8 dependencies has 	tex-aleph-1.15.2.1.r.4_4                          and        0 that requirest it.
        3 dependencies has 	tex-basic-engines-20150521                        and        1 that requirest it.
        8 dependencies has 	tex-dvipdfmx-20150315_1                           and        1 that requirest it.
@@ -589,4 +584,3 @@ pkg autoremove -n | sort | uniq | egrep -v "(Checking int|Deinstallation has|Ins
        1 dependencies has 	yasm-1.3.0                                        and        0 that requirest it.
        2 dependencies has 	zxing-cpp-0.20190320_2                            and        1 that requirest it.
        0 dependencies has 	zziplib-0.13.69_1                                 and        3 that requirest it.
-       0 dependencies has kBuild-0.1.9998_12 is locked and may not be modified and        0 that requirest it.
