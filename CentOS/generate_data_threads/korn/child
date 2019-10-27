@@ -1,0 +1,37 @@
+#!/usr/bin/ksh
+
+THREAD_NUM=$1
+
+echo CHILD_${THREAD_NUM}_PID=$$ >> ${LOG_DIR}/allPids.txt
+# actual work
+
+echo Starting doing actual work
+
+cycles=10
+sleep_interval=5
+
+i=0
+while [[ $i -lt $cycles ]]
+do
+  #
+  # checkng if Parent is alive
+  #
+  . ${LOG_DIR}/allPids.txt
+  PARENTINSTANCES=`ps auxwww | grep ${PARENTPID} | grep -v grep | wc -l`
+  if [[ ${PARENTINSTANCES} -lt 1 ]]
+  then
+    echo "PARENT IS NOT RUNNING, Exiting"
+    exit 1
+  fi
+  #
+  # Doing work
+  #
+  rm ${LOG_DIR}/CHILD_${THREAD_NUM}_STATE
+  echo "Working $(date): $i"
+  echo "CHILDSTATE=SUCCESS" > ${LOG_DIR}/CHILD_${THREAD_NUM}_STATE
+  sleep ${sleep_interval}
+  i=$((i+1))
+done
+
+echo "CHILDSTATE=DONE" > ${LOG_DIR}/CHILD_${THREAD_NUM}_STATE
+echo Thread $1 is DONE

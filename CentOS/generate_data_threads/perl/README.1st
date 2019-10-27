@@ -1,0 +1,18 @@
+
+https://perldoc.perl.org/perlthrtut.html
+https://www.perlmonks.org/index.pl?node_id=288022
+https://www.perlmonks.org/?node_id=216906
+https://rt.cpan.org/Public/Bug/Display.html?id=8098
+https://docstore.mik.ua/orelly/perl2/advprog/ch07_02.htm
+
+https://rt.cpan.org/Public/Bug/Display.html?id=8098 ## Old but show it's fixed
+
+
+https://vischmidt.wordpress.com/
+$ cpan
+
+o conf build_requires_install_policy yes
+o conf prerequisites_policy follow
+o conf commit
+
+$ cpan install DBD::Pg

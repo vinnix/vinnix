@@ -1,0 +1,43 @@
+http://alexhanin.blogspot.com/2010/07/multithreading-with-nothing-but-korn.html
+
+Here is how it all works
+
+1. Parent thread starts children in the background in a loop (the number of children is controlled by total_children=3) by executing command as follows:
+
+
+child $i >> ${LOG_DIR}/child_log_$i.txt 2>&1 &
+
+each instance of a child is aware of its id (it accepts one parameter $i supplied by parent).
+
+
+2. Children communicate with the parent by means of files. At the start, the parent writes its PPID into a file (allPids.txt), with every child adding its PPID to the same file. Once all children start, the file is sourced by the parent, as well as by all the children. The line of code in the parent where PPID is written is
+
+
+echo PARENTPID=$$ > ${LOG_DIR}/allPids.txt
+
+
+Children add their PPIDs to the communication file by running the command below
+
+
+echo CHILD_${THREAD_NUM}_PID=$$ >> ${LOG_DIR}/allPids.txt
+
+
+The resulting file looks as follows
+
+PARENTPID=1234
+CHILD_0_PID=1235
+CHILD_1_PID=1236
+CHILD_2_PID=1237
+
+where 1234, etc. - are PPIDs for each "thread"
+
+With all that done, children start doing their work with parent checking on their PPIDs periodically. If a parent sees that a child's process is not visible, it stops itself. Children check on parent's existence on every loop when they do their work.
+If the parent process is not visible, the child stops itself.
+
+Additionally, children can return status of their work into CHILD_${THREAD_NUM}_STATE file. If the status says "ERROR", for example, the parent can also stop, stopping all the children as a result.
+
+In case of DB work (isql for SYBASE), children can return their work status by running something like "select 'CHILDSTATE='+@status", where status is defined by the results of the SQL executed. The status is written into a file that can be sourced and evaluated by a parent. A child can stop itself also, with the result of stopping all other children.
+
+This program can be modified/improved, but serves as a good first step.
+
+Feel free to use this script (or any part of it) anywhere you need. 
