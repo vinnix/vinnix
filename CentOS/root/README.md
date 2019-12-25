@@ -66,6 +66,10 @@ mkdir -p ~/.vim/bundle
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
+.vim/vimrc
+==
+
+```
 cat > ~/.vim/vimrc <<'VIMRC'
 
 set nocompatible              " be iMproved, required
@@ -85,7 +89,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
 " plugin from http://vim-scripts.org/vim/scripts.html
-" Plugin 'L9'
+Plugin 'L9'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
@@ -114,4 +118,5 @@ filetype plugin indent on    " required
 
 
 VIMRC
+
 ```
