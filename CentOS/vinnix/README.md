@@ -119,4 +119,7 @@ filetype plugin indent on    " required
 
 VIMRC
 
+vim +PluginInstall +qall
+
 ```
+Alternatively we can use a copy of .vim/vimrc on this diretory
