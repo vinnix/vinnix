@@ -1,9 +1,14 @@
-=Make sure we have **wget** and basic packages:
+Make sure we have **wget** and basic packages:
+=
 
+```
 sudo yum install wget -y
 sudo yum install vim -y
+```
 
-== Setup the basics on my environment:
+Setup the basics on my environment:
+==
+
 ```
 sudo pip install --upgrade pip
 
@@ -13,9 +18,8 @@ passwd vinnix
 ```
 
 
-
-
-=Setup the basics fonts:
+Setup the basics fonts:
+=
 ```
 cd $HOME
 mkdir ~/Sources
@@ -35,16 +39,23 @@ cd fonts
 cd ~/.config/fontconfig/conf.d/
 wget https://github.com/powerline/fonts/blob/master/fontconfig/50-enable-terminess-powerline.conf
 
+
+cd $HOME
+ln -s ~/.local/share/fonts/ ~/.fonts/
+ln -s ~/.local/share/fonts/ ~/.fonts
+ln -s .config/fontconfig/ ~/.fontconfig
+
+
 fc-cache -vf ~/.local/share/fonts/
 fc-cache -vf ~/.config/fontconfig/conf.d/
 fc-cache -vf 
 ```
 
 
-=Build tmux from source and download a nice config file
+Build tmux from source and download a nice config file
+=
 ```
 cd $HOME/Sources/
-
 git clone https://github.com/tmux/tmux.git
 cd tmux
 
@@ -52,7 +63,6 @@ cd tmux
 ./configure --prefix=/home/vinnix/.local/
 make 
 make install
-
 
 
 cd $HOME/Sources
