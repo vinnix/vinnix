@@ -105,3 +105,29 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+
+" Options
+set fileencoding=utf-8
+set encoding=utf-8
+set ignorecase
+set noerrorbells
+syntax on
+set synmaxcol=512
+set background=dark
+set number
+set relativenumber
+highlight LineNr ctermfg=grey
+set shortmess+="I"
+set shiftwidth=4
+set shiftround
+set expandtab
+set tabstop=4
+set cursorline
+set wildignore=*.swp,*.bak,*.pyc,*.class,*.o,*.so,*.a
+set spelllang=en_us
+set title
+
+
+
+
