@@ -1,0 +1,1001 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<link rel="icon" type="image/gif" href="/favicon.gif"/>
+<link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png" />
+<title>Terminal Multiplexers: Screen, Tmux - Hyperpolyglot</title>
+<style type="text/css" id="internal-style">
+@import url(hyperpolyglot.css);
+</style>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<meta http-equiv="content-language" content="en"/>
+</head>
+<body>
+<div id="container-wrap-wrap">
+  <div id="container-wrap">
+    <div id="container">
+      <div id="header">
+        <h1><a href="/"><span>Hyperpolyglot</span></a></h1>
+      </div>
+      <div id="content-wrap">
+        <div id="main-content">
+<div id="page-title">
+                            Terminal Multiplexers: Screen, Tmux
+                        </div>
+<div id="page-content">
+                        
+
+<p><a href="#cmd-line-opts">command line options</a> | <a href="#key-bindings">key bindings</a> | <a href="#customization">customization</a> | <a href="#terminology">terminology</a> | <a href="#doc">documentation</a></p>
+<p><a name="cmd-line-opts" id="cmd-line-opts"></a></p>
+<h2 id="toc0"><span>Command Line Options</span></h2>
+<table class="wiki-content-table">
+<tr>
+<th></th>
+<th>screen</th>
+<th>tmux</th>
+</tr>
+<tr>
+<td>create session and attach</td>
+<td>$ screen</td>
+<td>$ tmux</td>
+</tr>
+<tr>
+<td>create session <em>foo</em> and attach</td>
+<td>$ screen -S foo</td>
+<td>$ tmux new -s foo</td>
+</tr>
+<tr>
+<td>create detached session <em>foo</em></td>
+<td>$ screen -S foo -d -m</td>
+<td>$ tmux new -s foo -d</td>
+</tr>
+<tr>
+<td>list sessions</td>
+<td>$ screen -list</td>
+<td>$ tmux ls</td>
+</tr>
+<tr>
+<td>attach</td>
+<td>$ screen -r</td>
+<td>$ tmux attach</td>
+</tr>
+<tr>
+<td>attach to session <em>foo</em></td>
+<td>$ screen -r foo</td>
+<td>$ tmux attach -t foo</td>
+</tr>
+<tr>
+<td>attach to session by pid</td>
+<td>$ screen -r <span style="color: gray"><em>pid</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>kill session <em>foo</em></td>
+<td>$ screen -r foo -X quit</td>
+<td>$ tmux kill-session -t foo</td>
+</tr>
+<tr>
+<td>send multiplexer command to session <em>foo</em></td>
+<td>$ screen -r foo -X <span style="color: gray"><em>command</em></span></td>
+<td>$ tmux <span style="color: gray"><em>command</em></span> -t foo</td>
+</tr>
+<tr>
+<td>run ls in session <em>foo</em></td>
+<td>$ screen -r foo -X stuff "ls $(echo -ne '\015')"</td>
+<td>$ tmux send-keys -t foo 'ls' C-m</td>
+</tr>
+<tr>
+<td>run vi in new window</td>
+<td>$ screen vi /etc/motd</td>
+<td>$ tmux new-window vi /etc/motd</td>
+</tr>
+</table>
+<p><a name="key-bindings" id="key-bindings"></a></p>
+<h2 id="toc1"><span>Key Bindings</span></h2>
+<p><a href="#sessions">sessions</a> | <a href="#windows">windows</a> | <a href="#regions">regions</a> | <a href="#panes">panes</a> | <a href="#paste-buffer">paste buffer</a> | <a href="#copy-mode">copy mode</a></p>
+<table class="wiki-content-table">
+<tr>
+<th></th>
+<th colspan="2">screen</th>
+<th colspan="2">tmux</th>
+</tr>
+<tr>
+<th></th>
+<th>C-a <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+<th>C-b <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+</tr>
+<tr>
+<td>help</td>
+<td>?</td>
+<td>:help</td>
+<td>?</td>
+<td>:list-keys</td>
+</tr>
+<tr>
+<td>send prefix to app</td>
+<td>a</td>
+<td>:meta</td>
+<td>C-b</td>
+<td>:send-prefix</td>
+</tr>
+<tr>
+<td>suspend multiplexer</td>
+<td>C-z</td>
+<td>:suspend</td>
+<td>C-z</td>
+<td>:suspend-client</td>
+</tr>
+<tr>
+<td>show previous multiplexer message</td>
+<td>m<br />
+C-m</td>
+<td>:lastmsg</td>
+<td>~</td>
+<td>:show-messages</td>
+</tr>
+<tr>
+<td>source file</td>
+<td></td>
+<td>:source <span style="color: gray"><em>file</em></span></td>
+<td></td>
+<td>:source-file <span style="color: gray"><em>file</em></span></td>
+</tr>
+<tr>
+<td>detach</td>
+<td>d<br />
+C-d</td>
+<td>:detach</td>
+<td>d</td>
+<td>:detach-client</td>
+</tr>
+<tr>
+<th colspan="5"><a name="sessions" id="sessions"></a>sessions</th>
+</tr>
+<tr>
+<th></th>
+<th colspan="2">screen</th>
+<th colspan="2">tmux</th>
+</tr>
+<tr>
+<th></th>
+<th>C-a <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+<th>C-b <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+</tr>
+<tr>
+<td>new session</td>
+<td></td>
+<td></td>
+<td></td>
+<td>:new</td>
+</tr>
+<tr>
+<td>new named session</td>
+<td></td>
+<td></td>
+<td></td>
+<td>:new -s foo</td>
+</tr>
+<tr>
+<td>switch session</td>
+<td></td>
+<td></td>
+<td>s</td>
+<td>:choose-session</td>
+</tr>
+<tr>
+<td>rename session</td>
+<td></td>
+<td>:sessionname foo</td>
+<td>$</td>
+<td>command-prompt -I #S "rename-session '%%'"</td>
+</tr>
+<tr>
+<td>kill session</td>
+<td>C-\</td>
+<td>:quit</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="windows" id="windows"></a>windows</th>
+</tr>
+<tr>
+<th></th>
+<th colspan="2">screen</th>
+<th colspan="2">tmux</th>
+</tr>
+<tr>
+<th></th>
+<th>C-a <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+<th>C-b <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+</tr>
+<tr>
+<td>create new window</td>
+<td>c<br />
+C-c</td>
+<td>:screen</td>
+<td>c</td>
+<td>:new-window</td>
+</tr>
+<tr>
+<td>switch to next window</td>
+<td>n<br />
+C-n<br />
+SPACE</td>
+<td>:next</td>
+<td>n</td>
+<td>:next-window</td>
+</tr>
+<tr>
+<td>switch to previous window</td>
+<td>BACKSPACE<br />
+h<br />
+p<br />
+C-p</td>
+<td>:prev</td>
+<td>p</td>
+<td>:previous-window</td>
+</tr>
+<tr>
+<td>toggle to last window</td>
+<td>C-a</td>
+<td>:other</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>select window <span style="color: gray"><em>n</em></span></td>
+<td></td>
+<td></td>
+<td><span style="color: gray"><em>n</em></span></td>
+<td>:select-window -t :<span style="color: gray"><em>n</em></span></td>
+</tr>
+<tr>
+<td>list windows</td>
+<td>w<br />
+C-w</td>
+<td>:windows</td>
+<td></td>
+<td>:list-windows</td>
+</tr>
+<tr>
+<td>show current window number and name</td>
+<td>N</td>
+<td>:number</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>renumber current window</td>
+<td></td>
+<td></td>
+<td>. <span style="color: gray"><em>position</em></span></td>
+<td>:move-window</td>
+</tr>
+<tr>
+<td>move current window to another session</td>
+<td></td>
+<td></td>
+<td>. <span style="color: gray"><em>sessname</em></span><br />
+. <span style="color: gray"><em>sessnum</em></span>:<span style="color: gray"><em>position</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>redraw current window</td>
+<td>l<br />
+C-l</td>
+<td>:redisplay</td>
+<td>r</td>
+<td>:refresh-client</td>
+</tr>
+<tr>
+<td>choose window interactively</td>
+<td>"</td>
+<td>:windowlist -b</td>
+<td>w</td>
+<td>:choose-window</td>
+</tr>
+<tr>
+<td>rename window</td>
+<td>A</td>
+<td>:title</td>
+<td>,</td>
+<td></td>
+</tr>
+<tr>
+<td>select window <span style="color: gray"><em>foo</em></span></td>
+<td>'</td>
+<td>:select</td>
+<td>f <span style="color: gray"><em>foo</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>close current window</td>
+<td>C-k</td>
+<td>:kill</td>
+<td>&amp;</td>
+<td>:kill-window</td>
+</tr>
+<tr>
+<td>join window 1 to current window</td>
+<td></td>
+<td></td>
+<td></td>
+<td>:join-pane -s 1</td>
+</tr>
+<tr>
+<td>join region 0 of window 1 to current window</td>
+<td></td>
+<td></td>
+<td></td>
+<td>:join-pane -s 1.0</td>
+</tr>
+<tr>
+<th colspan="5"><a name="regions" id="regions"></a>regions</th>
+</tr>
+<tr>
+<th></th>
+<th colspan="2">screen</th>
+<th colspan="2">tmux</th>
+</tr>
+<tr>
+<th></th>
+<th>C-a <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+<th>C-b <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+</tr>
+<tr>
+<td>split into top and bottom regions</td>
+<td>S</td>
+<td>:split</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>move down to next region</td>
+<td>TAB</td>
+<td>:focus</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>make regions same height</td>
+<td></td>
+<td>:resize =</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>close current region</td>
+<td>X</td>
+<td>:remove</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>close all but current region</td>
+<td>Q</td>
+<td>:only</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>clear current region</td>
+<td>C</td>
+<td>:clear</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>log region to file</td>
+<td></td>
+<td><span style="color: gray"><em>file is</em> screenlog.NN</span><br />
+:log</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>turn off logging</td>
+<td></td>
+<td>:log off</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>make current region <span style="color: gray"><em>n</em></span> rows taller/shorter</td>
+<td></td>
+<td>:resize +<span style="color: gray"><em>n</em></span><br />
+:resize -<span style="color: gray"><em>n</em></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>make current region <span style="color: gray"><em>n</em></span> rows tall</td>
+<td></td>
+<td>:resize <span style="color: gray"><em>n</em></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th colspan="5"><a name="panes" id="panes"></a>panes</th>
+</tr>
+<tr>
+<th></th>
+<th colspan="2">screen</th>
+<th colspan="2">tmux</th>
+</tr>
+<tr>
+<th></th>
+<th>C-a <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+<th>C-b <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+</tr>
+<tr>
+<td>split into left and right panes</td>
+<td></td>
+<td></td>
+<td>%</td>
+<td>:split-window -h</td>
+</tr>
+<tr>
+<td>split into top and bottom panes</td>
+<td></td>
+<td></td>
+<td>"</td>
+<td>:split-window</td>
+</tr>
+<tr>
+<td>switch to next panes</td>
+<td></td>
+<td></td>
+<td>o</td>
+<td>:select-pane</td>
+</tr>
+<tr>
+<td>rotate panes</td>
+<td></td>
+<td></td>
+<td>C-o</td>
+<td>:rotate-window</td>
+</tr>
+<tr>
+<td>reverse rotate panes</td>
+<td></td>
+<td></td>
+<td>M-o</td>
+<td>:rotate-window -D</td>
+</tr>
+<tr>
+<td>arrange panes side-by-side and same width</td>
+<td></td>
+<td></td>
+<td>M-1</td>
+<td></td>
+</tr>
+<tr>
+<td>arrange panes stacked and same height</td>
+<td></td>
+<td></td>
+<td>M-2</td>
+<td></td>
+</tr>
+<tr>
+<td>swap current and previous pane</td>
+<td></td>
+<td></td>
+<td>{</td>
+<td>:swap-pane -U</td>
+</tr>
+<tr>
+<td>swap current and next pane</td>
+<td></td>
+<td></td>
+<td>}</td>
+<td>:swap-pane -D</td>
+</tr>
+<tr>
+<td>change arrangement of panes</td>
+<td></td>
+<td></td>
+<td>SPACE</td>
+<td>:next-layout</td>
+</tr>
+<tr>
+<td>close current pane</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>:confirm-before kill-pane</td>
+</tr>
+<tr>
+<td>break current pane into separate window</td>
+<td></td>
+<td></td>
+<td>!</td>
+<td>:break-pane</td>
+</tr>
+<tr>
+<td>list panes</td>
+<td></td>
+<td></td>
+<td></td>
+<td>:list-panes</td>
+</tr>
+<tr>
+<td>display pane numbers</td>
+<td></td>
+<td></td>
+<td>q</td>
+<td>:display-panes</td>
+</tr>
+<tr>
+<td>clear current pane</td>
+<td></td>
+<td></td>
+<td></td>
+<td>:clear-history</td>
+</tr>
+<tr>
+<td>log pane to file</td>
+<td></td>
+<td></td>
+<td></td>
+<td>:pipe-pane "cat &gt; /tmp/tmux.log"</td>
+</tr>
+<tr>
+<td>turn off logging</td>
+<td></td>
+<td></td>
+<td></td>
+<td>:pipe-pane</td>
+</tr>
+<tr>
+<td>resize pane left/up <span style="color: gray"><em>n</em></span> cells</td>
+<td></td>
+<td></td>
+<td></td>
+<td>:resize-pane -L <span style="color: gray"><em>n</em></span><br />
+:resize-pane -U <span style="color: gray"><em>n</em></span></td>
+</tr>
+<tr>
+<th colspan="5"><a name="paste-buffer" id="paste-buffer"></a>paste buffer</th>
+</tr>
+<tr>
+<th></th>
+<th colspan="2">screen</th>
+<th colspan="2">tmux</th>
+</tr>
+<tr>
+<th></th>
+<th>C-a <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+<th>C-b <span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+</tr>
+<tr>
+<td>enter copy mode</td>
+<td>[<br />
+C-[<br />
+ESC</td>
+<td>:copy</td>
+<td>[</td>
+<td>:copy-mode</td>
+</tr>
+<tr>
+<td>paste most recent buffer</td>
+<td>]</td>
+<td></td>
+<td>]</td>
+<td>:paste-buffer</td>
+</tr>
+<tr>
+<td>list buffers</td>
+<td><span style="color: gray"><em>only one buffer</em></span></td>
+<td></td>
+<td>#</td>
+<td>:list-buffers</td>
+</tr>
+<tr>
+<td>choose buffer to paste interactively</td>
+<td></td>
+<td></td>
+<td>=</td>
+<td>:choose-buffer</td>
+</tr>
+<tr>
+<td>write buffer to file</td>
+<td><span style="color: gray"><em>writes to</em> /tmp/screen-exchange:</span><br />
+<span style="white-space: pre-wrap;">&gt;</span></td>
+<td>:writebuf <span style="color: gray"><em>path</em></span></td>
+<td></td>
+<td>:save-buffer <span style="color: gray"><em>path</em></span></td>
+</tr>
+<tr>
+<td>copy file to buffer</td>
+<td><span style="color: gray"><em>copies from</em> /tmp/screen-exchange:</span><br />
+<span style="white-space: pre-wrap;">&lt;</span></td>
+<td>:readbuf <span style="color: gray"><em>path</em></span></td>
+<td></td>
+<td>:load-buffer <span style="color: gray"><em>path</em></span></td>
+</tr>
+<tr>
+<th colspan="5"><a name="copy-mode" id="copy-mode"></a>copy mode</th>
+</tr>
+<tr>
+<th></th>
+<th colspan="2">screen</th>
+<th colspan="2">tmux</th>
+</tr>
+<tr>
+<th></th>
+<th><span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+<th><span style="color: gray"><em>cmd</em></span></th>
+<th>command</th>
+</tr>
+<tr>
+<td>default bindings</td>
+<td colspan="2"><span style="color: gray"><em>Vim-style</em></span></td>
+<td colspan="2"><span style="color: gray"><em>Emacs-style</em></span></td>
+</tr>
+<tr>
+<td>set mark</td>
+<td>SPACE</td>
+<td></td>
+<td>C-SPACE</td>
+<td></td>
+</tr>
+<tr>
+<td>copy from mark to point and exit copy mode</td>
+<td><span style="color: gray"><em>when mark is set:</em></span><br />
+SPACE</td>
+<td></td>
+<td>C-w</td>
+<td></td>
+</tr>
+<tr>
+<td>single column movement</td>
+<td><span style="color: gray"><em>also left right arrow</em></span><br />
+h l</td>
+<td></td>
+<td><span style="color: gray"><em>also left right arrow</em></span><br />
+C-b C-h</td>
+<td></td>
+</tr>
+<tr>
+<td>single line movement</td>
+<td><span style="color: gray"><em>also down up arrow</em></span><br />
+j k</td>
+<td></td>
+<td><span style="color: gray"><em>also down up arrow</em></span><br />
+C-n C-p</td>
+<td></td>
+</tr>
+<tr>
+<td>beginning of line</td>
+<td>0</td>
+<td></td>
+<td>C-a</td>
+<td></td>
+</tr>
+<tr>
+<td>end of line</td>
+<td>$</td>
+<td></td>
+<td>C-e</td>
+<td></td>
+</tr>
+<tr>
+<td>forward word</td>
+<td>e</td>
+<td></td>
+<td>M-f</td>
+<td></td>
+</tr>
+<tr>
+<td>backward word</td>
+<td>b</td>
+<td></td>
+<td>M-b</td>
+<td></td>
+</tr>
+<tr>
+<td>page up</td>
+<td>C-b</td>
+<td></td>
+<td>M-v</td>
+<td></td>
+</tr>
+<tr>
+<td>page down</td>
+<td>C-f</td>
+<td></td>
+<td>C-v</td>
+<td></td>
+</tr>
+<tr>
+<td>beginning of buffer</td>
+<td>g</td>
+<td></td>
+<td>M-&lt;</td>
+<td></td>
+</tr>
+<tr>
+<td>end of buffer</td>
+<td>G</td>
+<td></td>
+<td>M-&gt;</td>
+<td></td>
+</tr>
+<tr>
+<td>search backwards</td>
+<td>? <span style="color: gray"><em>phrase</em></span></td>
+<td></td>
+<td>C-r <span style="color: gray"><em>phrase</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>search forwards</td>
+<td>/ <span style="color: gray"><em>phrase</em></span></td>
+<td></td>
+<td>C-s <span style="color: gray"><em>phrase</em></span></td>
+<td></td>
+</tr>
+<tr>
+<td>exit copy mode</td>
+<td><span style="color: gray"><em>any unbound key also works:</em></span><br />
+ESC</td>
+<td></td>
+<td>q</td>
+<td></td>
+</tr>
+</table>
+<p><a name="customization" id="customization"></a></p>
+<h2 id="toc2"><span>Customization</span></h2>
+<table class="wiki-content-table">
+<tr>
+<th></th>
+<th><a href="#screen">screen</a></th>
+<th><a href="#tmux">tmux</a></th>
+</tr>
+<tr>
+<td>startup file</td>
+<td>~/.screenrc</td>
+<td>~/.tmux.conf</td>
+</tr>
+<tr>
+<td>scrollback length</td>
+<td>defscrollback 2000</td>
+<td>set-option history-limit 2000</td>
+</tr>
+<tr>
+<td>set prefix</td>
+<td><span style="color: gray"><em>how to set prefix to C-b, with a second C-b to send a C-b to the controlling process:</em></span><br />
+escape ^B^B</td>
+<td>set-option -g prefix C-a</td>
+</tr>
+<tr>
+<td>define key binding</td>
+<td>bind</td>
+<td>bind-key</td>
+</tr>
+<tr>
+<td>undefine key binding</td>
+<td></td>
+<td>unbind-key</td>
+</tr>
+<tr>
+<td>set copy/scrollback key binding style</td>
+<td><span style="color: gray"><em>vi bindings by default.<br />
+When redefining, use vi<br />
+commands on left of equations:</em></span><br />
+markkeys h=^B:l=^F:$=^E</td>
+<td><span style="color: gray"><em>emacs by default:</em></span><br />
+setw -g mode-keys vi</td>
+</tr>
+<tr>
+<td>disable startup message</td>
+<td>startup_message off</td>
+<td></td>
+</tr>
+<tr>
+<td>number windows from one</td>
+<td></td>
+<td><span style="color: gray"><em>0 by default:</em></span><br />
+set -g base-index 1</td>
+</tr>
+<tr>
+<td>always show status bar</td>
+<td><span style="color: gray"><em>splitonly by default:</em></span><br />
+caption always<br />
+caption splitonly</td>
+<td><span style="color: gray"><em>on by default:</em></span><br />
+set-option status off<br />
+set-option status on</td>
+</tr>
+<tr>
+<td>customize caption</td>
+<td>caption string "<span style="color: gray"><em>string</em></span>"</td>
+<td>set-option status-left "<span style="color: gray"><em>string</em></span>"<br />
+set-option status-right <span style="color: gray"><em>string</em></span></td>
+</tr>
+</table>
+<table class="wiki-content-table">
+<tr>
+<th colspan="3">caption escapes</th>
+</tr>
+<tr>
+<th></th>
+<th>screen</th>
+<th>tmux</th>
+</tr>
+<tr>
+<td>shell output</td>
+<td><span style="color: gray"><em>first arg is an identifier referenced by the caption string;<br />
+the second and third argument set the refresh in seconds</em></span><br />
+<br />
+backtick 1 60 60 <span style="color: gray"><em>cmd</em></span><br />
+caption always "%1<span style="white-space: pre-wrap;">`</span>"</td>
+<td>#(<span style="color: gray"><em>cmd</em></span>)</td>
+</tr>
+<tr>
+<td>date (YYYYMMDD)</td>
+<td>%Y%m%d</td>
+<td></td>
+</tr>
+<tr>
+<td>month name</td>
+<td>%M</td>
+<td></td>
+</tr>
+<tr>
+<td>weekday name</td>
+<td>%D</td>
+<td></td>
+</tr>
+<tr>
+<td>24 hr time</td>
+<td>%C</td>
+<td></td>
+</tr>
+<tr>
+<td>12 hr time</td>
+<td>%c%A</td>
+<td></td>
+</tr>
+<tr>
+<td>color</td>
+<td>%{ry}<span style="color: gray"><em>red text, yellow background</em></span>%{dd}foo</td>
+<td>#[fg=red,bg=yellow]<span style="color: gray"><em>red text, yellow background</em></span>#[default]</td>
+</tr>
+<tr>
+<td>fully qualified hostname</td>
+<td></td>
+<td>#H</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td>%H</td>
+<td>#h</td>
+</tr>
+<tr>
+<td>session name</td>
+<td>%S <span style="color: gray"><em>added in 4.1</em></span></td>
+<td>#S</td>
+</tr>
+<tr>
+<td>current window flag</td>
+<td>%F</td>
+<td>#F</td>
+</tr>
+<tr>
+<td>current window index</td>
+<td>%n</td>
+<td>#I</td>
+</tr>
+<tr>
+<td>current pane index</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>#P</td>
+</tr>
+<tr>
+<td>current pane title</td>
+<td><span style="color: gray"><em>none</em></span></td>
+<td>#T</td>
+</tr>
+<tr>
+<td>window name</td>
+<td>%t</td>
+<td>#W</td>
+</tr>
+<tr>
+<td>literal % or #</td>
+<td>%%</td>
+<td><span style="white-space: pre-wrap;">##</span></td>
+</tr>
+</table>
+<p><a name="terminology" id="terminology"></a></p>
+<h2 id="toc3"><span>Terminology</span></h2>
+<p><a href="#def-server">server</a> | <a href="#def-client">client</a> | <a href="#def-session">session</a> | <a href="#def-window">window</a> | <a href="#def-region">region</a> | <a href="#def-pane">pane</a></p>
+<p><strong>how ssh works:</strong></p>
+<p>When a user logs in to a remote host using <tt>ssh</tt>, the <tt>ssh</tt> process contacts an <tt>sshd</tt> process listening on TCP port 22. The <tt>sshd</tt> process opens up a new TCP port and forks off a copy of itself for communicating with the <tt>ssh</tt> process. The new port and child process are for the exclusive use of the connection being established.</p>
+<p>The child <tt>sshd</tt> process authenticates the <tt>ssh</tt> process, and if it passes it creates a pseudo-terminal. It then forks the remote user's shell which becomes the controlling process for the pseudo-terminal.</p>
+<p>If the network connection is closed, either explicitly by the <tt>ssh</tt> process or because of a loss of network connectivity, the child <tt>sshd</tt> process closes the pseudo-terminal, and this in turn causes the shell to exit.</p>
+<p><strong>the SIGHUP problem:</strong></p>
+<p>If the shell had any process groups running when it exits, they are sent a <tt>SIGHUP</tt> signal followed by a <tt>SIGCONT</tt> signal. By default processes exit when they receive <tt>SIGHUP</tt>. This makes it challenging to run long-running jobs on a remote host when the network connection is unreliable.</p>
+<p>A simple solution to the <tt>SIGHUP</tt> problem is to run each job with <tt>nohup</tt>. Optionally, shells such as <tt>bash</tt> and <tt>zsh</tt> have a <tt>disown</tt> built-in which can be used on a process that is already running, should the user have neglected to run it with <tt>nohup</tt>.</p>
+<p>The <tt>fish</tt> shell when invoking a process in the background with <tt>&amp;</tt> sets the signal handling state of the process to ignore <tt>SIGHUP</tt>. It will do the same if the process is suspended with <tt>^Z</tt> and then put in the background with <tt>bg</tt>.</p>
+<p>Multiplexers offer a solution which protects the shell instead of the job. The user doesn't need to remember to run each job with <tt>nohup</tt>. As an added benefit any state kept by the shell is preserved.</p>
+<p><a name="def-server" id="def-server"></a><strong>server:</strong></p>
+<p>The multiplexer server creates pseudo-terminals which are used for running and interacting with programs.</p>
+<p><em>Screen</em> and <em>Tmux</em> servers can create multiple pseudo-terminals. The controlling process for each pseudo-terminal is the user's shell.</p>
+<p><a name="def-client" id="def-client"></a><strong>client:</strong></p>
+<p>To see the output of a shell the user must connect to the multiplexer server with a multiplexer client process.</p>
+<p>If the multiplexer is being run on a remote machine and the user's connection is lost, the server and its terminals and controlling processes persist, but the client process exits.</p>
+<p>When multiple client processes connect to the same server they see the same output. This is a way to share a display across computers.</p>
+<p><a name="def-session" id="def-session"></a><strong>session:</strong></p>
+<p>Multiplexers support multiple sessions. Each multiplexer session has its own set of terminals and controlling processes which it is running. The client must choose a session to attach to, and will only be able to see the output of the controlling processes in that session. Sessions can be given names to make it easy for the client to choose the correct session.</p>
+<p><em>Screen</em> launches a separate server process for each session. <em>Screen</em> servers and clients communicate via named pipes.</p>
+<p><em>Tmux</em> by default will only run one server process per user, and this server process can have multiple sessions. A <em>Tmux</em> client and the server communicate via a Unix domain socket in the /tmp directory. The <tt>-L</tt> option can be used to specify a different socket; a new server is created for each socket.</p>
+<p><a name="def-window" id="def-window"></a><strong>window:</strong></p>
+<p>Both <em>Screen</em> and <em>Tmux</em> have entities which they call windows.</p>
+<p>A <em>Screen</em> window has a single pseudo-terminal and shell. A <em>Tmux</em> window can have multiple pseudo-terminals and shells.</p>
+<p><em>Screen</em> windows can share the viewport. The <em>Tmux</em> viewport can only display one window at a time.</p>
+<p>Both <em>Screen</em> and <em>Tmux</em> windows are numbered starting from zero.</p>
+<p><a name="def-region" id="def-region"></a><strong>region:</strong></p>
+<p><em>Screen</em> can divide the viewport into multiple regions.</p>
+<p><em>Screen</em> regions can be empty or they can contain a window. The same window can be displayed in more than one region. When regions share a window their content is identical.</p>
+<p><em>Screen</em> regions are stacked on top of each other and extend the full width of the window.</p>
+<p><a name="def-pane" id="def-pane"></a><strong>pane:</strong></p>
+<p><em>Tmux</em> can divide windows into multiple panes.</p>
+<p><em>Tmux</em> panes contain a single pseudo-terminal with a shell, and each pseudo-terminal and shell belongs to only one pane.</p>
+<p><em>Tmux</em> windows can be divided both horizontally and vertically into panes. Each division can be subdivided further.</p>
+<p><em>Tmux</em> panes are numbered.</p>
+<p><em>Tmux</em> panes can be moved between windows.</p>
+<p><strong>command character (prefix):</strong></p>
+<p>Multiplexers pass most input on to the shell in the region with focus, but a special command character is used to send commands to the multiplexer.</p>
+<p>The default command character in <em>Screen</em> is <tt>C-a</tt>. The keystrokes which follow <tt>C-a</tt> are interpreted by <em>Screen</em> instead of being passed to the shell.</p>
+<p><em>Tmux</em> calls the command character the <em>prefix</em> and the default value is <tt>C-b</tt>. The keystrokes following the prefix are interpreted by <em>Tmux</em> instead of being passed to shell.</p>
+<p><strong>scrollback buffer (history):</strong></p>
+<p><em>Screen</em> and <em>Tmux</em> keep a history of the output of each shell. The maximum length of the output in lines is configurable.</p>
+<p><em>Screen</em> calls the history the scrollback buffer.</p>
+<p><strong>copy/scrollback mode (copy mode):</strong></p>
+<p><em>Screen</em> and <em>Tmux</em> support two modes for each region. In default mode, input which is not intercepted by the multiplexer is passed to the shell.</p>
+<p>When the region is in copy mode the region behaves like a read-only buffer of an editor. The contents are the output of the shell including output that may have scrolled off the top of the region.</p>
+<p>The keybindings used by <em>Screen</em> in copy/scrollback mode are Vim-style. It is possible to customize them to be Emacs-style.</p>
+<p>The <em>Tmux</em> calls copy/scrollback mode simply copy mode. The keybindings are by default Emacs-style.</p>
+<p><strong>paste buffer:</strong></p>
+<p><em>Screen</em> has a single paste buffer.</p>
+<p><em>Tmux</em> has multiple paste buffers. The <em>Tmux</em> paste buffers are numbered; the most recent is number zero. Sessions share a common paste buffer history.</p>
+<p><strong>caption (status line):</strong></p>
+<p>When a <em>Screen</em> window is split into multiple regions, a caption line is placed at the bottom of each region. When a window contains a single region, <em>Screen</em> by default does not display a caption. The caption, when present, contains information from <em>Screen</em>. The information that is displayed can be customized.</p>
+<p><em>Tmux</em> calls the line at the bottom of a window the status line. By default it is always displayed, though it can be turned off. The status line contains information from <em>Tmux</em> which can be customized.</p>
+
+                    </div>
+        </div>
+      </div>
+      <div id="license-area" class="license-area">
+        <a href="https://github.com/clarkgrubb/hyperpolyglot/issues">issue tracker</a> |
+        content of this page licensed under
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+        creative commons attribution-sharealike 3.0</a>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
+
