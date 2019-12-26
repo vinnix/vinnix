@@ -4,6 +4,7 @@ Make sure we have **wget** and basic packages:
 ```
 sudo yum install wget -y
 sudo yum install vim -y
+sudo yum libevent-devel -y #required by tmux
 ```
 
 Setup the basics on my environment:
@@ -24,11 +25,11 @@ Setup the basics fonts:
 cd $HOME
 mkdir ~/Sources
 
-mkdir ~/.local/share/fonts
+mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
 wget https://github.com/powerline/powerline/raw/develop/font/PowerlineSymbols.otf
 
-mkdir ~/.config/fontconfig/conf.d/
+mkdir -p ~/.config/fontconfig/conf.d/
 cd ~/.config/fontconfig/conf.d/
 wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
 
