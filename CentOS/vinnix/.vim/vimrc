@@ -41,6 +41,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'kien/ctrlp.vim'
 
+Plugin 'fidian/hexmode'
 
 
 " All of your Plugins must be added before the following line
