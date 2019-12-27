@@ -129,7 +129,8 @@ set cursorline
 set wildignore=*.swp,*.bak,*.pyc,*.class,*.o,*.so,*.a
 set spelllang=en_us
 set title
-
+set t_Co=256		" 256 colors will be accepted
+set magic		" for regex turn magic on
 
 
 
