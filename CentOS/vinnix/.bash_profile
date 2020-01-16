@@ -7,8 +7,7 @@ fi
 
 # User specific environment and startup programs
 
-PATH="/opt/node/bin:$HOME/.local/bin:$HOME/bin:/usr/pgsql-9.6/bin/:$PATH"
-PGDATA="/opt/pgsql/data"
+PATH=/opt/node/bin:$HOME/.local/bin:/home/postgres/pgsql/bin:$PATH:$HOME/.local/bin:$HOME/bin
 TMP="/tmp"
 export TMP
 export PGDATA
@@ -21,7 +20,24 @@ alias matrf="/home/vinnix/Sources/tarballs/matrixgl-2.3.2/src/matrixgl -F -s -i 
 alias pgconf="./configure --prefix=/opt/pgCurrent --with-openssl --enable-debug --with-llvm --enable-dtrace --enable-cassert "
 alias tool7set="scl enable devtoolset-7 llvm-toolset-7 bash"
 
+# User specific environment and startup programs
+
 export LC_ALL="en_US.UTF-8"
 export TERM="xterm-256color"
 export EDITOR="vim"
+
+
+PGUSER="postgres"
+PGDATABASE="postgres"
+PGHOST="127.0.0.1"
+PGDATA="/opt/pgsql/data"
+export PGUSER PGDATABASE PGHOST PGDATA
+
+
 export PLAYONLINUX="/usr/share/playonlinux"
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+
+
