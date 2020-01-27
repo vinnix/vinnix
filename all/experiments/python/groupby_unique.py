@@ -36,7 +36,7 @@ for item_title, dataitem in itertools.groupby(data, itemgetter('title') ):
     # pprint(agg_data)
     # print("Type (agg_data[i][0]): %s " %  type(agg_data[i][0]))
     print("Unique Title: %s " % agg_data[i][0].get("title","No title found"))
-    print("Unique URL: %s " % agg_data[i][0].get("url","No title found"))
+    print("Unique URL: %s " % agg_data[i][0].get("url","No URL found"))
     # print('%s: %s' % (item_title, [v for k, v in dataitem]))
     i += 1
     # for k,v in dataitem:
