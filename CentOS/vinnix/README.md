@@ -134,3 +134,11 @@ vim +PluginInstall +qall
 
 ```
 Alternatively we can use a copy of .vim/vimrc on this diretory
+
+Then, run:
+```
+cd ~/.vim
+rm ~/.vim/vimrc
+ln -s ~/Sources/Github/vinnix/CentOS/vinnix/.vim/vimrc
+vim +PluginInstall +qall
+```
