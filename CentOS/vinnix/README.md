@@ -7,6 +7,14 @@ sudo yum install vim -y
 sudo yum libevent-devel -y #required by tmux
 ```
 
+
+Development Tools
+==
+```
+sudo yum group install "Development Tools" 
+```
+
+
 Setup the basics on my environment:
 ==
 
