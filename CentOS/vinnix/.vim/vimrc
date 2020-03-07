@@ -110,7 +110,9 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_cpp_config_file = '~/.vim/.my_custom_include_file_for_syntastic'
-
+let g:syntastic_c_include_dirs = [ '../include', 'include' , 'src/include']
+let g:syntastic_c_config_file = '~/.vim/.my_custom_include_file_for_syntastic'
+"let g:syntastic_python_checkers
 
 " NerdTree
 " open tree if no arguments are passed 
@@ -123,12 +125,11 @@ let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
 
+"go to the previous opened position
 au BufReadPost *
      \ if line("'\"") > 1 && line("'\"") <= line("$") |
      \   exe "normal! g`\"" |
      \ endif
-
-
 
 
 " Options
@@ -153,6 +154,6 @@ set spelllang=en_us
 set title
 set t_Co=256		" 256 colors will be accepted
 set magic		" for regex turn magic on
-
+hi Comment ctermfg=2
 
 

@@ -7,6 +7,14 @@ sudo yum install vim -y
 sudo yum libevent-devel -y #required by tmux
 ```
 
+
+Development Tools
+==
+```
+sudo yum group install "Development Tools" 
+```
+
+
 Setup the basics on my environment:
 ==
 
@@ -134,3 +142,11 @@ vim +PluginInstall +qall
 
 ```
 Alternatively we can use a copy of .vim/vimrc on this diretory
+
+Then, run:
+```
+cd ~/.vim
+rm ~/.vim/vimrc
+ln -s ~/Sources/Github/vinnix/CentOS/vinnix/.vim/vimrc
+vim +PluginInstall +qall
+```
