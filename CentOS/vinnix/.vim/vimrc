@@ -41,6 +41,8 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'kien/ctrlp.vim'
 
+Plugin 'lifepillar/pgsql.vim'
+
 "the one below seems to be broken when writing 
 "Plugin 'fidian/hexmode'
 
