@@ -126,6 +126,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
+
 "go to the previous opened position
 au BufReadPost *
      \ if line("'\"") > 1 && line("'\"") <= line("$") |
