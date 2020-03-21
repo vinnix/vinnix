@@ -8,7 +8,7 @@ function analyze () {
 	# package="$(echo -e ${p} | tr -d '[:space:]' | nawk '{$1=$1};1'  )"   
 	# package="$(echo -e "${p}" | tr -d '\040\011\012\015')"
 	# package=${p##*( )}
-	package="$(echo -e ${p} | tr -d '[:space:]' )"   
+	package="$(echo -e ${p} | tr -d '[:space:]' | cut -d ':' -f1 )"
 	depends_on_qtd=$(pkg info -d ${package} | grep -v ":" | wc -l)
 	required_by_qtd=$(pkg info -r ${package} | grep -v ":" | wc -l)
 	printf "%-5s dependencies has %-50s and %-5s that requirest it.\n" "${depends_on_qtd}" "${p}" "${required_by_qtd}"
