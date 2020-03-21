@@ -20,4 +20,4 @@ linprocfs                        4.0K    4.0K      0B   100%    /compat/linux/pr
 linsysfs                         4.0K    4.0K      0B   100%    /compat/linux/sys
 devfs                            1.0K    1.0K      0B   100%    /compat/linux/dev
 fdescfs                          1.0K    1.0K      0B   100%    /compat/linux/dev/fd
-tmpfs                             17G    4.0K     17G     0%    /compat/linux/dev/shm
+tmpfs                             16G    4.0K     16G     0%    /compat/linux/dev/shm
