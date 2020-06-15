@@ -64,7 +64,7 @@ fc-cache -vf
 Build tmux from source and download a nice config file
 =
 ```
-cd $HOME/Sources/
+cd $HOME/Sources/Github
 git clone https://github.com/tmux/tmux.git
 cd tmux
 
