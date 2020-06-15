@@ -4,7 +4,8 @@ Make sure we have **wget** and basic packages:
 ```
 sudo yum install wget -y
 sudo yum install vim -y
-sudo yum install libevent-devel -y #required by tmux
+sudo yum install libevent-devel -y #r equired by tmux
+sudo yum install automake          # required by tmux build
 ```
 
 
