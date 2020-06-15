@@ -74,7 +74,7 @@ make
 make install
 
 
-cd $HOME/Sources
+cd $HOME/Sources/Github
 git clone https://github.com/gpakosz/.tmux
 cd $HOME
 ln -s -f $HOME/Sources/.tmux/.tmux.conf
