@@ -82,15 +82,18 @@ cd $HOME
 ln -s -f $HOME/Sources/Github/.tmux/.tmux.conf
 cp $HOME/Sources/Github/.tmux/.tmux.conf.local .
 
-cd $HOME
-mkdir -p ~/.vim/bundle
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
 .vim/vimrc
 ==
 
 ```
+
+cd $HOME
+mkdir -p ~/.vim/bundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+
 cat > ~/.vim/vimrc <<'VIMRC'
 
 set nocompatible              " be iMproved, required
