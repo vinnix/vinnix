@@ -31,7 +31,7 @@ Setup the basics fonts:
 =
 ```
 cd $HOME
-mkdir ~/Sources
+mkdir -p ~/Sources/Github
 
 mkdir -p ~/.local/share/fonts
 cd ~/.local/share/fonts
@@ -41,7 +41,7 @@ mkdir -p ~/.config/fontconfig/conf.d/
 cd ~/.config/fontconfig/conf.d/
 wget https://github.com/powerline/powerline/raw/develop/font/10-powerline-symbols.conf
 
-cd $HOME/Sources
+cd $HOME/Sources/Github
 git clone https://github.com/powerline/fonts.git
 cd fonts
 ./install.sh
