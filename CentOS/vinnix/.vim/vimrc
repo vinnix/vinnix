@@ -47,6 +47,7 @@ Plugin 'lifepillar/pgsql.vim'
 "Plugin 'fidian/hexmode'
 
 Plugin 'vim-nerdtree/nerdtree'
+Plugin 'majutsushi/tagbar'
 
 
 " All of your Plugins must be added before the following line
@@ -157,5 +158,18 @@ set title
 set t_Co=256		" 256 colors will be accepted
 set magic		" for regex turn magic on
 hi Comment ctermfg=2
+
+nmap <F8> :TagbarToggle<CR>
+
+function! NumberToggle()
+  if(&rnu == 1)
+    set nornu
+    set nonu
+  else
+    set rnu
+  endif
+endfunc
+
+nnoremap <C-l> :call NumberToggle()<cr>
 
 
