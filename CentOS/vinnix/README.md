@@ -80,7 +80,7 @@ cd $HOME/Sources/Github
 git clone https://github.com/gpakosz/.tmux
 cd $HOME
 ln -s -f $HOME/Sources/Github/.tmux/.tmux.conf
-cp ~/Sources/Github/vinnix/CentOS/vinnix/.tmux.conf.local .
+wget https://raw.githubusercontent.com/vinnix/vinnix/master/CentOS/vinnix/.tmux.conf.local
 
 ```
 
