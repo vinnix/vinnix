@@ -71,7 +71,7 @@ git clone https://github.com/tmux/tmux.git
 cd tmux
 
 ./autogen.sh 
-./configure --prefix=/home/vinnix/.local/
+./configure --prefix=$HOME/.local/
 make 
 make install
 
