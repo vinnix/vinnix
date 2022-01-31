@@ -48,7 +48,7 @@ Plugin 'lifepillar/pgsql.vim'
 
 Plugin 'vim-nerdtree/nerdtree'
 Plugin 'majutsushi/tagbar'
-
+Plugin 'https://github.com/fidian/hexmode.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
