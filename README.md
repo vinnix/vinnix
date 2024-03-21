@@ -18,7 +18,7 @@
 ### PGP
 
 PGP Public key:
-
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Comment: User-ID:	Vinícius Abrahão Bazana Schmidt <vinicius.schmidt@gmail.com>
 Comment: a.k.a.:	Vinícius Abrahão Bazana Schmidt <vinnix@gmail.com>
@@ -62,7 +62,7 @@ lkzcFPYHY4sIBQJl+2IDAhsMBQkFowg9AAoJEEzcFPYHY4sIRmoBAKYKxILLWFT8
 dsIIHCfRWnW7Cg==
 =e76o
 -----END PGP PUBLIC KEY BLOCK-----
-
+```
 
 ### Web Footprint
  * [LinkedIN](https://www.linkedin.com/in/vischmidt/)
