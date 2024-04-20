@@ -1,0 +1,16 @@
++------------------------------------------+-----------------------------------------+-----------------------------------------------+---------------------------------------------------+
+| Docker Command                           | Purpose                                 | Kubernetes (`kubectl`) Command                | Purpose                                           |
++------------------------------------------+-----------------------------------------+-----------------------------------------------+---------------------------------------------------+
+| `docker ps`                              | List running containers                 | `kubectl get pods`                            | List running pods in the current namespace        |
+| `docker logs <container_id>`             | View logs for a container               | `kubectl logs <pod_name>`                     | View logs for a specific pod                      |
+| `docker run <image>`                     | Run a container from an image           | `kubectl run <name> --image=<image>`          | Run a pod from an image                           |
+| `docker stop <container_id>`             | Stop a container                        | `kubectl delete pod <pod_name>`               | Delete a pod                                      |
+| `docker rm <container_id>`               | Remove a stopped container              | (Not directly applicable)                     | Pods are automatically removed when stopped       |
+| `docker images`                          | List images                             | `kubectl get pods -o=jsonpath='{..image}'`    | List images used by running pods                  |
+| `docker pull <image>`                    | Pull an image                           | (Not directly applicable)                     | Images are pulled when deploying a pod            |
+| `docker exec -it <container_id> /bin/sh` | Execute a command in a container        | `kubectl exec -it <pod_name> -- /bin/sh`      | Execute a command in a running pod                |
+| `docker build . -t <tag>`                | Build an image from a Dockerfile        | (Not directly applicable)                     | Build processes are outside of Kubernetes         |
+| `docker network ls`                      | List networks                           | `kubectl get services`                        | List services, defining networking for pods       |
+| `docker volume ls`                       | List volumes                            | `kubectl get pv`                              | List Persistent Volumes (PV)                      |
+| `docker volume create`                   | Create a volume                         | `kubectl apply -f <pv_config.yaml>`           | Create a Persistent Volume from a config file     |
++------------------------------------------+-----------------------------------------+-----------------------------------------------+---------------------------------------------------+
