@@ -14,3 +14,4 @@
 | `docker volume ls`                       | List volumes                            | `kubectl get pv`                              | List Persistent Volumes (PV)                      |
 | `docker volume create`                   | Create a volume                         | `kubectl apply -f <pv_config.yaml>`           | Create a Persistent Volume from a config file     |
 +------------------------------------------+-----------------------------------------+-----------------------------------------------+---------------------------------------------------+
+source: https://staskoltsov.medium.com/docker-to-kubernetes-a-command-comparison-guide-af1de6f93e53#:~:text=Docker%20and%20Kubernetes%20are%20two,that%20manages%20clusters%20of%20containers.
