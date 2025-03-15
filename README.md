@@ -19,6 +19,7 @@ Curriculum Vitae / Recommendations
 
 ### PGP
 
+
 PGP Public key:
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -70,6 +71,10 @@ PQAKCRBM3BT2B2OLCEZqAQCmCsSCy1hU/ONZozWJ2Ybg0KoiMgBcgAzON6sq2WFo
 =9KYP
 -----END PGP PUBLIC KEY BLOCK-----
 ```
+
+Some notes on GDPR and DMCA for any purpose:
+* [Cyberlaw - Takedown - Standford](https://cyberlaw.stanford.edu/blog/2015/10/notice-and-takedown-under-gdpr-operational-overview/)
+* [Cyberlaw - Brazilian laws on image, privacy and internet utilization- CGI - Interget Management Comitee](https://www.cgi.br/pagina/marco-civil-law-of-the-internet-in-brazil/180)
 
  * https://www.gov.uk/government/publications/copyright-notice-digital-images-photographs-and-the-internet/copyright-notice-digital-images-photographs-and-the-internet
  * https://www.copyright.gov/dmca/
