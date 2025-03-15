@@ -11,6 +11,11 @@ Curriculum Vitae / Recommendations
  * [PostgreSQL... NoSQL and Relational Databases](https://www.youtube.com/watch?v=j7UPVU5UCV4&list=PLa7LbGW827W1-qbyUV3zLvhO-6FqESo0Z)
  * [Computer Science](https://www.youtube.com/watch?v=J5xExRGaIIY&list=PLa7LbGW827W2aNP2tcEeYWqEtZB2MUaJC)
 
+### Some of my public presentations
+ * [ptBR - What you need to know - to start - with indexes on PostgreSQL ](https://www.infoq.com/br/presentations/indices-no-postgresql-o-que-voce-precisa-saber/)
+ * [ptBR - pgAnalytics SaaS - tool to make DBAs life easier on PostgreSQL environment](https://www.infoq.com/br/presentations/pganalytics/)
+ * [ptBR - About PostgreSQL architecture and its internals](https://www.youtube.com/watch?v=vUH-DGcYPFg&list=PLa7LbGW827W1-qbyUV3zLvhO-6FqESo0Z&index=169)
+
 
 ### PGP
 
