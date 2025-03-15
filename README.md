@@ -15,6 +15,9 @@ Curriculum Vitae / Recommendations
  * [ptBR - What you need to know - to start - with indexes on PostgreSQL ](https://www.infoq.com/br/presentations/indices-no-postgresql-o-que-voce-precisa-saber/)
  * [ptBR - pgAnalytics SaaS - tool to make DBAs life easier on PostgreSQL environment](https://www.infoq.com/br/presentations/pganalytics/)
  * [ptBR - About PostgreSQL architecture and its internals](https://www.youtube.com/watch?v=vUH-DGcYPFg&list=PLa7LbGW827W1-qbyUV3zLvhO-6FqESo0Z&index=169)
+ * [PostgreSQL architecture and internals](https://www.youtube.com/watch?v=vUH-DGcYPFg&list=PLa7LbGW827W1-qbyUV3zLvhO-6FqESo0Z&index=168&pp=gAQBiAQB) Attempt on English on 2019, anxious, nervous, not knowing that presation was going to be recorded til last minute.
+
+I'm not a public speaker.
 
 
 ### PGP
