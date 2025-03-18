@@ -1,0 +1,11 @@
+#!/bin/env bash
+
+COREDUMP_FILE="core.httpd.48.84f2a739d7234c2b982a3e17805bc2a0.42879.1742284349000000"
+yum install zstd.x86_64
+unzstd $COREDUMP_FILE.zstd
+gdb -c $COREDUMP_FILE $(which httpd)
+
+
+# Enable debuginfod for this session? (y or [n]) y 
+
+Enable debuginfod for this session? (y or [n]) y
