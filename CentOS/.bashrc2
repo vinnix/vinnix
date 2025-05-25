@@ -35,12 +35,12 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - bash)"
 
+export MANPATH="/usr/share/man:$HOME/my-versions/trunk-20250524-0405/man"
 
 
-
-
-export PATH="$PATH:$HOME/pg-versions/pg-17-stable-home/bin"
-export PATH="$PATH:$HOME/opt/nodejs-v22x/bin"
+export PATH="/opt/nodejs-v22x/bin:$PATH"
+export PATH="$HOME/pg-versions/pg-17-stable-home/bin:$PATH"
+export PATH="$HOME/my-versions/mysql-9.3.trunk/bin:$PATH"
 
 PGDATA="$HOME/pg-versions/pg-17-stable-data"
 PGDATA_DEV="$HOME/pg-versions/pg-17-stable-data"
@@ -69,9 +69,18 @@ export HISTSIZE=10000
 
 #git alias
 alias gitags-by-date='git log --tags --simplify-by-decoration --pretty="format:%ci %d" | sort'
-# git log --pretty=oneline HEAD...REL_18_BETA1 # no alias necessary, adding for documentation purpose
 
 alias change_gcc_set_to_13="scl enable gcc-toolset-13 bash"
 alias monitor_volumes="while true; do df -h; sleep 10; clear; done;"
 alias list_pg_versions="ls -l $HOME/pg-versions"
+alias slow_kdb_rate_paliative='sudo su - -c "kbdrate -d 250 -r 30"'
+alias upgrade_pip_packages="for i in $(pip list | awk '{print $1}'); do pip install -U $i; done"
 
+
+
+
+#
+# git log --pretty=oneline HEAD...REL_18_BETA1 # no alias necessary, adding for documentation purpose
+#
+# for i in $(find $HOME/Sources/Github/pganalytics_community/node_pga_2_0/node_modules  -type f -executable | grep '/bin' | egrep -v "(js)"); do full_path=$(echo $i); commd=$(echo "$i" | awk -F '/' '{print $NF}'); ln -s $full_path $commd  ; done
+#
